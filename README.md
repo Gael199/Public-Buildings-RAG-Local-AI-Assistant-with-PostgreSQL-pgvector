@@ -14,6 +14,8 @@ Exemples de questions :
 
 > Quels projets de rénovation sont les plus pertinents par rapport à ma question ?
 
+![Implémentation du Retriever](assets/streamlit.png)
+
 ---
 
 ## 🎯 Objectif
@@ -113,7 +115,7 @@ LIMIT 8;
 
 L'opérateur `<=>` permet ici de comparer les vecteurs selon leur distance cosinus.
 
-![PostgreSQL et pgvector](PostgreSQL_Pg.png)
+![PostgreSQL et pgvector](assets/PostgreSQL_Pg.png)
 
 ---
 
@@ -153,7 +155,7 @@ public_buildings_rag/
 **`retriever.py`**  
 Transforme la question en embedding et interroge pgvector pour récupérer les documents les plus pertinents.
 
-![Implémentation du Retriever](retriever.png)
+![Implémentation du Retriever](assets/retriever.png)
 
 **`rag_engine.py`**  
 Orchestre le pipeline RAG complet.
@@ -166,8 +168,6 @@ Communique avec Llama 3.1 via Ollama.
 
 **`app.py`**  
 Contient l'interface Streamlit.
-
-![Implémentation du Retriever](streamlit.png)
 
 ---
 
