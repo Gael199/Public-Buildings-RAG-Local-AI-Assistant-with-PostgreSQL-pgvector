@@ -971,7 +971,7 @@ The objective is to bridge the gap between **traditional structured data analysi
 
 ## 👤 Author
 
-**Your Name**
+**Eudes KODIA**
 
 Data Scientist | Generative AI | Machine Learning | Data Engineering
 
