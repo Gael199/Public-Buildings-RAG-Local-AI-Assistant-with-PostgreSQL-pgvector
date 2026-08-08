@@ -290,6 +290,6 @@ Ce projet met notamment en pratique :
 
 ## 👤 Auteur
 
-**Votre nom**
+**Eudes KODIA**
 
 Data Scientist | Generative AI | Machine Learning | Data Engineering
