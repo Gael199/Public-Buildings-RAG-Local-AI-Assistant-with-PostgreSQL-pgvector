@@ -153,6 +153,8 @@ public_buildings_rag/
 **`retriever.py`**  
 Transforme la question en embedding et interroge pgvector pour récupérer les documents les plus pertinents.
 
+![Implémentation du Retriever](retriever.png)
+
 **`rag_engine.py`**  
 Orchestre le pipeline RAG complet.
 
@@ -165,7 +167,7 @@ Communique avec Llama 3.1 via Ollama.
 **`app.py`**  
 Contient l'interface Streamlit.
 
-![Implémentation du Retriever](retriever.png)
+![Implémentation du Retriever](streamlit.png)
 
 ---
 
