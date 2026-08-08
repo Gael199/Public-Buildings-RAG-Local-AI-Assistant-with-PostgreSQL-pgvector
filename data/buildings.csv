@@ -1,0 +1,501 @@
+﻿building_id,building_name,building_type,address,city,postal_code,construction_year,surface_m2,number_of_floors,heating_type,annual_energy_consumption_kwh,energy_intensity_kwh_m2_year,dpe_rating,co2_emissions_kg_year,insulation_quality,occupancy_rate,number_of_occupants,has_solar_panels,last_energy_audit_year,accessibility_status,asbestos_risk,heritage_status,latitude,longitude
+1,École municipale 001,École,124 rue Victor Hugo,Dijon,21000,1986,3832.47,4,Gaz,572762.64,149.45,F,114552.53,Moyenne,0.6623,564,False,2024,Conforme,True,Non protégé,47.369239,5.070329
+2,École municipale 002,École,129 rue des Écoles,Strasbourg,67000,1922,5877.38,4,Gaz,,,F,,Faible,0.7061,922,False,,Conforme,True,Non protégé,48.535101,7.751697
+3,École municipale 003,École,216 rue Jean Jaurès,Montpellier,34000,1912,4450.04,3,Gaz,788013.08,177.08,G,157602.62,Très bonne,0.8011,792,False,2023,Travaux requis,False,Non protégé,43.593528,3.877213
+4,École municipale 004,École,119 rue des Écoles,Marseille,13000,2018,4715.33,3,Réseau urbain,165036.55,35,A,16503.65,Très bonne,0.7288,763,False,2023,Conforme,False,Non protégé,43.295263,5.343338
+5,École municipale 005,École,83 rue de la République,Lille,59000,1989,5809.34,4,Gaz,800236.58,137.75,D,160047.32,Moyenne,0.7678,991,False,2023,Travaux requis,False,Non protégé,50.606752,3.010628
+6,École municipale 006,École,161 rue de la République,Montpellier,34000,1978,2569.05,2,Fioul,491073.91,191.15,E,132589.96,Moyenne,0.7981,455,False,2025,Partiellement conforme,False,Non protégé,43.574583,3.88298
+7,École municipale 007,École,175 rue Victor Hugo,Bordeaux,33000,1950,4912.74,4,Réseau urbain,608590.23,123.88,F,60859.02,Très bonne,0.6776,739,False,2022,Conforme,False,Non protégé,44.803465,-0.591102
+8,École municipale 008,École,38 rue des Écoles,Marseille,13000,1902,5548.1,4,Réseau urbain,1362114.03,245.51,G,136211.4,Faible,0.7714,951,False,2017,Conforme,False,Non protégé,43.315444,5.411167
+9,EHPAD municipale 009,EHPAD,49 rue de la République,Montpellier,34000,1941,6385.54,4,Biomasse,,,G,,Faible,0.812,2356,False,,Travaux requis,False,Non protégé,43.630461,3.841026
+10,EHPAD municipale 010,EHPAD,31 rue de la République,Lille,59000,1917,5280.12,4,Pompe à chaleur,970380.45,183.78,G,38815.22,Faible,0.911,2186,False,2025,Partiellement conforme,True,Non protégé,50.658639,3.025103
+11,École municipale 011,École,135 rue Victor Hugo,Strasbourg,67000,1959,987.29,1,Pompe à chaleur,181315.81,183.65,E,7252.63,Faible,0.7113,156,False,2017,Conforme,True,Non protégé,48.525156,7.736281
+12,École municipale 012,École,7 rue Jean Jaurès,Lyon,69000,1953,5852.25,4,Gaz,1989940.57,340.03,E,397988.11,Faible,0.607,789,False,2024,Conforme,False,Non protégé,45.714519,4.800547
+13,EHPAD municipale 013,EHPAD,114 rue des Écoles,Nantes,44000,1953,5742.72,4,Gaz,1602735.72,279.09,E,320547.14,Faible,0.8899,2322,False,2022,Conforme,False,Non protégé,47.171968,-1.596119
+14,Gymnase municipale 014,Gymnase,55 rue Jean Jaurès,Dijon,21000,1953,5882.19,5,Gaz,1660483.42,282.29,F,332096.68,Moyenne,0.35,274,False,2025,Partiellement conforme,True,Non protégé,47.315771,5.028844
+15,Bibliothèque municipale 015,Bibliothèque,70 rue Pasteur,Toulouse,31000,2015,3018.59,2,Gaz,105650.65,35,B,21130.13,Très bonne,0.8159,492,False,2019,Conforme,False,Non protégé,43.599744,1.483689
+16,École municipale 016,École,9 rue Victor Hugo,Toulouse,31000,2006,4351.98,3,Gaz,273260.82,62.79,B,54652.16,Bonne,0.7394,715,False,2025,Conforme,False,Non protégé,43.577733,1.470967
+17,Bibliothèque municipale 017,Bibliothèque,75 rue Jean Jaurès,Toulouse,31000,2019,3122.71,3,Gaz,118100.89,37.82,B,23620.18,Très bonne,0.8125,507,True,2022,Conforme,False,Non protégé,43.60591,1.470175
+18,École municipale 018,École,84 rue de la République,Nantes,44000,1953,4557.62,4,Pompe à chaleur,796763.13,174.82,G,31870.53,Faible,0.8978,909,True,2025,Conforme,False,Non protégé,47.175864,-1.546139
+19,École municipale 019,École,53 rue Victor Hugo,Toulouse,31000,2006,2371.61,2,Électrique,167222.22,70.51,B,10033.33,Bonne,0.6459,340,True,2017,Conforme,False,Non protégé,43.633069,1.48975
+20,Crèche municipale 020,Crèche,2 rue des Écoles,Strasbourg,67000,2014,1794.22,2,Biomasse,71948.22,40.1,C,2158.45,Très bonne,0.6911,154,False,2025,Partiellement conforme,False,Non protégé,48.553026,7.7779
+21,École municipale 021,École,125 rue Jean Jaurès,Dijon,21000,2020,3644.77,4,Gaz,127566.95,35,B,25513.39,Très bonne,0.6867,556,False,2023,Conforme,False,Non protégé,47.370693,5.034251
+22,École municipale 022,École,121 rue Jean Jaurès,Toulouse,31000,1927,5600.43,4,Biomasse,,,G,,Faible,0.842,1047,False,,Partiellement conforme,False,Non protégé,43.589527,1.43894
+23,EHPAD municipale 023,EHPAD,168 rue des Écoles,Lyon,69000,1991,6612.59,5,Fioul,1180016.69,178.45,C,318604.51,Moyenne,0.9513,2859,True,2015,Conforme,False,Non protégé,45.80115,4.88299
+24,EHPAD municipale 024,EHPAD,52 rue Jean Jaurès,Lille,59000,1937,2712.93,2,Électrique,846407.03,311.99,G,50784.42,Faible,0.9383,1157,True,2025,Conforme,False,Non protégé,50.590934,3.016224
+25,Gymnase municipale 025,Gymnase,131 rue de la République,Paris,75000,1957,5260.3,3,Gaz,,,G,,Faible,0.4558,319,False,,Partiellement conforme,False,Non protégé,48.861473,2.307295
+26,Crèche municipale 026,Crèche,153 rue des Écoles,Dijon,21000,1914,1361.78,1,Pompe à chaleur,292401.4,214.72,F,11696.06,Faible,0.6427,109,False,2021,Partiellement conforme,False,Non protégé,47.298471,5.06094
+27,Mairie municipale 027,Mairie,113 rue de la République,Bordeaux,33000,1926,721.94,1,Gaz,269586.83,373.42,G,53917.37,Faible,0.6604,125,False,2017,Conforme,False,Non protégé,44.812536,-0.598046
+28,Mairie municipale 028,Mairie,40 rue Pasteur,Lille,59000,1957,2942.33,3,Électrique,766035.62,260.35,E,45962.14,Faible,0.5962,461,False,2023,Partiellement conforme,False,Non protégé,50.595599,3.01652
+29,EHPAD municipale 029,EHPAD,123 rue de la République,Toulouse,31000,1968,6500.93,7,Électrique,1642720.0,252.69,,98563.2,Faible,0.9586,2832,False,2022,Conforme,False,Non protégé,43.574261,1.444067
+30,EHPAD municipale 030,EHPAD,179 rue de la République,Montpellier,34000,2010,5090.79,5,Électrique,314916.27,61.86,C,18894.98,Bonne,0.8731,2020,False,2018,Conforme,False,Non protégé,43.586695,3.867678
+31,Crèche municipale 031,Crèche,156 rue Victor Hugo,Strasbourg,67000,2017,1411.47,1,Pompe à chaleur,49401.45,35,A,1976.06,Très bonne,0.7897,139,False,2021,Conforme,False,Non protégé,48.600292,7.710101
+32,École municipale 032,École,17 rue de la République,Paris,75000,1998,5091.25,5,Pompe à chaleur,530864.64,104.27,E,21234.59,Moyenne,0.8252,933,False,2017,Partiellement conforme,False,Non protégé,48.887425,2.370713
+33,École municipale 033,École,142 rue Victor Hugo,Marseille,13000,1917,5146.89,4,Gaz,1765743.55,343.07,G,353148.71,Faible,0.8107,927,False,2016,Partiellement conforme,True,Non protégé,43.306318,5.404859
+34,EHPAD municipale 034,EHPAD,26 rue des Écoles,Lille,59000,1912,3499.9,3,Réseau urbain,,,F,,Faible,0.9676,1539,False,,Conforme,True,Non protégé,50.602152,3.064261
+35,EHPAD municipale 035,EHPAD,181 rue de la République,Bordeaux,33000,1927,5120.72,3,Gaz,1728959.9,337.64,G,345791.98,Faible,1.0,2327,True,2018,Conforme,False,Classé,44.793045,-0.553381
+36,EHPAD municipale 036,EHPAD,138 rue des Écoles,Montpellier,34000,2020,2905.45,2,Biomasse,101690.75,35,A,3050.72,Très bonne,0.8276,1092,False,2020,Conforme,False,Non protégé,43.609116,3.868269
+37,Gymnase municipale 037,Gymnase,117 rue Pasteur,Nantes,44000,1997,6727.46,5,Gaz,803796.92,119.48,C,160759.38,Très bonne,0.5667,508,False,2020,Partiellement conforme,False,Non protégé,47.237407,-1.537096
+38,Gymnase municipale 038,Gymnase,100 rue de la République,Lyon,69000,1934,6978.41,7,Gaz,2450538.46,351.16,,490107.69,Faible,0.593,551,False,2024,Conforme,False,Classé,45.793493,4.79952
+39,École municipale 039,École,143 rue des Écoles,Dijon,21000,1996,2627.18,2,Fioul,511906.02,194.85,E,138214.63,Moyenne,0.8036,469,False,2022,Partiellement conforme,False,Non protégé,47.352979,5.063801
+40,Mairie municipale 040,Mairie,149 rue Jean Jaurès,Montpellier,34000,1996,2324.04,2,Fioul,482563.67,207.64,C,130292.19,Moyenne,0.6711,410,False,2017,Conforme,False,Non protégé,43.573907,3.841091
+41,EHPAD municipale 041,EHPAD,137 rue Victor Hugo,Nantes,44000,1932,4839.12,5,Électrique,1397392.68,288.77,G,83843.56,Faible,1.0,2199,False,2021,Partiellement conforme,False,Inscrit,47.193939,-1.518259
+42,Crèche municipale 042,Crèche,174 rue Victor Hugo,Bordeaux,33000,1918,1101.94,1,Gaz,327210.06,296.94,F,65442.01,Faible,0.7784,107,False,2017,Conforme,False,Non protégé,44.856396,-0.542658
+43,Mairie municipale 043,Mairie,217 rue Victor Hugo,Bordeaux,33000,1924,2422.89,2,Gaz,736510.1,303.98,F,147302.02,Faible,0.5062,322,False,2024,Partiellement conforme,False,Non protégé,44.859679,-0.550775
+44,Crèche municipale 044,Crèche,16 rue Victor Hugo,Strasbourg,67000,1990,1042.15,1,Réseau urbain,104016.99,99.81,,10401.7,Moyenne,0.8856,115,False,2022,Conforme,False,Non protégé,48.567647,7.780631
+45,École municipale 045,École,11 rue Victor Hugo,Paris,75000,1911,1418.15,1,Gaz,438265.08,309.04,G,87653.02,Faible,0.7835,246,False,2017,Travaux requis,False,Non protégé,48.823513,2.333017
+46,Mairie municipale 046,Mairie,64 rue Jean Jaurès,Nantes,44000,1987,3253.69,3,Réseau urbain,533930.53,164.1,F,53393.05,Moyenne,0.5958,510,False,2019,Partiellement conforme,False,Non protégé,47.207725,-1.531658
+47,EHPAD municipale 047,EHPAD,146 rue Victor Hugo,Montpellier,34000,1924,7607.48,7,Gaz,2126290.66,279.5,G,425258.13,Faible,0.7937,2744,False,2024,Travaux requis,False,Non protégé,43.659746,3.897362
+48,Gymnase municipale 048,Gymnase,184 rue Jean Jaurès,Rennes,35000,1905,5440.66,5,Électrique,2023381.45,371.9,F,121402.89,Faible,0.4871,353,False,2020,Partiellement conforme,False,Inscrit,48.155686,-1.629661
+49,Bibliothèque municipale 049,Bibliothèque,18 rue de la République,Nantes,44000,1995,2183.35,2,Réseau urbain,222003.03,101.68,D,22200.3,Moyenne,0.8784,383,False,2024,Conforme,True,Non protégé,47.258854,-1.575808
+50,Bibliothèque municipale 050,Bibliothèque,14 rue Jean Jaurès,Bordeaux,33000,1983,3622.0,2,Électrique,755368.1,208.55,D,45322.09,Moyenne,0.7821,566,False,2019,Partiellement conforme,True,Non protégé,44.880546,-0.614796
+51,Crèche municipale 051,Crèche,42 rue Victor Hugo,Rennes,35000,2001,1268.09,1,Électrique,92329.63,72.81,C,5539.78,Bonne,0.6649,105,False,2024,Conforme,False,Non protégé,48.128462,-1.665278
+52,Crèche municipale 052,Crèche,196 rue des Écoles,Lyon,69000,1900,1324.98,1,Gaz,396619.51,299.34,G,79323.9,Moyenne,0.7191,119,False,2022,Conforme,False,Non protégé,45.732555,4.841898
+53,Gymnase municipale 053,Gymnase,143 rue Victor Hugo,Rennes,35000,1971,5573.51,3,Pompe à chaleur,1054675.3,189.23,,42187.01,Faible,0.6947,516,False,2022,Conforme,False,Non protégé,48.071261,-1.650627
+54,Gymnase municipale 054,Gymnase,187 rue de la République,Grenoble,38000,1990,4035.67,3,Électrique,383025.44,94.91,E,22981.53,Très bonne,0.6127,329,False,2018,Travaux requis,True,Non protégé,45.15152,5.766082
+55,École municipale 055,École,130 rue de la République,Rennes,35000,2015,3977.85,2,Réseau urbain,154937.26,38.95,B,15493.73,Très bonne,0.6848,605,True,2022,Conforme,False,Non protégé,48.162954,-1.708666
+56,École municipale 056,École,171 rue des Écoles,Toulouse,31000,2000,1395.88,1,Gaz,216487.03,155.09,C,43297.41,Moyenne,0.8737,271,False,2024,Conforme,False,Non protégé,43.616999,1.442983
+57,Gymnase municipale 057,Gymnase,215 rue de la République,Marseille,13000,1914,6246.7,4,Biomasse,,,F,,Faible,0.5338,444,False,,Travaux requis,False,Non protégé,43.273481,5.39495
+58,École municipale 058,École,92 rue Victor Hugo,Marseille,13000,1999,5955.27,4,Gaz,1006738.39,169.05,D,201347.68,Moyenne,0.7097,939,False,2017,Partiellement conforme,False,Non protégé,43.31111,5.361282
+59,EHPAD municipale 059,EHPAD,145 rue de la République,Rennes,35000,1945,2156.95,2,Réseau urbain,354947.69,164.56,F,35494.77,Très bonne,1.0,980,False,2016,Conforme,False,Non protégé,48.08198,-1.653732
+60,Bibliothèque municipale 060,Bibliothèque,143 rue de la République,Lille,59000,1916,2769.16,3,Électrique,938689.86,338.98,G,56321.39,Faible,0.7067,391,False,2024,Partiellement conforme,False,Non protégé,50.602055,3.084547
+61,Crèche municipale 061,Crèche,67 rue de la République,Paris,75000,2002,633.5,1,Pompe à chaleur,25580.73,40.38,,1023.23,Très bonne,0.8775,69,False,2021,Conforme,False,Non protégé,48.872614,2.388395
+62,EHPAD municipale 062,EHPAD,188 rue Pasteur,Nantes,44000,1935,4469.55,3,Réseau urbain,1489164.67,333.18,G,148916.47,Faible,0.9278,1884,False,2015,Conforme,True,Inscrit,47.180605,-1.583965
+63,Mairie municipale 063,Mairie,128 rue de la République,Lyon,69000,1926,2611.81,2,Réseau urbain,647284.87,247.83,F,64728.49,Faible,0.7161,492,True,2023,Partiellement conforme,False,Non protégé,45.79693,4.827569
+64,École municipale 064,École,25 rue des Écoles,Rennes,35000,1916,1777.29,1,Pompe à chaleur,,,F,,Faible,0.8639,341,False,,Partiellement conforme,True,Classé,48.097187,-1.648924
+65,Bibliothèque municipale 065,Bibliothèque,196 rue des Écoles,Rennes,35000,1976,1491.66,1,Réseau urbain,140499.46,94.19,F,14049.95,Très bonne,0.6396,190,False,2021,Conforme,True,Non protégé,48.09037,-1.642296
+66,École municipale 066,École,159 rue des Écoles,Rennes,35000,1949,3055.62,2,Électrique,653169.33,213.76,F,39190.16,Faible,0.7854,533,False,2015,Conforme,False,Non protégé,48.078785,-1.718371
+67,École municipale 067,École,117 rue Jean Jaurès,Montpellier,34000,1956,4118.81,3,Pompe à chaleur,,,G,,Faible,0.706,646,False,,Conforme,False,Non protégé,43.657683,3.86788
+68,Bibliothèque municipale 068,Bibliothèque,158 rue de la République,Lyon,69000,1936,992.18,1,Réseau urbain,161338.39,162.61,,16133.84,Très bonne,0.7115,141,False,2016,Conforme,False,Non protégé,45.756756,4.857959
+69,Bibliothèque municipale 069,Bibliothèque,218 rue Pasteur,Toulouse,31000,1910,4004.22,2,Gaz,1196220.68,298.74,G,239244.14,Faible,0.7511,601,True,2018,Conforme,False,Inscrit,43.584689,1.44537
+70,Gymnase municipale 070,Gymnase,194 rue des Écoles,Montpellier,34000,1912,5536.64,6,Gaz,1551920.19,280.3,F,310384.04,Faible,0.5103,376,False,2023,Partiellement conforme,False,Non protégé,43.637221,3.876225
+71,Crèche municipale 071,Crèche,117 rue de la République,Lyon,69000,2015,981.1,1,Gaz,57472.84,58.58,B,11494.57,Très bonne,0.8362,102,False,2016,Travaux requis,False,Non protégé,45.736892,4.804873
+72,Crèche municipale 072,Crèche,209 rue des Écoles,Lille,59000,1951,620.88,1,Gaz,,,E,,Faible,0.8109,62,False,,Conforme,False,Non protégé,50.656636,3.083582
+73,EHPAD municipale 073,EHPAD,14 rue Jean Jaurès,Rennes,35000,1957,2400.43,2,Réseau urbain,,,F,,Faible,0.9878,1077,False,,Partiellement conforme,False,Non protégé,48.12226,-1.710136
+74,Gymnase municipale 074,Gymnase,11 rue des Écoles,Lyon,69000,1911,3156.81,3,Réseau urbain,941202.9,298.15,G,94120.29,Faible,0.5512,232,False,2021,Conforme,False,Non protégé,45.775901,4.813936
+75,Mairie municipale 075,Mairie,74 rue des Écoles,Lille,59000,1994,2904.87,3,Réseau urbain,267218.99,91.99,E,26721.9,Moyenne,0.72,550,False,2021,Conforme,False,Non protégé,50.587032,3.074053
+76,Mairie municipale 076,Mairie,16 rue Victor Hugo,Bordeaux,33000,1936,1009.66,1,Pompe à chaleur,,,F,,Faible,0.7578,201,False,,Conforme,False,Non protégé,44.859722,-0.551926
+77,Mairie municipale 077,Mairie,177 rue Victor Hugo,Marseille,13000,1946,2806.31,2,Électrique,879946.56,313.56,G,52796.79,Moyenne,0.6093,449,False,2015,Conforme,False,Non protégé,43.247043,5.355921
+78,Gymnase municipale 078,Gymnase,92 rue Victor Hugo,Toulouse,31000,1936,2744.6,3,Biomasse,751800.83,273.92,,22554.02,Faible,0.5682,207,False,2025,Conforme,False,Non protégé,43.653915,1.460983
+79,École municipale 079,École,50 rue Victor Hugo,Grenoble,38000,2006,944.77,1,Fioul,91406.5,96.75,D,24679.76,Bonne,0.9034,189,False,2019,Partiellement conforme,False,Non protégé,45.234022,5.762468
+80,École municipale 080,École,71 rue Jean Jaurès,Dijon,21000,1935,3482.3,3,Fioul,,,G,,Faible,0.7086,548,False,,Conforme,False,Non protégé,47.3713,5.090927
+81,Mairie municipale 081,Mairie,101 rue Jean Jaurès,Toulouse,31000,1938,3214.06,2,Électrique,578402.24,179.96,F,34704.13,Très bonne,0.6599,558,False,2017,Conforme,False,Non protégé,43.591289,1.410869
+82,Bibliothèque municipale 082,Bibliothèque,217 rue Victor Hugo,Bordeaux,33000,2002,3845.16,4,Pompe à chaleur,246205.59,64.03,D,9848.22,Bonne,0.7277,559,False,2016,Conforme,False,Non protégé,44.82053,-0.587474
+83,École municipale 083,École,152 rue Jean Jaurès,Dijon,21000,1935,1098.1,1,Gaz,430916.4,392.42,F,86183.28,Faible,0.6632,161,True,2024,Partiellement conforme,False,Classé,47.349189,5.023386
+84,Crèche municipale 084,Crèche,12 rue Pasteur,Lyon,69000,2003,1574.9,2,Gaz,147442.14,93.62,,29488.43,Bonne,0.7374,145,False,2017,Partiellement conforme,False,Non protégé,45.781936,4.878226
+85,EHPAD municipale 085,EHPAD,83 rue Jean Jaurès,Grenoble,38000,1942,7456.49,5,Gaz,3096307.47,415.25,F,619261.49,Faible,1.0,3389,False,2017,Conforme,False,Inscrit,45.16715,5.750776
+86,École municipale 086,École,216 rue Jean Jaurès,Lyon,69000,1958,3133.09,2,Électrique,914517.64,291.89,G,54871.06,Faible,0.786,547,False,2018,Conforme,False,Non protégé,45.775241,4.80677
+87,Crèche municipale 087,Crèche,59 rue Jean Jaurès,Toulouse,31000,2005,1450.99,1,Gaz,101961.07,70.27,C,20392.21,Bonne,0.9075,164,False,2021,Conforme,False,Non protégé,43.638976,1.450468
+88,Bibliothèque municipale 088,Bibliothèque,40 rue des Écoles,Lyon,69000,1954,2740.64,2,Réseau urbain,744851.14,271.78,F,74485.11,Faible,0.6536,358,False,2021,Travaux requis,False,Non protégé,45.791691,4.787241
+89,Mairie municipale 089,Mairie,2 rue Pasteur,Dijon,21000,1960,1184.44,1,Biomasse,298952.66,252.4,F,8968.58,Faible,0.8599,268,False,2022,Conforme,False,Non protégé,47.328787,5.000736
+90,Gymnase municipale 090,Gymnase,51 rue de la République,Strasbourg,67000,1940,5063.82,6,Électrique,1612674.76,318.47,F,96760.49,Faible,0.4737,319,False,2016,Conforme,False,Non protégé,48.615237,7.740157
+91,École municipale 091,École,85 rue Pasteur,Toulouse,31000,1996,2560.58,2,Pompe à chaleur,246430.22,96.24,E,9857.21,Moyenne,0.7561,430,False,2021,Partiellement conforme,False,Non protégé,43.6172,1.399421
+92,EHPAD municipale 092,EHPAD,62 rue Pasteur,Marseille,13000,1980,2476.5,2,Pompe à chaleur,316620.52,127.85,F,12664.82,Moyenne,0.947,1066,False,2023,Conforme,False,Non protégé,43.298,5.336703
+93,Crèche municipale 093,Crèche,26 rue de la République,Grenoble,38000,1927,1496.4,1,Gaz,264952.58,177.06,F,52990.52,Bonne,0.8017,149,True,2019,Partiellement conforme,True,Non protégé,45.172582,5.695813
+94,Mairie municipale 094,Mairie,122 rue Victor Hugo,Dijon,21000,1989,3266.19,3,Pompe à chaleur,302775.81,92.7,,12111.03,Moyenne,0.6008,516,False,2020,Partiellement conforme,False,Non protégé,47.304376,5.007186
+95,Gymnase municipale 095,Gymnase,8 rue des Écoles,Marseille,13000,1963,4257.26,3,Gaz,1393912.07,327.42,F,278782.41,Faible,0.5925,336,False,2016,Conforme,True,Non protégé,43.341767,5.347292
+96,Gymnase municipale 096,Gymnase,18 rue Jean Jaurès,Toulouse,31000,1974,5918.14,4,Électrique,1578841.39,266.78,F,94730.48,Faible,0.5656,446,False,2024,Partiellement conforme,False,Non protégé,43.651926,1.449029
+97,EHPAD municipale 097,EHPAD,195 rue des Écoles,Nantes,44000,1925,1868.62,2,Gaz,548888.44,293.74,G,109777.69,Faible,1.0,849,False,2024,Conforme,False,Non protégé,47.210946,-1.576424
+98,Bibliothèque municipale 098,Bibliothèque,97 rue des Écoles,Dijon,21000,1955,4406.95,3,Pompe à chaleur,430074.25,97.59,F,17202.97,Très bonne,0.7474,658,False,2021,Partiellement conforme,False,Non protégé,47.331892,5.028367
+99,Mairie municipale 099,Mairie,3 rue de la République,Marseille,13000,2001,956.93,1,Électrique,49119.22,51.33,D,2947.15,Très bonne,0.6748,169,False,2022,Travaux requis,False,Non protégé,43.268286,5.32322
+100,Bibliothèque municipale 100,Bibliothèque,69 rue Pasteur,Toulouse,31000,1904,2675.36,3,Gaz,,,F,,Bonne,0.7376,394,False,,Conforme,False,Non protégé,43.556692,1.424932
+101,École municipale 101,École,220 rue des Écoles,Dijon,21000,2011,2694.09,3,Électrique,230479.4,85.55,C,13828.76,Faible,0.5875,351,True,2019,Travaux requis,False,Non protégé,47.305019,5.027789
+102,École municipale 102,École,11 rue Jean Jaurès,Toulouse,31000,1997,5149.6,4,Gaz,935939.8,181.75,E,187187.96,Faible,0.486,556,False,2022,Partiellement conforme,False,Non protégé,43.566139,1.43743
+103,Mairie municipale 103,Mairie,53 rue des Écoles,Lille,59000,1999,3027.22,2,Gaz,330178.89,109.07,C,66035.78,Bonne,0.7016,558,False,2018,Conforme,False,Non protégé,50.579661,3.022473
+104,EHPAD municipale 104,EHPAD,157 rue Victor Hugo,Marseille,13000,1971,8539.07,6,Pompe à chaleur,891137.35,104.36,F,35645.49,Bonne,0.8216,3188,False,2025,Conforme,False,Non protégé,43.308564,5.329085
+105,EHPAD municipale 105,EHPAD,85 rue des Écoles,Marseille,13000,1983,5376.89,3,Réseau urbain,857613.96,159.5,,85761.4,Moyenne,0.988,2414,True,2016,Conforme,False,Non protégé,43.28843,5.332739
+106,EHPAD municipale 106,EHPAD,26 rue Pasteur,Toulouse,31000,1911,3563.76,4,Gaz,1324542.68,371.67,F,264908.54,Faible,1.0,1619,False,2019,Travaux requis,True,Classé,43.594424,1.493167
+107,École municipale 107,École,96 rue Jean Jaurès,Lille,59000,1931,1520.49,1,Réseau urbain,436639.11,287.17,F,43663.91,Faible,0.5279,178,False,2023,Conforme,False,Inscrit,50.641221,3.046052
+108,Crèche municipale 108,Crèche,150 rue des Écoles,Nantes,44000,1933,852.23,1,Fioul,,,,,Faible,0.9987,106,False,,Conforme,False,Non protégé,47.185349,-1.577984
+109,EHPAD municipale 109,EHPAD,17 rue Victor Hugo,Rennes,35000,1947,2064.8,2,Fioul,1023397.47,495.64,F,276317.32,Faible,0.8665,813,False,2018,Travaux requis,True,Non protégé,48.074048,-1.692193
+110,EHPAD municipale 110,EHPAD,20 rue Victor Hugo,Marseille,13000,1944,5889.03,4,Électrique,,,F,,Faible,1.0,2676,False,,Conforme,True,Non protégé,43.295624,5.407284
+111,École municipale 111,École,59 rue de la République,Toulouse,31000,1950,2985.5,2,Gaz,791724.74,265.19,G,158344.95,Faible,0.6638,440,False,2017,Travaux requis,False,Non protégé,43.644574,1.460179
+112,EHPAD municipale 112,EHPAD,179 rue de la République,Montpellier,34000,1963,3233.9,2,Fioul,1195249.44,369.6,G,322717.35,Faible,0.8093,1189,False,2019,Conforme,False,Non protégé,43.599074,3.827294
+113,Bibliothèque municipale 113,Bibliothèque,98 rue Jean Jaurès,Nantes,44000,1946,4240.94,4,Électrique,1326566.03,312.8,G,79593.96,Faible,0.5927,502,False,2022,Partiellement conforme,True,Non protégé,47.235398,-1.525404
+114,EHPAD municipale 114,EHPAD,133 rue Victor Hugo,Paris,75000,1924,5703.81,3,Électrique,1747134.04,306.31,F,104828.04,Faible,1.0,2592,False,2016,Conforme,True,Non protégé,48.852145,2.389488
+115,Mairie municipale 115,Mairie,30 rue des Écoles,Toulouse,31000,1900,2684.65,2,Réseau urbain,643322.68,239.63,G,64332.27,Faible,0.6067,428,False,2015,Conforme,True,Non protégé,43.614992,1.445061
+116,École municipale 116,École,188 rue Pasteur,Grenoble,38000,1903,5380.53,6,Électrique,,,G,,Faible,0.6694,800,False,,Conforme,False,Classé,45.171725,5.763168
+117,Bibliothèque municipale 117,Bibliothèque,30 rue de la République,Lyon,69000,1991,2300.38,2,Électrique,276643.7,120.26,E,16598.62,Moyenne,0.8344,383,False,2022,Conforme,False,Non protégé,45.806462,4.871225
+118,École municipale 118,École,32 rue Pasteur,Rennes,35000,2005,5525.62,5,Pompe à chaleur,213841.49,38.7,,8553.66,Bonne,0.7665,941,True,2017,Conforme,False,Non protégé,48.086088,-1.649583
+119,Bibliothèque municipale 119,Bibliothèque,59 rue des Écoles,Grenoble,38000,1962,3555.65,4,Pompe à chaleur,590593.46,166.1,G,23623.74,Faible,0.7515,534,True,2019,Travaux requis,False,Non protégé,45.238004,5.733555
+120,Bibliothèque municipale 120,Bibliothèque,161 rue Pasteur,Bordeaux,33000,2013,2978.34,2,Fioul,111866.45,37.56,A,30203.94,Très bonne,0.7603,452,False,2022,Partiellement conforme,False,Non protégé,44.834428,-0.618436
+121,Bibliothèque municipale 121,Bibliothèque,40 rue Pasteur,Lille,59000,1938,1709.84,1,Pompe à chaleur,399828.99,233.84,G,15993.16,Faible,0.7726,264,False,2017,Conforme,False,Non protégé,50.606229,3.092883
+122,École municipale 122,École,156 rue de la République,Bordeaux,33000,2000,2331.15,2,Gaz,314472.14,134.9,C,62894.43,Moyenne,0.6664,345,False,2018,Conforme,False,Non protégé,44.856203,-0.529615
+123,École municipale 123,École,100 rue Victor Hugo,Marseille,13000,1984,2906.72,2,Gaz,470220.09,161.77,,94044.02,Moyenne,0.8125,524,False,2022,Partiellement conforme,False,Non protégé,43.294163,5.41894
+124,EHPAD municipale 124,EHPAD,153 rue de la République,Toulouse,31000,1910,2223.52,2,Réseau urbain,576269.68,259.17,F,57626.97,Faible,0.9263,936,False,2021,Conforme,False,Non protégé,43.600351,1.459808
+125,École municipale 125,École,80 rue Pasteur,Nantes,44000,2008,5231.08,3,Pompe à chaleur,242617.49,46.38,B,9704.7,Bonne,0.6067,705,False,2023,Conforme,False,Non protégé,47.23467,-1.570232
+126,Gymnase municipale 126,Gymnase,196 rue de la République,Grenoble,38000,2018,4121.54,3,Gaz,144253.9,35,B,28850.78,Très bonne,0.5881,323,False,2023,Conforme,False,Non protégé,45.175921,5.762667
+127,Gymnase municipale 127,Gymnase,61 rue Pasteur,Rennes,35000,1948,1623.81,1,Réseau urbain,,,G,,Faible,0.5333,115,False,,Partiellement conforme,False,Non protégé,48.097097,-1.657704
+128,Crèche municipale 128,Crèche,178 rue Pasteur,Strasbourg,67000,2010,1592.21,1,Réseau urbain,96949.67,60.89,C,9694.97,Bonne,1.0,199,True,2019,Conforme,False,Non protégé,48.53341,7.738073
+129,Mairie municipale 129,Mairie,216 rue des Écoles,Bordeaux,33000,2001,3050.69,2,Réseau urbain,285636.1,93.63,B,28563.61,Moyenne,0.7542,605,False,2020,Conforme,False,Non protégé,44.810943,-0.56834
+130,EHPAD municipale 130,EHPAD,133 rue Pasteur,Montpellier,34000,2007,3684.31,3,Électrique,304360.85,82.61,C,18261.65,Bonne,1.0,1674,False,2020,Partiellement conforme,False,Non protégé,43.565098,3.906761
+131,Crèche municipale 131,Crèche,147 rue Pasteur,Bordeaux,33000,1954,1601.3,1,Réseau urbain,393391.37,245.67,,39339.14,Faible,0.8977,179,False,2024,Partiellement conforme,True,Non protégé,44.800886,-0.552314
+132,École municipale 132,École,133 rue Victor Hugo,Strasbourg,67000,1968,2777.88,2,Réseau urbain,600383.2,216.13,E,60038.32,Faible,0.748,461,False,2024,Conforme,False,Non protégé,48.579219,7.72678
+133,Bibliothèque municipale 133,Bibliothèque,72 rue Victor Hugo,Paris,75000,1936,4356.38,4,Réseau urbain,1174000.85,269.49,G,117400.09,Faible,0.6512,567,True,2018,Partiellement conforme,False,Classé,48.876392,2.312283
+134,Gymnase municipale 134,Gymnase,13 rue Victor Hugo,Rennes,35000,1961,5360.3,6,Gaz,,,,,Faible,0.5025,359,False,,Travaux requis,False,Non protégé,48.165756,-1.713899
+135,École municipale 135,École,160 rue de la République,Rennes,35000,1937,3201.67,3,Réseau urbain,698572.38,218.19,F,69857.24,Moyenne,0.6133,436,True,2021,Conforme,False,Non protégé,48.134602,-1.666595
+136,École municipale 136,École,62 rue Jean Jaurès,Marseille,13000,1934,1701.02,2,Fioul,732969.52,430.9,G,197901.77,Faible,0.692,261,False,2023,Conforme,False,Non protégé,43.341265,5.383194
+137,Bibliothèque municipale 137,Bibliothèque,122 rue Jean Jaurès,Grenoble,38000,1926,3848.89,3,Électrique,1235262.76,320.94,G,74115.77,Faible,0.501,385,False,2024,Conforme,True,Non protégé,45.229058,5.737913
+138,EHPAD municipale 138,EHPAD,51 rue des Écoles,Strasbourg,67000,1938,7548.21,7,Gaz,2582167.16,342.09,G,516433.43,Faible,0.6709,2301,False,2020,Partiellement conforme,False,Non protégé,48.56181,7.703021
+139,École municipale 139,École,203 rue des Écoles,Grenoble,38000,2014,4157.84,4,Fioul,151885.9,36.53,A,41009.19,Très bonne,0.8635,797,False,2020,Partiellement conforme,False,Non protégé,45.235497,5.737275
+140,Bibliothèque municipale 140,Bibliothèque,133 rue Victor Hugo,Paris,75000,1997,4454.36,3,Biomasse,504946.25,113.36,C,15148.39,Moyenne,0.7663,682,False,2018,Conforme,False,Non protégé,48.872325,2.351909
+141,Gymnase municipale 141,Gymnase,163 rue des Écoles,Rennes,35000,1913,6741.43,7,Gaz,2035709.62,301.97,,407141.92,Faible,0.4613,414,False,2021,Conforme,False,Classé,48.1344,-1.721131
+142,Mairie municipale 142,Mairie,126 rue de la République,Nantes,44000,1918,572.89,1,Gaz,212272.93,370.53,F,42454.59,Faible,0.6207,93,False,2016,Conforme,False,Non protégé,47.181545,-1.583601
+143,École municipale 143,École,54 rue de la République,Montpellier,34000,1978,5876.77,6,Gaz,1011274.58,172.08,,202254.92,Moyenne,0.8295,1083,False,2020,Conforme,False,Non protégé,43.61784,3.925296
+144,Bibliothèque municipale 144,Bibliothèque,157 rue Victor Hugo,Toulouse,31000,1938,4344.04,3,Réseau urbain,1277060.88,293.98,G,127706.09,Faible,0.7127,619,False,2023,Travaux requis,True,Non protégé,43.57671,1.455254
+145,Crèche municipale 145,Crèche,103 rue des Écoles,Nantes,44000,1903,793.04,1,Biomasse,,,G,,Faible,0.9534,94,False,,Conforme,True,Inscrit,47.178515,-1.516459
+146,EHPAD municipale 146,EHPAD,78 rue Pasteur,Lille,59000,1974,2321.03,2,Réseau urbain,625285.48,269.4,G,62528.55,Faible,0.9431,994,False,2017,Travaux requis,True,Non protégé,50.671459,3.0759
+147,Crèche municipale 147,Crèche,185 rue Pasteur,Toulouse,31000,1943,644.22,1,Gaz,209816.01,325.69,F,41963.2,Faible,0.806,64,True,2025,Conforme,False,Non protégé,43.613872,1.412486
+148,École municipale 148,École,40 rue Pasteur,Bordeaux,33000,1927,5835.28,5,Électrique,1993915.18,341.7,G,119634.91,Faible,0.6333,821,False,2025,Conforme,False,Inscrit,44.790443,-0.602258
+149,EHPAD municipale 149,EHPAD,31 rue Pasteur,Montpellier,34000,1959,1904.13,1,Électrique,473785.63,248.82,E,28427.14,Faible,0.9763,845,False,2022,Conforme,False,Non protégé,43.594279,3.876029
+150,École municipale 150,École,180 rue Victor Hugo,Paris,75000,1956,2699.41,2,Gaz,761017.67,281.92,G,152203.53,Faible,0.8904,534,False,2025,Conforme,False,Non protégé,48.840528,2.358195
+151,Mairie municipale 151,Mairie,220 rue Jean Jaurès,Lille,59000,2014,3275.6,2,Pompe à chaleur,114646.0,35,A,4585.84,Très bonne,0.6303,543,False,2021,Conforme,False,Non protégé,50.673363,3.048553
+152,Crèche municipale 152,Crèche,206 rue de la République,Nantes,44000,1943,1262.87,1,Pompe à chaleur,245716.62,194.57,G,9828.66,Faible,0.9263,146,False,2020,Conforme,False,Non protégé,47.205871,-1.594427
+153,Gymnase municipale 153,Gymnase,104 rue Pasteur,Toulouse,31000,1911,5195.38,3,Gaz,2148601.35,413.56,G,429720.27,Faible,0.452,313,False,2023,Conforme,False,Non protégé,43.600512,1.404001
+154,Gymnase municipale 154,Gymnase,139 rue Jean Jaurès,Grenoble,38000,2001,4471.58,4,Gaz,269278.55,60.22,B,53855.71,Bonne,0.4835,288,False,2016,Conforme,False,Non protégé,45.157978,5.683754
+155,École municipale 155,École,188 rue Jean Jaurès,Montpellier,34000,1955,5233.3,4,Gaz,,,E,,Faible,0.8969,1043,False,,Partiellement conforme,False,Non protégé,43.634397,3.910198
+156,École municipale 156,École,115 rue Jean Jaurès,Paris,75000,2020,1855.87,1,Pompe à chaleur,64955.45,35,B,2598.22,Très bonne,0.8552,352,True,2021,Travaux requis,False,Non protégé,48.811226,2.338954
+157,École municipale 157,École,51 rue Victor Hugo,Grenoble,38000,1966,1070.48,1,Gaz,261036.55,243.85,F,52207.31,Faible,0.9654,229,False,2021,Partiellement conforme,False,Non protégé,45.206153,5.771472
+158,Crèche municipale 158,Crèche,77 rue Jean Jaurès,Lille,59000,1963,882.49,1,Gaz,286200.33,324.31,G,57240.07,Faible,0.9567,105,False,2015,Travaux requis,True,Non protégé,50.591043,3.090466
+159,Crèche municipale 159,Crèche,9 rue Victor Hugo,Marseille,13000,1994,785.69,1,Gaz,120634.84,153.54,D,24126.97,Moyenne,0.8138,79,False,2024,Conforme,False,Non protégé,43.307774,5.380447
+160,Mairie municipale 160,Mairie,217 rue Jean Jaurès,Nantes,44000,1913,2097.06,2,Réseau urbain,613578.79,292.59,F,61357.88,Faible,0.6961,384,False,2016,Conforme,True,Non protégé,47.186718,-1.50424
+161,Gymnase municipale 161,Gymnase,120 rue de la République,Rennes,35000,1992,6669.08,5,Gaz,1060850.56,159.07,C,212170.11,Moyenne,0.3745,333,False,2024,Conforme,False,Non protégé,48.107054,-1.630782
+162,Crèche municipale 162,Crèche,189 rue de la République,Strasbourg,67000,2009,1056.89,1,Électrique,68296.23,64.62,B,4097.77,Bonne,0.7611,100,True,2022,Conforme,False,Non protégé,48.600763,7.729366
+163,Crèche municipale 163,Crèche,67 rue Jean Jaurès,Nantes,44000,2000,489.0,1,Pompe à chaleur,44733.72,91.48,D,1789.35,Moyenne,0.8434,51,False,2015,Conforme,False,Non protégé,47.246433,-1.523171
+164,Gymnase municipale 164,Gymnase,92 rue Jean Jaurès,Montpellier,34000,1905,2179.17,1,Gaz,853646.26,391.73,G,170729.25,Faible,0.5685,165,False,2018,Conforme,False,Inscrit,43.581351,3.827062
+165,École municipale 165,École,49 rue Pasteur,Lille,59000,1906,3117.3,3,Réseau urbain,,,,,Faible,0.722,500,False,,Partiellement conforme,False,Non protégé,50.584385,3.081254
+166,Crèche municipale 166,Crèche,143 rue Victor Hugo,Grenoble,38000,1923,1337.05,1,Pompe à chaleur,249720.83,186.77,F,9988.83,Faible,0.951,158,False,2025,Partiellement conforme,False,Non protégé,45.212152,5.769252
+167,EHPAD municipale 167,EHPAD,192 rue de la République,Grenoble,38000,1917,3311.84,3,Électrique,1115195.88,336.73,,66911.75,Faible,0.9208,1386,False,2021,Partiellement conforme,False,Non protégé,45.215367,5.765281
+168,Mairie municipale 168,Mairie,83 rue de la République,Marseille,13000,1923,2934.65,2,Électrique,814071.91,277.4,F,48844.31,Faible,0.6522,503,False,2015,Conforme,False,Non protégé,43.315054,5.326208
+169,Crèche municipale 169,Crèche,20 rue des Écoles,Bordeaux,33000,2008,965.13,1,Réseau urbain,77200.75,79.99,C,7720.08,Bonne,0.8931,107,True,2015,Partiellement conforme,False,Non protégé,44.819048,-0.61211
+170,Gymnase municipale 170,Gymnase,157 rue de la République,Paris,75000,1929,3561.91,4,Fioul,1006097.1,282.46,G,271646.22,Bonne,0.5842,277,False,2016,Travaux requis,False,Non protégé,48.878836,2.331155
+171,École municipale 171,École,36 rue Pasteur,Nantes,44000,1922,5003.46,3,Fioul,2199270.84,439.55,F,593803.13,Faible,0.9335,1037,False,2015,Partiellement conforme,False,Classé,47.229733,-1.599486
+172,Gymnase municipale 172,Gymnase,169 rue Jean Jaurès,Toulouse,31000,1954,6300.92,5,Fioul,2016987.5,320.11,G,544586.62,Faible,0.6156,517,False,2018,Conforme,True,Non protégé,43.582767,1.480284
+173,École municipale 173,École,37 rue des Écoles,Lyon,69000,2016,1585.71,1,Électrique,75987.22,47.92,,4559.23,Très bonne,0.9452,333,False,2018,Conforme,False,Non protégé,45.758555,4.834173
+174,Bibliothèque municipale 174,Bibliothèque,64 rue Pasteur,Bordeaux,33000,1997,2775.08,2,Réseau urbain,232079.94,83.63,E,23207.99,Très bonne,0.5468,303,False,2016,Conforme,False,Non protégé,44.844289,-0.611936
+175,Bibliothèque municipale 175,Bibliothèque,148 rue de la République,Rennes,35000,1961,1765.97,1,Pompe à chaleur,281036.47,159.14,E,11241.46,Faible,0.5644,199,False,2025,Partiellement conforme,False,Non protégé,48.097704,-1.682209
+176,EHPAD municipale 176,EHPAD,162 rue des Écoles,Lyon,69000,2017,4814.59,5,Gaz,276694.49,57.47,A,55338.9,Très bonne,1.0,2188,False,2025,Conforme,False,Non protégé,45.777273,4.852648
+177,Gymnase municipale 177,Gymnase,146 rue Victor Hugo,Dijon,21000,2010,3571.38,3,Gaz,313174.31,87.69,B,62634.86,Bonne,0.4544,216,False,2019,Partiellement conforme,False,Non protégé,47.27535,5.045288
+178,Bibliothèque municipale 178,Bibliothèque,220 rue Pasteur,Dijon,21000,1981,3821.03,3,Fioul,916741.52,239.92,D,247520.21,Moyenne,0.6182,472,False,2021,Conforme,False,Non protégé,47.277322,5.057423
+179,Crèche municipale 179,Crèche,199 rue de la République,Marseille,13000,1967,1469.48,1,Biomasse,,,G,,Faible,0.8426,154,False,,Conforme,False,Non protégé,43.318312,5.409442
+180,EHPAD municipale 180,EHPAD,190 rue Pasteur,Rennes,35000,1941,7581.02,7,Électrique,2330936.22,307.47,F,139856.17,Faible,0.8867,3055,False,2020,Conforme,False,Non protégé,48.080523,-1.68342
+181,Gymnase municipale 181,Gymnase,134 rue de la République,Toulouse,31000,1906,3995.39,2,Gaz,1506222.08,376.99,F,301244.42,Faible,0.5271,280,False,2019,Conforme,False,Non protégé,43.566656,1.44696
+182,Bibliothèque municipale 182,Bibliothèque,26 rue Victor Hugo,Toulouse,31000,1973,1298.12,1,Gaz,364615.95,280.88,F,72923.19,Moyenne,0.7327,190,False,2018,Partiellement conforme,False,Non protégé,43.560897,1.4061
+183,Bibliothèque municipale 183,Bibliothèque,160 rue Jean Jaurès,Marseille,13000,1991,3723.02,4,Électrique,409978.96,110.12,C,24598.74,Moyenne,0.8167,608,False,2015,Travaux requis,False,Non protégé,43.344136,5.38172
+184,Bibliothèque municipale 184,Bibliothèque,124 rue des Écoles,Dijon,21000,2006,1062.09,1,Pompe à chaleur,43237.68,40.71,C,1729.51,Bonne,0.6052,128,False,2018,Travaux requis,False,Non protégé,47.347607,5.042098
+185,Bibliothèque municipale 185,Bibliothèque,4 rue Pasteur,Lille,59000,1930,2229.07,2,Pompe à chaleur,492267.82,220.84,F,19690.71,Faible,0.5935,264,False,2017,Conforme,False,Classé,50.605042,3.020523
+186,Crèche municipale 186,Crèche,92 rue Victor Hugo,Bordeaux,33000,2006,624.78,1,Électrique,60566.17,96.94,B,3633.97,Faible,0.9323,72,False,2020,Partiellement conforme,False,Non protégé,44.841082,-0.605583
+187,Crèche municipale 187,Crèche,13 rue Victor Hugo,Strasbourg,67000,1980,1559.46,1,Pompe à chaleur,202729.8,130.0,,8109.19,Moyenne,0.8087,157,False,2017,Partiellement conforme,False,Non protégé,48.560143,7.721003
+188,Bibliothèque municipale 188,Bibliothèque,116 rue Pasteur,Lille,59000,1936,4045.95,4,Pompe à chaleur,858671.97,212.23,G,34346.88,Faible,0.8016,648,False,2019,Conforme,True,Non protégé,50.611841,3.024708
+189,Crèche municipale 189,Crèche,33 rue Victor Hugo,Rennes,35000,2009,647.6,1,Biomasse,39374.08,60.8,D,1181.22,Bonne,0.8425,68,True,2025,Conforme,False,Non protégé,48.113295,-1.651471
+190,EHPAD municipale 190,EHPAD,107 rue Victor Hugo,Rennes,35000,1989,5216.97,3,Réseau urbain,671371.87,128.69,E,67137.19,Moyenne,0.7234,1715,True,2025,Travaux requis,True,Non protégé,48.078393,-1.721758
+191,Crèche municipale 191,Crèche,25 rue Victor Hugo,Bordeaux,33000,1968,1371.77,1,Électrique,154776.81,112.83,,9286.61,Très bonne,0.7812,133,False,2016,Partiellement conforme,False,Non protégé,44.796845,-0.539609
+192,École municipale 192,École,22 rue Victor Hugo,Paris,75000,1968,5881.96,5,Gaz,1377613.85,234.21,G,275522.77,Faible,0.6251,817,False,2018,Partiellement conforme,False,Non protégé,48.835908,2.394036
+193,École municipale 193,École,133 rue de la République,Montpellier,34000,1917,2069.81,2,Gaz,,,G,,Faible,0.6522,299,False,,Conforme,False,Non protégé,43.648388,3.859672
+194,École municipale 194,École,111 rue de la République,Strasbourg,67000,1903,1655.65,2,Gaz,522854.27,315.8,F,104570.85,Faible,0.8182,301,False,2018,Partiellement conforme,False,Inscrit,48.529192,7.793556
+195,EHPAD municipale 195,EHPAD,124 rue des Écoles,Strasbourg,67000,1922,4156.74,4,Biomasse,886757.34,213.33,F,26602.72,Faible,0.9137,1726,False,2016,Conforme,True,Classé,48.609424,7.7272
+196,Bibliothèque municipale 196,Bibliothèque,201 rue de la République,Toulouse,31000,1903,1811.19,1,Fioul,709117.11,391.52,G,191461.62,Faible,0.4547,164,False,2022,Conforme,True,Non protégé,43.566252,1.43439
+197,Gymnase municipale 197,Gymnase,107 rue de la République,Marseille,13000,1943,2208.99,2,Gaz,767955.37,347.65,F,153591.07,Faible,0.7424,218,False,2015,Travaux requis,False,Non protégé,43.335238,5.395108
+198,Crèche municipale 198,Crèche,103 rue Pasteur,Lille,59000,1947,492.13,1,Gaz,161325.14,327.81,F,32265.03,Faible,0.794,48,False,2017,Travaux requis,False,Non protégé,50.589172,3.031734
+199,Crèche municipale 199,Crèche,156 rue de la République,Dijon,21000,1985,1400.96,1,Gaz,245083.94,174.94,F,49016.79,Moyenne,0.731,128,False,2018,Conforme,True,Non protégé,47.275445,5.037456
+200,Crèche municipale 200,Crèche,52 rue Jean Jaurès,Nantes,44000,1906,1345.51,1,Électrique,427078.33,317.41,F,25624.7,Faible,1.0,168,False,2019,Travaux requis,True,Non protégé,47.254266,-1.545212
+201,Gymnase municipale 201,Gymnase,207 rue Jean Jaurès,Paris,75000,1930,6077.43,6,Gaz,,,,,Faible,0.5402,437,False,,Conforme,False,Classé,48.811223,2.383675
+202,EHPAD municipale 202,EHPAD,209 rue des Écoles,Strasbourg,67000,2011,5930.54,3,Biomasse,365143.35,61.57,C,10954.3,Bonne,0.992,2674,True,2022,Conforme,False,Non protégé,48.53732,7.7278
+203,École municipale 203,École,188 rue de la République,Montpellier,34000,2015,2649.81,2,Réseau urbain,97910.48,36.95,B,9791.05,Très bonne,0.7617,448,False,2021,Partiellement conforme,False,Non protégé,43.598243,3.919796
+204,École municipale 204,École,95 rue Jean Jaurès,Toulouse,31000,1912,1319.62,1,Gaz,390699.89,296.07,G,78139.98,Faible,0.6264,183,False,2023,Conforme,False,Non protégé,43.564907,1.398919
+205,École municipale 205,École,129 rue Victor Hugo,Bordeaux,33000,1980,3032.38,2,Électrique,537671.3,177.31,,32260.28,Moyenne,0.8138,548,False,2018,Conforme,True,Non protégé,44.819519,-0.590881
+206,Gymnase municipale 206,Gymnase,90 rue de la République,Marseille,13000,1988,2874.67,2,Réseau urbain,542938.92,188.87,D,54293.89,Moyenne,0.654,250,False,2024,Conforme,False,Non protégé,43.25701,5.375989
+207,École municipale 207,École,61 rue Victor Hugo,Marseille,13000,1994,2295.15,2,Biomasse,244754.8,106.64,E,7342.64,Moyenne,0.6335,323,False,2016,Partiellement conforme,False,Non protégé,43.278224,5.369763
+208,Mairie municipale 208,Mairie,127 rue de la République,Toulouse,31000,1962,826.24,1,Électrique,,,E,,Faible,0.527,114,False,,Partiellement conforme,True,Non protégé,43.574172,1.457188
+209,Gymnase municipale 209,Gymnase,83 rue Pasteur,Marseille,13000,1983,4766.12,4,Gaz,976673.31,204.92,F,195334.66,Moyenne,0.4644,295,True,2017,Conforme,False,Non protégé,43.316297,5.372388
+210,École municipale 210,École,18 rue des Écoles,Lille,59000,1966,5870.15,5,Gaz,2033537.36,346.42,,406707.47,Faible,0.7606,992,False,2015,Partiellement conforme,False,Non protégé,50.617138,3.06921
+211,École municipale 211,École,137 rue Jean Jaurès,Marseille,13000,1941,2126.12,2,Biomasse,565037.65,265.76,G,16951.13,Faible,0.6843,323,False,2021,Conforme,False,Non protégé,43.286189,5.385113
+212,École municipale 212,École,124 rue Jean Jaurès,Nantes,44000,1999,4106.61,4,Électrique,582317.3,141.8,C,34939.04,Moyenne,0.8335,760,True,2015,Conforme,False,Non protégé,47.171666,-1.572779
+213,Bibliothèque municipale 213,Bibliothèque,213 rue de la République,Bordeaux,33000,1955,1752.85,1,Gaz,400368.47,228.41,E,80073.69,Faible,0.5926,207,False,2016,Conforme,False,Non protégé,44.790924,-0.593296
+214,EHPAD municipale 214,EHPAD,97 rue Victor Hugo,Marseille,13000,1942,5581.27,4,Électrique,1043083.55,186.89,G,62585.01,Très bonne,0.8277,2099,False,2017,Partiellement conforme,False,Non protégé,43.267616,5.356576
+215,École municipale 215,École,117 rue Pasteur,Marseille,13000,1987,1422.2,1,Pompe à chaleur,107902.31,75.87,F,4316.09,Bonne,0.6519,206,False,2019,Partiellement conforme,False,Non protégé,43.340189,5.409213
+216,Gymnase municipale 216,Gymnase,88 rue Pasteur,Nantes,44000,1970,2435.95,2,Gaz,638097.1,261.95,G,127619.42,Faible,0.5556,180,False,2024,Partiellement conforme,False,Non protégé,47.217974,-1.595518
+217,Bibliothèque municipale 217,Bibliothèque,67 rue des Écoles,Paris,75000,1925,1095.48,1,Gaz,347727.26,317.42,G,69545.45,Faible,0.7331,160,False,2015,Travaux requis,True,Non protégé,48.812338,2.340259
+218,Bibliothèque municipale 218,Bibliothèque,122 rue des Écoles,Marseille,13000,2011,2112.57,1,Gaz,205658.69,97.35,D,41131.74,Bonne,0.6676,282,False,2018,Travaux requis,False,Non protégé,43.256174,5.346933
+219,EHPAD municipale 219,EHPAD,180 rue des Écoles,Lille,59000,2005,5069.0,6,Électrique,347277.19,68.51,,20836.63,Bonne,1.0,2304,True,2023,Conforme,False,Non protégé,50.635228,3.095213
+220,Crèche municipale 220,Crèche,217 rue de la République,Marseille,13000,2015,1726.38,2,Gaz,60423.3,35,B,12084.66,Très bonne,0.92,198,True,2024,Conforme,False,Non protégé,43.310329,5.391931
+221,École municipale 221,École,47 rue Pasteur,Grenoble,38000,1991,4920.15,3,Gaz,722917.64,146.93,D,144583.53,Bonne,0.9272,1013,False,2016,Travaux requis,True,Non protégé,45.158749,5.768473
+222,EHPAD municipale 222,EHPAD,109 rue Victor Hugo,Paris,75000,1909,7514.68,6,Électrique,2371933.6,315.64,F,142316.02,Faible,0.6584,2248,False,2019,Partiellement conforme,False,Non protégé,48.864955,2.326995
+223,Mairie municipale 223,Mairie,77 rue Victor Hugo,Marseille,13000,1995,2364.43,3,Gaz,340927.16,144.19,,68185.43,Moyenne,0.7547,469,True,2022,Travaux requis,False,Non protégé,43.273076,5.395805
+224,Bibliothèque municipale 224,Bibliothèque,57 rue Victor Hugo,Montpellier,34000,1991,2371.57,2,Gaz,329268.78,138.84,E,65853.76,Moyenne,0.791,375,False,2023,Partiellement conforme,False,Non protégé,43.642037,3.893111
+225,École municipale 225,École,25 rue Victor Hugo,Rennes,35000,2014,4907.88,5,Électrique,190327.59,38.78,C,11419.66,Très bonne,0.6347,692,True,2022,Conforme,False,Non protégé,48.148158,-1.71443
+226,EHPAD municipale 226,EHPAD,147 rue Victor Hugo,Toulouse,31000,1945,8927.04,7,Réseau urbain,1821205.43,204.01,F,182120.54,Bonne,0.8533,3462,False,2021,Partiellement conforme,True,Non protégé,43.615504,1.468782
+227,Crèche municipale 227,Crèche,213 rue de la République,Lyon,69000,1979,1740.83,1,Gaz,274145.91,157.48,D,54829.18,Moyenne,0.9593,208,False,2022,Conforme,False,Non protégé,45.747956,4.86346
+228,École municipale 228,École,72 rue Pasteur,Toulouse,31000,1963,5948.68,4,Gaz,2086856.43,350.81,G,417371.29,Faible,0.7849,1037,False,2015,Partiellement conforme,True,Non protégé,43.593864,1.42479
+229,Crèche municipale 229,Crèche,42 rue Victor Hugo,Montpellier,34000,2004,605.1,1,Fioul,75873.49,125.39,B,20485.84,Bonne,0.7842,59,False,2016,Conforme,False,Non protégé,43.621851,3.882779
+230,Mairie municipale 230,Mairie,202 rue Jean Jaurès,Grenoble,38000,1954,2687.94,3,Pompe à chaleur,,,,,Faible,0.6974,493,False,,Travaux requis,True,Non protégé,45.208076,5.726098
+231,École municipale 231,École,184 rue Victor Hugo,Montpellier,34000,1966,1344.28,1,Électrique,409454.25,304.59,E,24567.25,Faible,0.6369,190,False,2025,Conforme,False,Non protégé,43.589644,3.86246
+232,École municipale 232,École,96 rue Jean Jaurès,Marseille,13000,1923,5346.32,4,Gaz,2208564.79,413.1,F,441712.96,Faible,0.6648,789,False,2016,Partiellement conforme,True,Inscrit,43.291356,5.333552
+233,École municipale 233,École,203 rue Jean Jaurès,Dijon,21000,2013,4703.3,5,Réseau urbain,164615.5,35,B,16461.55,Très bonne,0.7961,832,False,2024,Partiellement conforme,False,Non protégé,47.368086,5.050871
+234,EHPAD municipale 234,EHPAD,157 rue Jean Jaurès,Grenoble,38000,1910,4651.11,4,Pompe à chaleur,913431.49,196.39,F,36537.26,Faible,0.813,1718,False,2020,Conforme,False,Non protégé,45.152851,5.694002
+235,École municipale 235,École,34 rue Jean Jaurès,Dijon,21000,1906,3064.43,3,Pompe à chaleur,569125.94,185.72,F,22765.04,Faible,0.7508,511,True,2015,Conforme,True,Non protégé,47.361465,5.013207
+236,École municipale 236,École,201 rue Jean Jaurès,Marseille,13000,1942,5250.58,5,Gaz,,,F,,Très bonne,0.8396,979,True,,Conforme,True,Non protégé,43.28185,5.370497
+237,Gymnase municipale 237,Gymnase,40 rue Victor Hugo,Montpellier,34000,1953,5255.14,4,Gaz,1822272.35,346.76,F,364454.47,Faible,0.6729,471,False,2022,Conforme,False,Non protégé,43.598379,3.906784
+238,EHPAD municipale 238,EHPAD,35 rue Pasteur,Marseille,13000,1971,2551.52,2,Fioul,749381.42,293.7,E,202332.98,Moyenne,0.9076,1052,False,2024,Conforme,False,Non protégé,43.260894,5.346049
+239,Mairie municipale 239,Mairie,36 rue des Écoles,Grenoble,38000,2016,556.55,1,Pompe à chaleur,19479.25,35,A,779.17,Très bonne,0.7412,108,False,2018,Partiellement conforme,False,Non protégé,45.22792,5.733117
+240,École municipale 240,École,129 rue Victor Hugo,Toulouse,31000,1944,1472.49,1,Pompe à chaleur,372952.27,253.28,F,14918.09,Faible,0.6606,216,False,2020,Travaux requis,False,Inscrit,43.602733,1.427073
+241,Crèche municipale 241,Crèche,66 rue Victor Hugo,Dijon,21000,1996,1614.46,2,Fioul,282595.08,175.04,E,76300.67,Moyenne,1.0,201,False,2018,Conforme,False,Non protégé,47.352184,5.045182
+242,EHPAD municipale 242,EHPAD,191 rue Jean Jaurès,Toulouse,31000,1990,7732.6,5,Fioul,1150456.23,148.78,E,310623.18,Moyenne,0.7358,2586,True,2020,Conforme,False,Non protégé,43.634941,1.470028
+243,École municipale 243,École,167 rue des Écoles,Montpellier,34000,1948,1823.33,2,Réseau urbain,,,F,,Faible,0.7653,310,False,,Conforme,True,Non protégé,43.572286,3.909095
+244,École municipale 244,École,137 rue Victor Hugo,Dijon,21000,1959,3129.99,2,Gaz,969921.3,309.88,F,193984.26,Faible,0.581,404,False,2019,Conforme,False,Non protégé,47.351745,4.995786
+245,Crèche municipale 245,Crèche,124 rue Victor Hugo,Dijon,21000,1990,1240.23,1,Gaz,181346.43,146.22,D,36269.29,Moyenne,0.7519,116,True,2021,Partiellement conforme,False,Non protégé,47.27726,5.010317
+246,Gymnase municipale 246,Gymnase,170 rue Pasteur,Strasbourg,67000,2000,4498.72,3,Réseau urbain,368085.27,81.82,C,36808.53,Très bonne,0.5724,343,True,2019,Conforme,False,Non protégé,48.573279,7.766394
+247,École municipale 247,École,218 rue des Écoles,Marseille,13000,2018,1257.27,1,Électrique,66748.46,53.09,B,4004.91,Très bonne,0.7249,202,False,2022,Conforme,False,Non protégé,43.275907,5.373726
+248,École municipale 248,École,136 rue Jean Jaurès,Dijon,21000,1925,3723.32,2,Gaz,1369437.1,367.8,F,273887.42,Faible,0.723,598,False,2024,Travaux requis,False,Inscrit,47.339955,5.033604
+249,Crèche municipale 249,Crèche,153 rue des Écoles,Dijon,21000,2002,367.78,1,Pompe à chaleur,15983.72,43.46,B,639.35,Bonne,0.841,38,False,2020,Partiellement conforme,False,Non protégé,47.35352,5.011072
+250,Gymnase municipale 250,Gymnase,104 rue Pasteur,Lille,59000,2013,4313.41,3,Réseau urbain,150969.35,35,,15096.94,Très bonne,0.5036,289,False,2015,Conforme,False,Non protégé,50.631246,3.099277
+251,EHPAD municipale 251,EHPAD,151 rue des Écoles,Montpellier,34000,1933,5661.5,5,Gaz,1834609.07,324.05,F,366921.81,Faible,1.0,2573,False,2017,Conforme,False,Non protégé,43.636733,3.906746
+252,Crèche municipale 252,Crèche,163 rue Pasteur,Grenoble,38000,1919,1792.25,2,Gaz,657110.54,366.64,F,131422.11,Faible,0.8024,179,False,2024,Conforme,True,Non protégé,45.139048,5.677398
+253,Gymnase municipale 253,Gymnase,14 rue Pasteur,Lille,59000,1991,2654.85,2,Électrique,382298.4,144.0,D,22937.9,Moyenne,0.5421,191,False,2025,Conforme,False,Non protégé,50.642321,3.019627
+254,École municipale 254,École,76 rue Victor Hugo,Strasbourg,67000,1970,2935.26,3,Biomasse,597061.24,203.41,G,17911.84,Faible,0.7815,509,False,2023,Conforme,False,Non protégé,48.550919,7.730829
+255,École municipale 255,École,74 rue de la République,Dijon,21000,2014,2336.65,2,Fioul,96223.25,41.18,A,25980.28,Très bonne,0.8166,424,False,2024,Conforme,False,Non protégé,47.344051,5.085126
+256,Bibliothèque municipale 256,Bibliothèque,46 rue des Écoles,Montpellier,34000,1966,1116.81,1,Électrique,,,F,,Faible,0.7233,161,False,,Travaux requis,True,Non protégé,43.577654,3.870504
+257,Mairie municipale 257,Mairie,97 rue Victor Hugo,Montpellier,34000,1926,2955.94,3,Réseau urbain,844955.45,285.85,F,84495.54,Faible,0.7748,602,False,2023,Conforme,False,Non protégé,43.589947,3.902031
+258,EHPAD municipale 258,EHPAD,96 rue Pasteur,Nantes,44000,1900,2340.26,3,Réseau urbain,,,G,,Faible,1.0,1063,False,,Travaux requis,False,Non protégé,47.215691,-1.599996
+259,Mairie municipale 259,Mairie,22 rue des Écoles,Marseille,13000,1941,2203.94,1,Pompe à chaleur,393447.37,178.52,G,15737.89,Faible,0.8354,484,False,2021,Partiellement conforme,False,Non protégé,43.310956,5.403471
+260,Gymnase municipale 260,Gymnase,184 rue Pasteur,Paris,75000,2009,3482.56,3,Gaz,353688.79,101.56,D,70737.76,Bonne,0.584,271,True,2016,Conforme,False,Non protégé,48.845452,2.360144
+261,Mairie municipale 261,Mairie,1 rue Jean Jaurès,Marseille,13000,1941,2621.84,2,Pompe à chaleur,527723.96,201.28,G,21108.96,Faible,0.5947,410,True,2016,Conforme,True,Non protégé,43.272208,5.333068
+262,EHPAD municipale 262,EHPAD,68 rue des Écoles,Dijon,21000,1990,7032.38,6,Gaz,1174337.14,166.99,C,234867.43,Moyenne,0.9965,3185,False,2018,Partiellement conforme,False,Non protégé,47.364543,5.060839
+263,EHPAD municipale 263,EHPAD,186 rue Jean Jaurès,Dijon,21000,1912,6220.93,5,Pompe à chaleur,1367298.2,219.79,F,54691.93,Faible,0.9053,2559,False,2021,Conforme,False,Non protégé,47.356205,5.022532
+264,Bibliothèque municipale 264,Bibliothèque,97 rue de la République,Grenoble,38000,1915,1390.64,1,Biomasse,376446.25,270.7,F,11293.39,Faible,0.5471,152,True,2022,Partiellement conforme,False,Non protégé,45.168741,5.716068
+265,EHPAD municipale 265,EHPAD,64 rue Pasteur,Marseille,13000,1934,4112.23,3,Biomasse,1120253.7,272.42,G,33607.61,Faible,0.6983,1305,True,2016,Conforme,False,Non protégé,43.286945,5.34942
+266,École municipale 266,École,70 rue Jean Jaurès,Grenoble,38000,1983,4359.66,3,Électrique,778504.49,178.57,D,46710.27,Moyenne,0.8619,835,False,2017,Partiellement conforme,True,Non protégé,45.161093,5.694168
+267,Bibliothèque municipale 267,Bibliothèque,121 rue Pasteur,Strasbourg,67000,1946,3458.29,4,Réseau urbain,1021336.79,295.33,F,102133.68,Faible,0.623,430,False,2022,Conforme,True,Non protégé,48.567245,7.748844
+268,Crèche municipale 268,Crèche,143 rue des Écoles,Paris,75000,1902,632.15,1,Électrique,,,F,,Bonne,1.0,79,False,,Conforme,False,Non protégé,48.831112,2.380556
+269,École municipale 269,École,78 rue Jean Jaurès,Paris,75000,2017,3696.11,3,Pompe à chaleur,129363.85,35,,5174.55,Très bonne,0.7985,655,False,2025,Conforme,False,Non protégé,48.904007,2.342417
+270,École municipale 270,École,171 rue Jean Jaurès,Rennes,35000,2006,4258.18,3,Biomasse,219509.18,51.55,B,6585.28,Très bonne,0.6879,650,True,2019,Conforme,False,Non protégé,48.07271,-1.713997
+271,EHPAD municipale 271,EHPAD,205 rue Pasteur,Nantes,44000,1915,6166.64,4,Gaz,2370024.75,384.33,F,474004.95,Faible,1.0,2803,False,2016,Conforme,True,Inscrit,47.179772,-1.515788
+272,Gymnase municipale 272,Gymnase,40 rue Victor Hugo,Grenoble,38000,1935,4238.69,4,Biomasse,996812.73,235.17,F,29904.38,Faible,0.5996,338,False,2017,Partiellement conforme,True,Non protégé,45.22445,5.731536
+273,Mairie municipale 273,Mairie,152 rue Victor Hugo,Lille,59000,1962,3260.82,2,Électrique,809270.31,248.18,G,48556.22,Faible,0.6012,515,False,2019,Conforme,False,Non protégé,50.582093,3.030703
+274,Crèche municipale 274,Crèche,33 rue des Écoles,Grenoble,38000,1953,384.58,1,Fioul,,,E,,Faible,0.7207,34,False,,Conforme,True,Non protégé,45.232646,5.706931
+275,Mairie municipale 275,Mairie,158 rue de la République,Dijon,21000,1975,3063.26,2,Électrique,458937.61,149.82,E,27536.26,Moyenne,0.7447,600,False,2015,Conforme,False,Non protégé,47.321684,5.028195
+276,EHPAD municipale 276,EHPAD,124 rue des Écoles,Marseille,13000,1997,3180.29,3,Électrique,433091.89,136.18,D,25985.51,Moyenne,0.9394,1357,False,2015,Travaux requis,False,Non protégé,43.332578,5.350776
+277,Bibliothèque municipale 277,Bibliothèque,173 rue des Écoles,Montpellier,34000,1958,3670.23,3,Fioul,1333578.07,363.35,F,360066.08,Faible,0.6283,461,False,2017,Partiellement conforme,False,Non protégé,43.608709,3.828813
+278,École municipale 278,École,118 rue Victor Hugo,Nantes,44000,1975,5018.27,5,Réseau urbain,614336.61,122.42,D,61433.66,Moyenne,0.6986,779,False,2024,Conforme,False,Non protégé,47.246113,-1.596131
+279,École municipale 279,École,26 rue Victor Hugo,Lyon,69000,1902,1083.86,1,Réseau urbain,260137.24,240.01,F,26013.72,Faible,0.6486,156,False,2024,Conforme,False,Non protégé,45.724255,4.785973
+280,Mairie municipale 280,Mairie,134 rue des Écoles,Rennes,35000,1933,1224.69,1,Réseau urbain,324101.96,264.64,G,32410.2,Faible,0.5596,180,False,2015,Partiellement conforme,False,Non protégé,48.118693,-1.634839
+281,EHPAD municipale 281,EHPAD,1 rue de la République,Dijon,21000,1948,2225.47,2,Gaz,,,G,,Faible,0.735,743,False,,Conforme,True,Non protégé,47.279051,5.004578
+282,Gymnase municipale 282,Gymnase,26 rue des Écoles,Grenoble,38000,1943,4781.8,5,Pompe à chaleur,1018140.86,212.92,F,40725.63,Faible,0.6501,414,False,2024,Partiellement conforme,True,Non protégé,45.22138,5.74644
+283,Bibliothèque municipale 283,Bibliothèque,155 rue des Écoles,Grenoble,38000,2012,2190.52,1,Pompe à chaleur,106240.22,48.5,D,4249.61,Bonne,0.7001,306,False,2024,Travaux requis,False,Non protégé,45.190804,5.740805
+284,Gymnase municipale 284,Gymnase,29 rue de la République,Paris,75000,2006,2930.39,2,Biomasse,190944.21,65.16,B,5728.33,Bonne,0.537,209,False,2022,Travaux requis,False,Non protégé,48.858797,2.323535
+285,Gymnase municipale 285,Gymnase,90 rue Jean Jaurès,Montpellier,34000,2009,6930.7,5,Gaz,642475.89,92.7,B,128495.18,Bonne,0.6914,638,False,2019,Conforme,False,Non protégé,43.660379,3.917038
+286,Gymnase municipale 286,Gymnase,213 rue Jean Jaurès,Bordeaux,33000,2011,2377.8,2,Gaz,253568.59,106.64,D,50713.72,Bonne,0.5405,171,False,2021,Conforme,False,Non protégé,44.860723,-0.547578
+287,Crèche municipale 287,Crèche,81 rue des Écoles,Rennes,35000,1940,1776.41,2,Gaz,639933.94,360.24,,127986.79,Faible,0.8072,179,False,2025,Partiellement conforme,True,Classé,48.16148,-1.665795
+288,Bibliothèque municipale 288,Bibliothèque,174 rue Victor Hugo,Marseille,13000,1983,1137.81,1,Pompe à chaleur,103347.28,90.83,E,4133.89,Moyenne,0.7951,180,True,2022,Conforme,False,Non protégé,43.253536,5.359695
+289,Gymnase municipale 289,Gymnase,193 rue Victor Hugo,Lille,59000,1975,2607.78,2,Biomasse,288420.47,110.6,D,8652.61,Moyenne,0.5168,179,False,2023,Conforme,True,Non protégé,50.64894,3.096638
+290,Gymnase municipale 290,Gymnase,81 rue Victor Hugo,Toulouse,31000,1918,1883.78,2,Pompe à chaleur,,,G,,Faible,0.5403,135,True,,Partiellement conforme,False,Non protégé,43.577947,1.427482
+291,EHPAD municipale 291,EHPAD,154 rue Pasteur,Rennes,35000,1968,7961.94,5,Réseau urbain,1753935.76,220.29,F,175393.58,Faible,0.8917,3227,True,2024,Travaux requis,False,Non protégé,48.08554,-1.700625
+292,EHPAD municipale 292,EHPAD,48 rue Jean Jaurès,Toulouse,31000,2015,3320.82,2,Réseau urbain,250854.74,75.54,C,25085.47,Faible,1.0,1509,True,2025,Partiellement conforme,False,Non protégé,43.627867,1.474887
+293,Bibliothèque municipale 293,Bibliothèque,95 rue Pasteur,Lyon,69000,2007,3110.02,2,Réseau urbain,242985.86,78.13,B,24298.59,Bonne,0.5809,361,True,2025,Conforme,False,Non protégé,45.727802,4.88179
+294,École municipale 294,École,34 rue Jean Jaurès,Rennes,35000,1922,1002.27,1,Électrique,296561.67,295.89,G,17793.7,Faible,0.8519,189,False,2023,Partiellement conforme,False,Non protégé,48.117218,-1.643703
+295,EHPAD municipale 295,EHPAD,214 rue Victor Hugo,Nantes,44000,1960,8166.03,7,Réseau urbain,1817513.3,222.57,E,181751.33,Faible,0.836,3103,False,2024,Conforme,False,Non protégé,47.169708,-1.539199
+296,EHPAD municipale 296,EHPAD,119 rue Pasteur,Paris,75000,1947,4589.48,3,Gaz,1342422.9,292.5,G,268484.58,Faible,0.8224,1715,False,2019,Partiellement conforme,True,Non protégé,48.826768,2.385431
+297,Bibliothèque municipale 297,Bibliothèque,164 rue Victor Hugo,Dijon,21000,1989,3152.94,3,Électrique,434002.19,137.65,C,26040.13,Moyenne,0.7279,459,False,2018,Travaux requis,False,Non protégé,47.361829,5.048077
+298,École municipale 298,École,31 rue de la République,Montpellier,34000,1952,3629.55,3,Gaz,,,E,,Faible,0.7951,641,False,,Conforme,False,Non protégé,43.629629,3.847047
+299,Gymnase municipale 299,Gymnase,32 rue Victor Hugo,Lyon,69000,1971,3810.31,4,Électrique,1198304.39,314.49,G,71898.26,Faible,0.5033,255,False,2025,Conforme,False,Non protégé,45.732501,4.863178
+300,Bibliothèque municipale 300,Bibliothèque,175 rue Victor Hugo,Grenoble,38000,1939,3961.79,3,Électrique,1061601.25,267.96,G,63696.07,Faible,0.8461,670,False,2020,Partiellement conforme,False,Non protégé,45.18784,5.739455
+301,Gymnase municipale 301,Gymnase,39 rue Victor Hugo,Grenoble,38000,1908,6346.6,4,Réseau urbain,1862917.5,293.53,F,186291.75,Faible,0.5786,489,False,2019,Conforme,False,Non protégé,45.195741,5.759801
+302,EHPAD municipale 302,EHPAD,93 rue Victor Hugo,Montpellier,34000,1949,5096.27,4,Biomasse,1004118.08,197.03,F,30123.54,Faible,0.9262,2145,False,2018,Partiellement conforme,False,Non protégé,43.572394,3.860887
+303,EHPAD municipale 303,EHPAD,181 rue Pasteur,Montpellier,34000,1911,7159.72,7,Pompe à chaleur,1325836.95,185.18,G,53033.48,Faible,1.0,3254,False,2020,Conforme,False,Non protégé,43.574059,3.915346
+304,École municipale 304,École,82 rue des Écoles,Nantes,44000,2011,2103.41,2,Électrique,135943.39,64.63,C,8156.6,Bonne,0.5745,268,False,2022,Conforme,False,Non protégé,47.199309,-1.539081
+305,EHPAD municipale 305,EHPAD,42 rue Victor Hugo,Bordeaux,33000,1977,6089.34,4,Gaz,954869.41,156.81,E,190973.88,Moyenne,0.8156,2257,False,2016,Travaux requis,True,Non protégé,44.81232,-0.579638
+306,Bibliothèque municipale 306,Bibliothèque,154 rue Jean Jaurès,Lille,59000,1936,1110.1,1,Pompe à chaleur,285217.99,256.93,F,11408.72,Faible,0.631,140,False,2022,Conforme,False,Classé,50.594823,3.052031
+307,EHPAD municipale 307,EHPAD,96 rue des Écoles,Grenoble,38000,1923,7530.96,5,Électrique,2371875.85,314.95,G,142312.55,Faible,0.9208,3152,False,2019,Conforme,False,Non protégé,45.148884,5.686391
+308,Bibliothèque municipale 308,Bibliothèque,122 rue Pasteur,Dijon,21000,1970,4453.71,4,Électrique,1096369.79,246.17,E,65782.19,Faible,0.6841,609,False,2017,Conforme,True,Non protégé,47.294879,5.016332
+309,Crèche municipale 309,Crèche,144 rue de la République,Strasbourg,67000,2002,1237.12,1,Gaz,94120.09,76.08,B,18824.02,Bonne,0.8035,124,False,2015,Conforme,False,Non protégé,48.567179,7.736604
+310,Gymnase municipale 310,Gymnase,218 rue Victor Hugo,Nantes,44000,1987,3950.82,3,Fioul,814580.07,206.18,E,219936.62,Moyenne,0.556,292,False,2017,Conforme,False,Non protégé,47.173538,-1.577076
+311,Mairie municipale 311,Mairie,185 rue Pasteur,Rennes,35000,1949,1157.9,1,Électrique,339843.65,293.5,F,20390.62,Faible,0.635,193,False,2025,Conforme,False,Non protégé,48.121705,-1.673225
+312,Bibliothèque municipale 312,Bibliothèque,103 rue de la République,Toulouse,31000,2007,3768.71,3,Gaz,292715.71,77.67,D,58543.14,Bonne,0.6655,501,True,2020,Conforme,False,Non protégé,43.612915,1.484217
+313,EHPAD municipale 313,EHPAD,122 rue des Écoles,Paris,75000,1920,5717.18,4,Biomasse,1276874.98,223.34,G,38306.25,Faible,0.9035,2347,False,2024,Partiellement conforme,True,Non protégé,48.830229,2.384282
+314,Mairie municipale 314,Mairie,148 rue de la République,Bordeaux,33000,1958,2333.05,2,Pompe à chaleur,403384.35,172.9,G,16135.37,Faible,0.8791,539,False,2019,Travaux requis,True,Non protégé,44.836848,-0.546407
+315,École municipale 315,École,99 rue de la République,Toulouse,31000,1970,3320.0,3,Biomasse,758022.4,228.32,F,22740.67,Faible,0.809,596,False,2021,Conforme,False,Non protégé,43.588028,1.484862
+316,EHPAD municipale 316,EHPAD,11 rue des Écoles,Paris,75000,1944,1834.35,2,Réseau urbain,553093.21,301.52,F,55309.32,Faible,0.7311,609,False,2024,Partiellement conforme,False,Non protégé,48.822307,2.336976
+317,École municipale 317,École,217 rue des Écoles,Paris,75000,1956,3072.33,2,Électrique,672686.65,218.95,F,40361.2,Faible,0.636,434,False,2023,Partiellement conforme,False,Non protégé,48.866409,2.345395
+318,Crèche municipale 318,Crèche,62 rue des Écoles,Nantes,44000,1934,1626.32,1,Électrique,632394.53,388.85,G,37943.67,Faible,0.7608,154,False,2015,Conforme,True,Non protégé,47.211921,-1.545487
+319,École municipale 319,École,197 rue de la République,Marseille,13000,1938,5451.31,3,Réseau urbain,1463513.2,268.47,F,146351.32,Faible,0.7862,952,False,2019,Conforme,False,Non protégé,43.273366,5.337861
+320,EHPAD municipale 320,EHPAD,86 rue Jean Jaurès,Lille,59000,1921,6754.19,7,Pompe à chaleur,1430469.9,211.79,G,57218.8,Faible,0.8856,2718,True,2021,Partiellement conforme,False,Non protégé,50.638157,3.040447
+321,EHPAD municipale 321,EHPAD,8 rue Pasteur,Nantes,44000,1914,5245.74,5,Gaz,1824888.03,347.88,G,364977.61,Faible,0.9533,2273,False,2023,Partiellement conforme,False,Inscrit,47.196965,-1.543701
+322,Mairie municipale 322,Mairie,7 rue de la République,Paris,75000,2020,2334.51,2,Gaz,108041.12,46.28,A,21608.22,Moyenne,0.5222,320,False,2022,Conforme,False,Non protégé,48.895503,2.355848
+323,Mairie municipale 323,Mairie,169 rue Pasteur,Dijon,21000,1989,597.18,1,Réseau urbain,69923.81,117.09,C,6992.38,Moyenne,0.6713,105,False,2023,Conforme,True,Non protégé,47.363812,5.063943
+324,EHPAD municipale 324,EHPAD,205 rue Victor Hugo,Lille,59000,1909,2426.72,2,Gaz,425040.01,175.15,G,85008.0,Très bonne,0.9577,1056,False,2016,Conforme,False,Inscrit,50.678068,3.015417
+325,École municipale 325,École,53 rue des Écoles,Marseille,13000,1973,2713.55,2,Pompe à chaleur,455306.55,167.79,E,18212.26,Faible,0.8176,493,False,2024,Conforme,False,Non protégé,43.31347,5.383881
+326,EHPAD municipale 326,EHPAD,36 rue Jean Jaurès,Marseille,13000,1903,7259.64,7,Pompe à chaleur,1578536.12,217.44,F,63141.44,Faible,0.9528,3144,True,2019,Travaux requis,False,Non protégé,43.247161,5.321148
+327,École municipale 327,École,9 rue Pasteur,Strasbourg,67000,1994,5798.83,6,Gaz,1125378.94,194.07,C,225075.79,Faible,0.8551,1101,False,2022,Conforme,False,Non protégé,48.546951,7.751854
+328,École municipale 328,École,75 rue Victor Hugo,Toulouse,31000,1946,4094.44,3,Gaz,963339.84,235.28,G,192667.97,Bonne,0.9274,843,False,2020,Conforme,False,Non protégé,43.639213,1.438801
+329,Gymnase municipale 329,Gymnase,112 rue Pasteur,Lille,59000,2015,6722.44,6,Gaz,553592.93,82.35,A,110718.59,Faible,0.4073,365,False,2020,Conforme,False,Non protégé,50.617586,3.011872
+330,EHPAD municipale 330,EHPAD,64 rue de la République,Dijon,21000,1900,5493.46,3,Réseau urbain,1438242.76,261.81,G,143824.28,Faible,0.9896,2471,False,2022,Conforme,True,Non protégé,47.324815,5.003264
+331,École municipale 331,École,207 rue Victor Hugo,Paris,75000,1982,2953.82,2,Gaz,496625.76,168.13,D,99325.15,Moyenne,0.7996,524,False,2016,Partiellement conforme,False,Non protégé,48.8679,2.387937
+332,Crèche municipale 332,Crèche,47 rue Victor Hugo,Paris,75000,2006,885.81,1,Réseau urbain,68747.71,77.61,B,6874.77,Bonne,0.8885,98,True,2025,Travaux requis,False,Non protégé,48.83393,2.318122
+333,EHPAD municipale 333,EHPAD,67 rue Pasteur,Bordeaux,33000,1971,5851.4,5,Pompe à chaleur,1187073.52,202.87,F,47482.94,Faible,0.9505,2528,True,2017,Conforme,False,Non protégé,44.850435,-0.577083
+334,Crèche municipale 334,Crèche,120 rue des Écoles,Lyon,69000,2000,599.43,1,Pompe à chaleur,56975.82,95.05,D,2279.03,Moyenne,0.7738,57,False,2022,Partiellement conforme,False,Non protégé,45.728185,4.822468
+335,Mairie municipale 335,Mairie,13 rue Jean Jaurès,Dijon,21000,1947,1948.12,2,Biomasse,,,G,,Faible,0.6591,337,False,,Conforme,True,Non protégé,47.339982,5.025656
+336,Mairie municipale 336,Mairie,64 rue Victor Hugo,Lille,59000,1961,1511.75,2,Biomasse,330740.66,218.78,E,9922.22,Faible,0.6395,254,True,2015,Partiellement conforme,False,Non protégé,50.654216,3.024479
+337,École municipale 337,École,76 rue des Écoles,Lille,59000,1964,1041.4,1,Réseau urbain,256049.02,245.87,F,25604.9,Faible,0.8622,199,False,2024,Conforme,False,Non protégé,50.635231,3.106029
+338,Crèche municipale 338,Crèche,150 rue Pasteur,Lyon,69000,1983,1749.46,2,Pompe à chaleur,206366.3,117.96,E,8254.65,Moyenne,1.0,218,False,2018,Conforme,False,Non protégé,45.759471,4.838698
+339,EHPAD municipale 339,EHPAD,35 rue Pasteur,Lyon,69000,1997,5861.5,4,Biomasse,527417.77,89.98,D,15822.53,Moyenne,0.7608,2027,False,2023,Conforme,False,Non protégé,45.763753,4.835552
+340,Mairie municipale 340,Mairie,7 rue des Écoles,Montpellier,34000,1985,880.88,1,Fioul,200479.48,227.59,E,54129.46,Moyenne,0.5181,120,False,2021,Partiellement conforme,False,Non protégé,43.626907,3.884151
+341,Mairie municipale 341,Mairie,65 rue Victor Hugo,Lyon,69000,2015,2502.66,2,Pompe à chaleur,91071.8,36.39,A,3642.87,Très bonne,0.6561,432,False,2019,Partiellement conforme,False,Non protégé,45.759006,4.799561
+342,Gymnase municipale 342,Gymnase,149 rue Victor Hugo,Lyon,69000,1919,1810.02,1,Gaz,658684.38,363.91,F,131736.88,Faible,0.4436,107,False,2020,Conforme,False,Non protégé,45.725701,4.86307
+343,École municipale 343,École,151 rue Jean Jaurès,Bordeaux,33000,1984,3883.48,3,Gaz,789861.0,203.39,D,157972.2,Moyenne,0.703,606,False,2025,Conforme,False,Non protégé,44.823995,-0.530737
+344,Bibliothèque municipale 344,Bibliothèque,123 rue de la République,Strasbourg,67000,2004,1207.21,1,Gaz,116930.36,96.86,C,23386.07,Bonne,0.6222,150,False,2018,Travaux requis,False,Non protégé,48.543894,7.728406
+345,École municipale 345,École,72 rue Victor Hugo,Dijon,21000,1991,5973.13,4,Réseau urbain,812524.87,136.03,D,81252.49,Moyenne,0.7674,1018,False,2022,Conforme,False,Non protégé,47.274633,5.068777
+346,École municipale 346,École,53 rue Jean Jaurès,Toulouse,31000,2013,3108.4,3,Fioul,151130.41,48.62,B,40805.21,Bonne,0.6559,453,False,2024,Conforme,False,Non protégé,43.597966,1.456195
+347,École municipale 347,École,119 rue des Écoles,Montpellier,34000,1917,3635.4,2,Électrique,,,G,,Faible,0.8433,681,False,,Partiellement conforme,False,Non protégé,43.621682,3.858917
+348,École municipale 348,École,12 rue Victor Hugo,Montpellier,34000,1902,3687.1,4,Électrique,1158929.27,314.32,,69535.76,Faible,0.6292,515,False,2024,Travaux requis,True,Non protégé,43.575215,3.89161
+349,École municipale 349,École,45 rue des Écoles,Paris,75000,2014,2402.79,1,Électrique,84458.07,35.15,C,5067.48,Très bonne,0.5851,312,True,2016,Conforme,False,Non protégé,48.872471,2.382433
+350,École municipale 350,École,206 rue Victor Hugo,Montpellier,34000,1921,4748.3,4,Pompe à chaleur,1119079.34,235.68,G,44763.17,Faible,0.727,767,True,2016,Travaux requis,True,Inscrit,43.586626,3.892484
+351,École municipale 351,École,43 rue Jean Jaurès,Paris,75000,1989,2064.33,2,Électrique,244581.82,118.48,,14674.91,Moyenne,0.9478,434,True,2015,Conforme,False,Non protégé,48.885067,2.378102
+352,Gymnase municipale 352,Gymnase,80 rue Jean Jaurès,Grenoble,38000,1934,2185.61,2,Pompe à chaleur,506493.26,231.74,,20259.73,Faible,0.462,134,False,2019,Conforme,True,Non protégé,45.212272,5.687261
+353,Gymnase municipale 353,Gymnase,154 rue des Écoles,Toulouse,31000,1933,6487.35,6,Biomasse,1804845.64,278.21,F,54145.37,Faible,0.4785,413,False,2017,Conforme,False,Non protégé,43.588,1.400395
+354,Crèche municipale 354,Crèche,43 rue Pasteur,Lyon,69000,1909,1607.8,1,Pompe à chaleur,337509.38,209.92,,13500.38,Faible,0.816,163,False,2020,Conforme,True,Non protégé,45.752701,4.873659
+355,École municipale 355,École,42 rue de la République,Bordeaux,33000,1935,4612.14,5,Réseau urbain,653863.09,141.77,G,65386.31,Très bonne,0.6311,646,False,2018,Travaux requis,False,Non protégé,44.867828,-0.59902
+356,Bibliothèque municipale 356,Bibliothèque,82 rue Victor Hugo,Toulouse,31000,1921,1049.99,1,Gaz,337939.28,321.85,G,67587.86,Faible,0.862,181,False,2025,Conforme,False,Non protégé,43.618902,1.443978
+357,École municipale 357,École,220 rue Pasteur,Lille,59000,2011,5821.83,4,Gaz,475527.07,81.68,C,95105.41,Bonne,0.8171,1057,False,2024,Conforme,False,Non protégé,50.65309,3.053304
+358,École municipale 358,École,182 rue Victor Hugo,Lille,59000,2008,3820.89,3,Pompe à chaleur,189783.61,49.67,C,7591.34,Bonne,0.6841,580,False,2025,Travaux requis,False,Non protégé,50.635195,3.007517
+359,École municipale 359,École,114 rue Pasteur,Bordeaux,33000,1971,2325.92,2,Pompe à chaleur,463695.41,199.36,F,18547.82,Faible,0.8144,420,False,2023,Conforme,True,Non protégé,44.808054,-0.575414
+360,Crèche municipale 360,Crèche,120 rue Victor Hugo,Dijon,21000,1975,1430.74,1,Biomasse,241795.06,169.0,E,7253.85,Moyenne,0.7028,125,False,2019,Conforme,False,Non protégé,47.336854,5.03132
+361,Bibliothèque municipale 361,Bibliothèque,102 rue Pasteur,Grenoble,38000,1999,891.01,1,Biomasse,121622.87,136.5,E,3648.69,Moyenne,0.6531,116,False,2021,Travaux requis,False,Non protégé,45.185715,5.731332
+362,Gymnase municipale 362,Gymnase,212 rue de la République,Toulouse,31000,1996,1800.84,2,Gaz,207834.94,115.41,C,41566.99,Moyenne,0.6252,150,False,2016,Partiellement conforme,True,Non protégé,43.6458,1.416648
+363,Gymnase municipale 363,Gymnase,122 rue Victor Hugo,Dijon,21000,1936,2378.29,1,Électrique,619806.16,260.61,F,37188.37,Moyenne,0.4778,151,False,2015,Conforme,True,Non protégé,47.322991,5.016231
+364,École municipale 364,École,212 rue Victor Hugo,Lyon,69000,1941,4782.74,4,Pompe à chaleur,,,F,,Faible,0.621,660,False,,Travaux requis,False,Inscrit,45.763586,4.850144
+365,Mairie municipale 365,Mairie,60 rue des Écoles,Lille,59000,1925,1257.98,1,Pompe à chaleur,249331.64,198.2,F,9973.27,Faible,0.6148,203,False,2021,Conforme,False,Non protégé,50.622226,3.093042
+366,École municipale 366,École,140 rue des Écoles,Lille,59000,1906,5027.87,3,Gaz,,,F,,Faible,0.6612,738,False,,Partiellement conforme,False,Non protégé,50.594728,3.015235
+367,Gymnase municipale 367,Gymnase,8 rue Jean Jaurès,Rennes,35000,1938,4164.23,3,Gaz,1269632.08,304.89,F,253926.42,Faible,0.4728,262,False,2023,Conforme,False,Non protégé,48.135767,-1.649018
+368,Gymnase municipale 368,Gymnase,19 rue de la République,Grenoble,38000,2005,4751.11,3,Fioul,427029.77,89.88,B,115298.04,Bonne,0.3954,250,True,2017,Travaux requis,False,Non protégé,45.203646,5.682291
+369,Mairie municipale 369,Mairie,201 rue Victor Hugo,Lille,59000,1927,1776.84,2,Fioul,,,F,,Faible,0.6083,284,False,,Travaux requis,False,Non protégé,50.590995,3.027245
+370,Mairie municipale 370,Mairie,74 rue Jean Jaurès,Bordeaux,33000,1915,560.15,1,Gaz,150372.27,268.45,G,30074.45,Moyenne,0.6238,91,False,2019,Partiellement conforme,False,Non protégé,44.789327,-0.595924
+371,EHPAD municipale 371,EHPAD,180 rue Victor Hugo,Paris,75000,1994,7850.02,5,Électrique,1199483.06,152.8,C,71968.98,Moyenne,0.9885,3527,False,2023,Conforme,False,Non protégé,48.828462,2.305539
+372,Bibliothèque municipale 372,Bibliothèque,77 rue Jean Jaurès,Rennes,35000,1902,1265.9,1,Gaz,419101.51,331.07,G,83820.3,Faible,0.6603,167,True,2022,Travaux requis,True,Non protégé,48.131562,-1.688857
+373,EHPAD municipale 373,EHPAD,178 rue de la République,Rennes,35000,1928,6705.83,5,Gaz,2117030.53,315.7,G,423406.11,Faible,0.9696,2955,False,2024,Partiellement conforme,False,Non protégé,48.132033,-1.72448
+374,EHPAD municipale 374,EHPAD,106 rue des Écoles,Strasbourg,67000,2017,7561.32,5,Gaz,304191.9,40.23,A,60838.38,Très bonne,0.8992,3090,True,2019,Conforme,False,Non protégé,48.554104,7.719062
+375,École municipale 375,École,11 rue Jean Jaurès,Montpellier,34000,1971,2545.01,2,Électrique,723495.44,284.28,E,43409.73,Faible,0.7431,420,False,2015,Partiellement conforme,False,Non protégé,43.61374,3.893199
+376,École municipale 376,École,21 rue Victor Hugo,Strasbourg,67000,1943,1543.73,1,Électrique,422302.78,273.56,G,25338.17,Faible,0.4822,165,False,2021,Partiellement conforme,True,Classé,48.619047,7.759223
+377,EHPAD municipale 377,EHPAD,86 rue de la République,Montpellier,34000,1918,4551.17,5,Réseau urbain,,,F,,Faible,1.0,2068,False,,Travaux requis,False,Non protégé,43.657066,3.902887
+378,Bibliothèque municipale 378,Bibliothèque,194 rue Victor Hugo,Toulouse,31000,1932,4413.97,3,Gaz,,,F,,Faible,0.5435,479,False,,Conforme,False,Non protégé,43.649385,1.401361
+379,Gymnase municipale 379,Gymnase,38 rue des Écoles,Lille,59000,1914,1864.74,1,Pompe à chaleur,213848.38,114.68,F,8553.94,Bonne,0.4957,123,False,2015,Partiellement conforme,False,Non protégé,50.592898,3.046481
+380,Crèche municipale 380,Crèche,181 rue des Écoles,Strasbourg,67000,1933,893.37,1,Biomasse,237761.49,266.14,F,7132.84,Faible,0.7316,81,False,2021,Travaux requis,False,Non protégé,48.616454,7.734206
+381,Bibliothèque municipale 381,Bibliothèque,34 rue Victor Hugo,Grenoble,38000,2013,3612.54,3,Gaz,126438.9,35,C,25287.78,Très bonne,0.7197,519,False,2023,Conforme,False,Non protégé,45.20253,5.715837
+382,Gymnase municipale 382,Gymnase,97 rue Pasteur,Nantes,44000,2018,3764.14,3,Gaz,131744.9,35,B,26348.98,Très bonne,0.5383,270,True,2021,Conforme,False,Non protégé,47.242573,-1.528721
+383,EHPAD municipale 383,EHPAD,203 rue Jean Jaurès,Rennes,35000,1979,3710.82,4,Pompe à chaleur,369449.24,99.56,,14777.97,Moyenne,0.9883,1667,True,2016,Conforme,False,Non protégé,48.078174,-1.694933
+384,École municipale 384,École,69 rue Victor Hugo,Rennes,35000,1951,4682.69,3,Fioul,1738120.87,371.18,F,469292.63,Faible,0.6063,630,False,2025,Conforme,False,Non protégé,48.074834,-1.715378
+385,EHPAD municipale 385,EHPAD,44 rue des Écoles,Paris,75000,1963,3714.5,3,Pompe à chaleur,614824.04,165.52,E,24592.96,Faible,0.9342,1577,False,2017,Travaux requis,False,Non protégé,48.81022,2.394425
+386,Gymnase municipale 386,Gymnase,136 rue des Écoles,Bordeaux,33000,1930,2869.67,2,Gaz,,,F,,Faible,0.5589,213,False,,Partiellement conforme,True,Classé,44.851786,-0.582298
+387,Gymnase municipale 387,Gymnase,191 rue de la République,Toulouse,31000,1991,3036.9,2,Pompe à chaleur,350215.31,115.32,,14008.61,Moyenne,0.5335,216,False,2015,Partiellement conforme,True,Non protégé,43.58341,1.402575
+388,Crèche municipale 388,Crèche,66 rue des Écoles,Nantes,44000,2002,1793.07,1,Pompe à chaleur,109682.09,61.17,D,4387.28,Bonne,0.9242,207,False,2019,Travaux requis,False,Non protégé,47.24088,-1.565823
+389,EHPAD municipale 389,EHPAD,168 rue Pasteur,Rennes,35000,1974,3029.57,2,Électrique,707949.92,233.68,G,42477.0,Faible,0.8024,1104,False,2015,Partiellement conforme,True,Non protégé,48.130954,-1.67286
+390,École municipale 390,École,83 rue des Écoles,Marseille,13000,1909,4064.83,4,Biomasse,727807.81,179.05,F,21834.23,Bonne,0.7926,715,False,2025,Travaux requis,False,Non protégé,43.340822,5.412154
+391,Crèche municipale 391,Crèche,211 rue des Écoles,Strasbourg,67000,1967,1042.2,1,Gaz,198278.55,190.25,G,39655.71,Bonne,0.7634,99,False,2018,Partiellement conforme,False,Non protégé,48.587042,7.753569
+392,Gymnase municipale 392,Gymnase,87 rue Pasteur,Lyon,69000,1986,3515.17,2,Gaz,649181.6,184.68,F,129836.32,Moyenne,0.4128,193,False,2017,Conforme,False,Non protégé,45.791659,4.832787
+393,EHPAD municipale 393,EHPAD,131 rue des Écoles,Montpellier,34000,1970,5970.07,5,Électrique,1285654.57,215.35,F,77139.27,Faible,0.9556,2593,False,2017,Partiellement conforme,False,Non protégé,43.562499,3.857639
+394,EHPAD municipale 394,EHPAD,162 rue Pasteur,Lyon,69000,1937,7767.22,7,Pompe à chaleur,1418838.08,182.67,G,56753.52,Faible,0.7787,2749,False,2020,Conforme,False,Classé,45.788875,4.861206
+395,École municipale 395,École,184 rue des Écoles,Lille,59000,1944,1019.26,1,Électrique,265354.15,260.34,F,15921.25,Faible,0.7345,166,False,2023,Travaux requis,False,Non protégé,50.631059,3.0119
+396,Crèche municipale 396,Crèche,213 rue Pasteur,Montpellier,34000,1935,1401.44,1,Électrique,274612.17,195.95,F,16476.73,Très bonne,0.9738,170,True,2017,Conforme,False,Non protégé,43.616227,3.833015
+397,Mairie municipale 397,Mairie,126 rue Jean Jaurès,Lille,59000,1923,745.9,1,Électrique,260759.18,349.59,F,15645.55,Faible,0.4945,97,False,2019,Partiellement conforme,False,Non protégé,50.658441,3.015126
+398,Mairie municipale 398,Mairie,166 rue Victor Hugo,Rennes,35000,1941,2792.34,2,Gaz,757366.38,271.23,F,151473.28,Faible,0.622,457,False,2019,Conforme,False,Non protégé,48.072452,-1.725449
+399,Crèche municipale 399,Crèche,68 rue de la République,Marseille,13000,1987,784.61,1,Gaz,134286.0,171.15,E,26857.2,Moyenne,0.78,76,True,2019,Conforme,False,Non protégé,43.307883,5.339793
+400,Bibliothèque municipale 400,Bibliothèque,207 rue des Écoles,Strasbourg,67000,1949,1869.63,1,Gaz,346255.48,185.2,F,69251.1,Très bonne,0.7633,285,True,2022,Partiellement conforme,True,Non protégé,48.571055,7.736534
+401,Bibliothèque municipale 401,Bibliothèque,139 rue de la République,Marseille,13000,1943,1830.04,1,Gaz,481995.94,263.38,F,96399.19,Faible,0.869,318,False,2015,Partiellement conforme,False,Non protégé,43.247174,5.323651
+402,Crèche municipale 402,Crèche,174 rue Pasteur,Lyon,69000,1983,995.66,1,Gaz,158329.85,159.02,F,31665.97,Moyenne,0.8518,106,False,2018,Partiellement conforme,False,Non protégé,45.727181,4.791626
+403,École municipale 403,École,48 rue Victor Hugo,Dijon,21000,2016,5384.18,3,Réseau urbain,212836.64,39.53,B,21283.66,Très bonne,0.7194,860,False,2018,Conforme,False,Non protégé,47.320367,5.027158
+404,Crèche municipale 404,Crèche,40 rue des Écoles,Lille,59000,1951,1433.37,1,Réseau urbain,,,G,,Faible,0.6816,122,False,,Partiellement conforme,False,Non protégé,50.674824,3.062849
+405,EHPAD municipale 405,EHPAD,28 rue de la République,Nantes,44000,1929,3337.04,3,Gaz,1238775.99,371.22,F,247755.2,Faible,0.9988,1515,False,2024,Travaux requis,False,Non protégé,47.210693,-1.586733
+406,EHPAD municipale 406,EHPAD,151 rue Victor Hugo,Nantes,44000,1930,8677.57,7,Réseau urbain,,,G,,Faible,0.8656,3414,False,,Partiellement conforme,True,Non protégé,47.251013,-1.587486
+407,Crèche municipale 407,Crèche,122 rue Jean Jaurès,Bordeaux,33000,1996,1619.86,1,Gaz,207423.07,128.05,D,41484.61,Moyenne,0.8429,170,False,2017,Conforme,False,Non protégé,44.882658,-0.6054
+408,École municipale 408,École,24 rue de la République,Lille,59000,1902,1443.85,1,Réseau urbain,431379.06,298.77,G,43137.91,Faible,0.8622,276,False,2017,Conforme,True,Non protégé,50.602436,3.056193
+409,EHPAD municipale 409,EHPAD,64 rue Pasteur,Marseille,13000,2013,6642.11,6,Gaz,272392.93,41.01,A,54478.59,Très bonne,0.864,2608,False,2017,Partiellement conforme,False,Non protégé,43.277358,5.327356
+410,Mairie municipale 410,Mairie,182 rue Jean Jaurès,Lille,59000,1979,1692.89,1,Gaz,396085.47,233.97,F,79217.09,Moyenne,0.9298,414,False,2016,Partiellement conforme,False,Non protégé,50.585357,3.030998
+411,École municipale 411,École,40 rue Victor Hugo,Grenoble,38000,2020,4528.0,4,Gaz,223819.04,49.43,A,44763.81,Très bonne,0.8165,821,False,2025,Conforme,False,Non protégé,45.192772,5.67583
+412,Crèche municipale 412,Crèche,67 rue Pasteur,Nantes,44000,1970,1431.31,1,Fioul,307946.35,215.15,F,83145.51,Bonne,0.8297,148,False,2020,Conforme,False,Non protégé,47.186749,-1.582533
+413,Mairie municipale 413,Mairie,219 rue des Écoles,Strasbourg,67000,1986,2630.42,2,Gaz,420130.68,159.72,E,84026.14,Moyenne,0.6604,457,False,2023,Conforme,False,Non protégé,48.549346,7.710145
+414,École municipale 414,École,112 rue Pasteur,Montpellier,34000,1956,2202.41,2,Pompe à chaleur,339699.72,154.24,F,13587.99,Faible,0.7023,343,False,2019,Conforme,False,Non protégé,43.619308,3.862261
+415,École municipale 415,École,103 rue des Écoles,Lyon,69000,1928,1615.39,1,Pompe à chaleur,373462.01,231.19,G,14938.48,Faible,0.8683,311,False,2023,Partiellement conforme,False,Non protégé,45.735375,4.798082
+416,EHPAD municipale 416,EHPAD,13 rue Victor Hugo,Strasbourg,67000,2013,4397.6,4,Pompe à chaleur,153916.0,35,A,6156.64,Très bonne,0.9366,1872,False,2015,Partiellement conforme,False,Non protégé,48.578366,7.732019
+417,EHPAD municipale 417,EHPAD,42 rue Victor Hugo,Dijon,21000,1983,2164.92,1,Réseau urbain,352167.54,162.67,F,35216.75,Moyenne,0.9123,897,False,2024,Partiellement conforme,False,Non protégé,47.316028,5.077421
+418,Bibliothèque municipale 418,Bibliothèque,12 rue Victor Hugo,Bordeaux,33000,1966,3368.45,3,Réseau urbain,784983.59,233.04,E,78498.36,Faible,0.7329,493,False,2016,Conforme,False,Non protégé,44.858779,-0.629099
+419,École municipale 419,École,7 rue Pasteur,Marseille,13000,1945,4637.01,4,Gaz,1421058.08,306.46,G,284211.62,Faible,0.8417,867,False,2025,Conforme,True,Non protégé,43.344652,5.417719
+420,École municipale 420,École,48 rue de la République,Marseille,13000,1968,964.19,1,Pompe à chaleur,184324.2,191.17,G,7372.97,Faible,0.8983,192,False,2025,Conforme,False,Non protégé,43.327599,5.376649
+421,Crèche municipale 421,Crèche,28 rue Jean Jaurès,Lille,59000,1965,559.42,1,Fioul,179193.41,320.32,E,48382.22,Faible,1.0,69,False,2018,Conforme,False,Non protégé,50.587015,3.066947
+422,Gymnase municipale 422,Gymnase,129 rue de la République,Marseille,13000,1940,3021.74,2,Réseau urbain,,,F,,Faible,0.35,141,False,,Conforme,False,Classé,43.331281,5.355844
+423,Mairie municipale 423,Mairie,157 rue Jean Jaurès,Strasbourg,67000,1942,878.81,1,Gaz,,,G,,Faible,0.7035,162,False,,Conforme,False,Non protégé,48.617787,7.73453
+424,Gymnase municipale 424,Gymnase,119 rue des Écoles,Strasbourg,67000,1958,1202.45,1,Pompe à chaleur,,,E,,Moyenne,0.6976,111,False,,Travaux requis,False,Non protégé,48.572496,7.760892
+425,École municipale 425,École,29 rue Pasteur,Marseille,13000,1941,5543.44,3,Pompe à chaleur,1090671.82,196.75,F,43626.87,Faible,0.7988,984,False,2024,Partiellement conforme,False,Non protégé,43.263294,5.392135
+426,EHPAD municipale 426,EHPAD,141 rue Jean Jaurès,Dijon,21000,1978,7911.95,7,Électrique,1349857.79,170.61,,80991.47,Moyenne,1.0,3596,False,2017,Travaux requis,True,Non protégé,47.363564,5.016885
+427,École municipale 427,École,59 rue de la République,Paris,75000,1933,2405.67,3,Pompe à chaleur,603991.57,251.07,F,24159.66,Faible,0.698,373,False,2018,Partiellement conforme,False,Non protégé,48.855606,2.369619
+428,EHPAD municipale 428,EHPAD,63 rue Jean Jaurès,Lyon,69000,2001,3780.44,4,Gaz,397362.05,105.11,D,79472.41,Bonne,0.9315,1600,False,2015,Partiellement conforme,False,Non protégé,45.795463,4.837211
+429,Crèche municipale 429,Crèche,204 rue Pasteur,Strasbourg,67000,1929,512.8,1,Pompe à chaleur,111436.57,217.31,F,4457.46,Faible,0.6243,40,False,2024,Partiellement conforme,False,Non protégé,48.584525,7.79825
+430,École municipale 430,École,149 rue Victor Hugo,Rennes,35000,1958,1588.2,1,Fioul,452779.94,285.09,E,122250.58,Faible,0.7025,247,False,2024,Conforme,True,Non protégé,48.126628,-1.7195
+431,Crèche municipale 431,Crèche,174 rue de la République,Bordeaux,33000,1927,957.0,1,Pompe à chaleur,,,F,,Faible,0.7419,88,False,,Travaux requis,False,Non protégé,44.875228,-0.616279
+432,EHPAD municipale 432,EHPAD,155 rue Pasteur,Lille,59000,1990,5011.03,5,Pompe à chaleur,553969.37,110.55,D,22158.77,Moyenne,0.9304,2119,False,2015,Partiellement conforme,True,Non protégé,50.598233,3.066204
+433,Crèche municipale 433,Crèche,208 rue Victor Hugo,Grenoble,38000,1992,1036.42,1,Pompe à chaleur,86395.97,83.36,E,3455.84,Moyenne,0.7651,99,True,2018,Travaux requis,False,Non protégé,45.220504,5.69734
+434,Bibliothèque municipale 434,Bibliothèque,52 rue Victor Hugo,Toulouse,31000,1958,2836.93,2,Réseau urbain,638649.68,225.12,E,63864.97,Faible,0.7467,423,False,2016,Partiellement conforme,False,Non protégé,43.604889,1.456675
+435,École municipale 435,École,82 rue de la République,Lille,59000,1966,5646.21,4,Biomasse,1040427.12,184.27,G,31212.81,Faible,0.703,882,False,2025,Travaux requis,True,Non protégé,50.653741,3.063026
+436,Crèche municipale 436,Crèche,83 rue de la République,Lille,59000,1969,564.01,1,Gaz,,,E,,Faible,1.0,70,False,,Conforme,False,Non protégé,50.669094,3.107192
+437,École municipale 437,École,60 rue de la République,Lille,59000,1978,2765.37,2,Réseau urbain,464499.2,167.97,D,46449.92,Moyenne,0.4784,293,False,2024,Partiellement conforme,False,Non protégé,50.666384,3.03871
+438,Gymnase municipale 438,Gymnase,20 rue de la République,Strasbourg,67000,2006,4743.52,3,Réseau urbain,280009.99,59.03,B,28001.0,Bonne,0.5285,334,False,2023,Conforme,False,Non protégé,48.541355,7.777321
+439,École municipale 439,École,199 rue de la République,Nantes,44000,1910,4473.97,3,Gaz,1801667.72,402.7,G,360333.54,Faible,0.7946,790,False,2019,Travaux requis,False,Non protégé,47.244337,-1.593402
+440,Crèche municipale 440,Crèche,196 rue de la République,Dijon,21000,1986,790.17,1,Pompe à chaleur,118241.04,149.64,E,4729.64,Moyenne,0.8762,86,False,2022,Partiellement conforme,False,Non protégé,47.308554,5.081452
+441,Bibliothèque municipale 441,Bibliothèque,86 rue de la République,Strasbourg,67000,2020,2767.71,2,Réseau urbain,96869.85,35,,9686.99,Très bonne,0.8308,459,False,2022,Partiellement conforme,False,Non protégé,48.527917,7.759431
+442,EHPAD municipale 442,EHPAD,204 rue Jean Jaurès,Grenoble,38000,1998,4205.0,3,Biomasse,507249.15,120.63,E,15217.47,Moyenne,0.8348,1595,False,2016,Partiellement conforme,False,Non protégé,45.15126,5.765483
+443,École municipale 443,École,142 rue Pasteur,Montpellier,34000,1900,2345.23,2,Fioul,,,F,,Faible,0.8425,439,False,,Conforme,True,Non protégé,43.567231,3.835644
+444,Gymnase municipale 444,Gymnase,127 rue Pasteur,Strasbourg,67000,2011,6560.58,6,Biomasse,428799.51,65.36,B,12863.99,Bonne,0.402,351,True,2025,Conforme,False,Non protégé,48.540806,7.705743
+445,École municipale 445,École,55 rue des Écoles,Marseille,13000,1980,3301.28,3,Réseau urbain,381660.98,115.61,F,38166.1,Moyenne,0.8543,626,False,2025,Travaux requis,False,Non protégé,43.272126,5.379323
+446,Mairie municipale 446,Mairie,87 rue Victor Hugo,Toulouse,31000,1944,2725.3,2,Gaz,1098595.68,403.11,F,219719.14,Faible,0.8246,591,False,2015,Conforme,True,Non protégé,43.611346,1.487437
+447,Bibliothèque municipale 447,Bibliothèque,37 rue Pasteur,Paris,75000,1909,1278.16,1,Gaz,,,F,,Faible,0.6137,156,False,,Partiellement conforme,False,Non protégé,48.806666,2.392142
+448,EHPAD municipale 448,EHPAD,217 rue Victor Hugo,Nantes,44000,1959,8764.94,5,Électrique,1850892.38,211.17,E,111053.54,Faible,0.9342,3721,False,2020,Conforme,False,Non protégé,47.181702,-1.512632
+449,Gymnase municipale 449,Gymnase,136 rue Victor Hugo,Rennes,35000,1902,5192.65,3,Électrique,,,F,,Très bonne,0.427,295,False,,Conforme,True,Non protégé,48.069459,-1.667565
+450,Mairie municipale 450,Mairie,10 rue Jean Jaurès,Lille,59000,1935,1576.43,1,Réseau urbain,230316.42,146.1,F,23031.64,Très bonne,0.5993,248,False,2019,Conforme,False,Inscrit,50.587796,3.080536
+451,École municipale 451,École,46 rue des Écoles,Marseille,13000,1906,2149.38,2,Pompe à chaleur,462073.71,214.98,F,18482.95,Faible,0.7916,378,True,2020,Conforme,True,Non protégé,43.317597,5.372242
+452,Mairie municipale 452,Mairie,137 rue de la République,Nantes,44000,1918,815.65,1,Pompe à chaleur,191196.52,234.41,G,7647.86,Faible,0.7587,162,False,2021,Conforme,True,Non protégé,47.238709,-1.542379
+453,Crèche municipale 453,Crèche,91 rue Pasteur,Strasbourg,67000,1979,1466.85,1,Électrique,171210.73,116.72,,10272.64,Très bonne,0.7996,146,False,2015,Partiellement conforme,False,Non protégé,48.603395,7.726252
+454,Gymnase municipale 454,Gymnase,215 rue de la République,Toulouse,31000,1952,1650.59,2,Électrique,344940.3,208.98,G,20696.42,Faible,0.662,145,False,2025,Partiellement conforme,False,Non protégé,43.629305,1.424834
+455,Crèche municipale 455,Crèche,82 rue Pasteur,Rennes,35000,1918,1347.47,1,Réseau urbain,174200.92,129.28,G,17420.09,Très bonne,0.9007,151,False,2021,Partiellement conforme,True,Non protégé,48.153273,-1.700113
+456,Mairie municipale 456,Mairie,156 rue Pasteur,Paris,75000,1977,1965.35,1,Électrique,344525.85,175.3,E,20671.55,Moyenne,0.6598,341,False,2022,Conforme,True,Non protégé,48.859659,2.348336
+457,École municipale 457,École,168 rue Pasteur,Grenoble,38000,1976,1289.74,1,Réseau urbain,187334.74,145.25,F,18733.47,Moyenne,0.6776,194,False,2017,Conforme,True,Non protégé,45.208072,5.748231
+458,Gymnase municipale 458,Gymnase,93 rue des Écoles,Dijon,21000,1936,4645.24,5,Gaz,,,F,,Faible,0.4292,265,False,,Travaux requis,True,Classé,47.300311,5.05425
+459,Gymnase municipale 459,Gymnase,108 rue Pasteur,Lyon,69000,1978,3967.73,4,Gaz,762319.96,192.13,,152463.99,Moyenne,0.6496,343,False,2019,Partiellement conforme,False,Non protégé,45.808637,4.844867
+460,Crèche municipale 460,Crèche,90 rue Pasteur,Paris,75000,1951,1114.83,1,Réseau urbain,268038.58,240.43,F,26803.86,Faible,0.8739,121,False,2020,Conforme,False,Non protégé,48.905706,2.359828
+461,Bibliothèque municipale 461,Bibliothèque,62 rue des Écoles,Bordeaux,33000,1977,4419.08,5,Gaz,626095.25,141.68,E,125219.05,Moyenne,0.5796,512,False,2019,Partiellement conforme,True,Non protégé,44.876525,-0.623946
+462,Crèche municipale 462,Crèche,51 rue Jean Jaurès,Strasbourg,67000,2000,836.62,1,Gaz,118967.36,142.2,D,23793.47,Moyenne,0.9365,97,False,2025,Partiellement conforme,False,Non protégé,48.578652,7.798269
+463,EHPAD municipale 463,EHPAD,77 rue des Écoles,Paris,75000,1963,8021.58,7,Pompe à chaleur,1353721.84,168.76,E,54148.87,Faible,0.8457,3083,True,2024,Partiellement conforme,False,Non protégé,48.8947,2.302954
+464,Mairie municipale 464,Mairie,84 rue des Écoles,Marseille,13000,1974,3488.79,2,Fioul,1160545.99,332.65,E,313347.42,Faible,0.7625,700,False,2023,Conforme,True,Non protégé,43.345443,5.360621
+465,EHPAD municipale 465,EHPAD,9 rue Jean Jaurès,Bordeaux,33000,1907,3139.07,2,Gaz,1044619.71,332.78,F,208923.94,Faible,0.8745,1247,False,2019,Partiellement conforme,False,Non protégé,44.865944,-0.559025
+466,EHPAD municipale 466,EHPAD,199 rue Victor Hugo,Rennes,35000,1948,6204.55,4,Électrique,1994762.82,321.5,F,119685.77,Faible,0.7242,2042,False,2015,Conforme,True,Non protégé,48.166579,-1.640941
+467,École municipale 467,École,195 rue de la République,Grenoble,38000,1901,4914.18,3,Gaz,1454204.15,295.92,G,290840.83,Faible,0.777,848,False,2025,Partiellement conforme,False,Non protégé,45.14709,5.70671
+468,Gymnase municipale 468,Gymnase,196 rue de la République,Paris,75000,1996,6336.36,4,Gaz,1197445.31,188.98,C,239489.06,Moyenne,0.5595,472,False,2023,Conforme,True,Non protégé,48.820313,2.33916
+469,École municipale 469,École,169 rue des Écoles,Bordeaux,33000,1991,1071.73,1,Gaz,156172.5,145.72,D,31234.5,Moyenne,0.7027,167,False,2021,Partiellement conforme,False,Non protégé,44.821012,-0.583713
+470,École municipale 470,École,187 rue Pasteur,Lille,59000,1901,2874.51,2,Électrique,458398.11,159.47,F,27503.89,Très bonne,0.6793,433,False,2018,Partiellement conforme,False,Non protégé,50.651217,3.085971
+471,Gymnase municipale 471,Gymnase,106 rue Jean Jaurès,Lyon,69000,1964,2255.46,2,Électrique,735460.4,326.08,E,44127.62,Faible,0.4743,142,False,2025,Conforme,True,Non protégé,45.71493,4.864082
+472,EHPAD municipale 472,EHPAD,110 rue de la République,Bordeaux,33000,2010,8122.7,6,Électrique,836719.33,103.01,D,50203.16,Bonne,0.9596,3542,False,2023,Conforme,False,Non protégé,44.844354,-0.552022
+473,École municipale 473,École,57 rue Pasteur,Strasbourg,67000,1901,4332.58,4,Gaz,1662800.88,383.79,F,332560.18,Faible,0.5829,561,True,2015,Partiellement conforme,False,Inscrit,48.556826,7.730582
+474,École municipale 474,École,19 rue Victor Hugo,Rennes,35000,1998,3210.55,2,Réseau urbain,347124.67,108.12,D,34712.47,Moyenne,0.7502,535,False,2024,Conforme,False,Non protégé,48.161894,-1.653431
+475,Crèche municipale 475,Crèche,66 rue Pasteur,Rennes,35000,1996,1122.87,1,Gaz,120248.15,107.09,C,24049.63,Très bonne,0.8086,113,False,2022,Travaux requis,False,Non protégé,48.071707,-1.643836
+476,École municipale 476,École,110 rue Victor Hugo,Lille,59000,2016,1995.42,1,Gaz,69839.7,35,B,13967.94,Très bonne,0.7942,352,False,2023,Conforme,False,Non protégé,50.64918,3.054772
+477,EHPAD municipale 477,EHPAD,205 rue Jean Jaurès,Nantes,44000,1907,3847.26,3,Gaz,1335153.11,347.04,G,267030.62,Faible,1.0,1748,False,2021,Partiellement conforme,False,Non protégé,47.207137,-1.543161
+478,Gymnase municipale 478,Gymnase,142 rue Jean Jaurès,Strasbourg,67000,1965,4600.26,3,Pompe à chaleur,940063.13,204.35,E,37602.53,Faible,0.589,361,False,2015,Conforme,True,Non protégé,48.581433,7.788268
+479,Bibliothèque municipale 479,Bibliothèque,85 rue Pasteur,Nantes,44000,2013,2233.49,2,Électrique,105532.4,47.25,,6331.94,Très bonne,0.7453,332,False,2017,Conforme,False,Non protégé,47.218164,-1.602741
+480,Bibliothèque municipale 480,Bibliothèque,60 rue Pasteur,Grenoble,38000,1905,1438.43,2,Électrique,471071.44,327.49,F,28264.29,Faible,0.8242,237,False,2020,Conforme,False,Non protégé,45.217472,5.722747
+481,École municipale 481,École,211 rue Victor Hugo,Marseille,13000,1926,2024.82,2,Gaz,577924.12,285.42,G,115584.82,Faible,0.6039,271,False,2024,Partiellement conforme,False,Non protégé,43.336052,5.320873
+482,Gymnase municipale 482,Gymnase,179 rue de la République,Grenoble,38000,1967,1512.98,1,Pompe à chaleur,294289.74,194.51,E,11771.59,Faible,0.5972,120,False,2025,Conforme,False,Non protégé,45.178241,5.747667
+483,École municipale 483,École,117 rue Pasteur,Marseille,13000,2013,4078.78,3,Fioul,182974.07,44.86,C,49403.0,Très bonne,0.7785,705,False,2020,Conforme,False,Non protégé,43.293934,5.343614
+484,Bibliothèque municipale 484,Bibliothèque,119 rue de la République,Dijon,21000,1977,969.02,1,Gaz,184181.63,190.07,D,36836.33,Moyenne,0.7656,148,False,2020,Travaux requis,False,Non protégé,47.323984,5.049358
+485,Gymnase municipale 485,Gymnase,29 rue de la République,Marseille,13000,1954,2253.24,1,Pompe à chaleur,317796.97,141.04,,12711.88,Moyenne,0.4922,147,False,2024,Travaux requis,False,Non protégé,43.256276,5.368108
+486,Gymnase municipale 486,Gymnase,52 rue Victor Hugo,Montpellier,34000,1955,5830.01,5,Biomasse,1322770.97,226.89,F,39683.13,Faible,0.4554,353,True,2023,Partiellement conforme,False,Non protégé,43.657797,3.854712
+487,Bibliothèque municipale 487,Bibliothèque,219 rue de la République,Nantes,44000,1957,4230.68,4,Électrique,1182094.3,279.41,G,70925.66,Faible,0.8346,706,False,2019,Travaux requis,False,Non protégé,47.20972,-1.550452
+488,École municipale 488,École,104 rue Victor Hugo,Paris,75000,2015,943.51,1,Réseau urbain,33022.85,35,B,3302.28,Très bonne,0.6938,145,False,2019,Partiellement conforme,False,Non protégé,48.832835,2.347421
+489,École municipale 489,École,97 rue des Écoles,Lille,59000,1921,1377.42,1,Biomasse,370649.95,269.09,F,11119.5,Faible,0.707,216,False,2015,Conforme,False,Non protégé,50.612449,3.032121
+490,Bibliothèque municipale 490,Bibliothèque,216 rue des Écoles,Paris,75000,1908,1688.63,2,Électrique,,,F,,Faible,0.6267,211,False,,Conforme,True,Non protégé,48.885658,2.383582
+491,École municipale 491,École,109 rue Jean Jaurès,Lyon,69000,1991,5844.78,5,Électrique,690969.89,118.22,C,41458.19,Moyenne,0.8544,1109,False,2021,Partiellement conforme,True,Non protégé,45.767562,4.839754
+492,Crèche municipale 492,Crèche,113 rue Pasteur,Paris,75000,1956,847.83,1,Gaz,314519.5,370.97,E,62903.9,Faible,0.8976,95,False,2019,Partiellement conforme,False,Non protégé,48.874299,2.327255
+493,École municipale 493,École,27 rue de la République,Rennes,35000,1959,2699.9,2,Électrique,625350.84,231.62,,37521.05,Faible,0.6779,406,True,2017,Travaux requis,False,Non protégé,48.095268,-1.703008
+494,École municipale 494,École,89 rue de la République,Lyon,69000,1922,2838.1,2,Gaz,962683.52,339.2,F,192536.7,Faible,0.7575,477,False,2018,Conforme,False,Non protégé,45.784491,4.884151
+495,Bibliothèque municipale 495,Bibliothèque,35 rue Victor Hugo,Marseille,13000,2002,3154.54,3,Réseau urbain,282646.78,89.6,D,28264.68,Bonne,0.7872,496,False,2020,Partiellement conforme,False,Non protégé,43.251558,5.399745
+496,Crèche municipale 496,Crèche,193 rue des Écoles,Bordeaux,33000,1995,477.84,1,Pompe à chaleur,44080.74,92.25,E,1763.23,Moyenne,0.8737,52,False,2021,Partiellement conforme,False,Non protégé,44.827043,-0.56753
+497,Bibliothèque municipale 497,Bibliothèque,117 rue des Écoles,Dijon,21000,1959,1778.28,1,Gaz,522725.41,293.95,G,104545.08,Faible,0.6859,243,False,2024,Conforme,False,Non protégé,47.277431,5.033057
+498,École municipale 498,École,120 rue des Écoles,Strasbourg,67000,1921,2393.4,2,Gaz,682382.27,285.11,G,136476.45,Faible,0.7517,399,True,2015,Conforme,False,Inscrit,48.551447,7.732036
+499,Mairie municipale 499,Mairie,130 rue Jean Jaurès,Lyon,69000,1958,2383.67,2,Gaz,585786.9,245.75,F,117157.38,Faible,0.6997,438,False,2016,Partiellement conforme,False,Non protégé,45.718253,4.862216
+500,Mairie municipale 500,Mairie,110 rue Jean Jaurès,Grenoble,38000,1906,3146.5,2,Réseau urbain,627223.31,199.34,F,62722.33,Moyenne,0.8857,733,False,2018,Conforme,True,Non protégé,45.202269,5.764132

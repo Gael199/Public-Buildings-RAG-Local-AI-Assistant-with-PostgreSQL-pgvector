@@ -1,0 +1,7 @@
+psycopg[binary]>=3.2
+pgvector>=0.4
+python-dotenv>=1.0
+ollama>=0.6
+streamlit>=1.40
+pandas>=2.2
+plotly>=5.24

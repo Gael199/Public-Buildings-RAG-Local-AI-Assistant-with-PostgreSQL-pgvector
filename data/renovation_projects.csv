@@ -1,0 +1,901 @@
+﻿project_id,building_id,project_type,start_date,end_date,planned_end_date,status,estimated_cost_eur,actual_cost_eur,cost_variance_percent,subsidy_amount_eur,funding_source,contractor_name,estimated_energy_savings_percent,actual_energy_savings_percent,annual_energy_savings_kwh,project_manager,procurement_method,priority_level,works_disruption_level
+1,375,Isolation thermique,2020-02-03,2020-11-15,2020-09-23,Completed,1280215.77,1394238.33,8.91,624300.53,ADEME,SPIE Building Solutions,33.93,37.84,273770.67,Sophie Bernard,Accord-cadre,Moyenne,Moyen
+2,416,Remplacement des menuiseries,2024-07-11,2024-09-18,2025-04-16,Cancelled,614457.75,71140.57,-88.42,18601.07,Autofinancement,Engie Solutions,9.64,,,Sophie Bernard,Appel d'offres ouvert,Moyenne,Moyen
+3,359,Installation photovoltaïque,2016-03-10,2016-08-05,2016-07-14,Completed,680800.3,761470.11,11.85,170349.88,Région,Engie Solutions,7.86,9.69,44932.09,Karim Diallo,Marché négocié,Moyenne,Moyen
+4,148,Ventilation double flux,2020-03-16,2020-12-01,2020-11-04,Completed,1690956.62,1817392.52,7.48,977080.83,Fonds vert,VINCI Facilities,19.17,15.06,300283.63,Alice Martin,MAPA,Moyenne,Moyen
+5,16,Remplacement du chauffage,2021-08-15,2022-06-04,2022-05-11,Completed,1322060.78,1205358.37,-8.83,20464.43,Union européenne,Groupe Martin,19.15,12.87,35168.67,Sophie Bernard,Appel d'offres ouvert,Haute,Moyen
+6,164,Rénovation de toiture,2024-06-10,2025-02-23,2025-01-29,Completed,591020.01,582201.97,-1.49,11781.15,Union européenne,Groupe Martin,16.07,14.04,119851.93,Emma Robert,MAPA,Basse,Faible
+7,490,Remplacement du chauffage,2019-03-02,2019-11-07,2019-11-22,Completed,566849.07,527727.32,-6.9,43099.71,Département,Bouygues Bâtiment,17.11,24.38,,Jean Dupont,MAPA,Haute,Moyen
+8,466,Rénovation de toiture,2018-04-12,2018-07-01,2018-06-25,Completed,1580631.83,1518309.97,-3.94,197826.75,ADEME,Engie Solutions,8.99,21.0,418900.19,Nicolas Leroy,Marché négocié,Basse,Faible
+9,196,Remplacement des menuiseries,2019-03-06,2019-12-08,2019-11-12,Completed,616988.13,618620.03,0.26,7136.18,Union européenne,Eiffage Énergie,8.92,14.27,101191.01,Karim Diallo,Appel d'offres ouvert,Basse,Moyen
+10,130,Remplacement des menuiseries,2024-06-20,2024-10-01,2024-09-05,Completed,1272264.41,1251144.25,-1.66,4359.6,Département,Groupe Martin,18.1,8.81,26814.19,Jean Dupont,Marché négocié,Moyenne,Élevé
+11,443,Isolation thermique,2019-08-08,2019-11-03,2019-11-18,Completed,600105.03,578708.32,-3.57,35182.13,Département,Léon Grosse,21.81,31.92,,Alice Martin,Appel d'offres ouvert,Haute,Moyen
+12,354,Isolation thermique,2025-04-04,,2025-12-27,In Progress,809112.71,358400.55,-55.7,33588.84,Union européenne,Entreprise Durand,21.49,,,Emma Robert,Appel d'offres ouvert,Moyenne,Élevé
+13,425,Rénovation de toiture,2022-04-08,2023-01-31,2022-12-16,Completed,1159556.89,1177872.0,1.58,610446.2,Région,Engie Solutions,15.06,12.34,134588.9,Karim Diallo,MAPA,Basse,Élevé
+14,301,Éclairage LED,2024-01-23,,2024-06-28,In Progress,980312.35,375813.29,-61.66,84357.16,Fonds vert,Engie Solutions,9.6,,,Sophie Bernard,Accord-cadre,Moyenne,Faible
+15,118,Rénovation de toiture,2018-10-02,2019-03-09,2019-02-21,Completed,1057935.84,1217920.2,15.12,181460.17,Département,Groupe Martin,15.33,8.72,18646.98,Emma Robert,Accord-cadre,Moyenne,Élevé
+16,497,Isolation thermique,2020-11-09,2021-03-10,2021-02-21,Completed,845606.79,814351.48,-3.7,70173.47,Département,SPIE Building Solutions,21.64,20.03,104701.9,Emma Robert,Marché négocié,Moyenne,Moyen
+17,182,Ventilation double flux,2016-06-19,2017-04-13,2017-02-23,Completed,250929.35,260447.38,3.79,119070.82,Fonds vert,Eiffage Énergie,17.51,9.47,34529.13,Nicolas Leroy,Marché négocié,Moyenne,Moyen
+18,97,Isolation thermique,2024-05-23,2025-01-28,2024-12-16,Completed,450851.87,427891.27,-5.09,155717.4,Région,Groupe Martin,25.15,32.89,180529.41,Nicolas Leroy,Accord-cadre,Moyenne,Moyen
+19,244,Ventilation double flux,2025-11-23,,2026-04-06,In Progress,607199.9,347407.7,-42.79,176082.28,Union européenne,VINCI Facilities,14.6,,,Alice Martin,Accord-cadre,Moyenne,Élevé
+20,488,Remplacement des menuiseries,2023-03-15,2023-07-03,2023-05-23,Completed,161125.51,154410.47,-4.17,43616.91,Fonds vert,Groupe Martin,9.19,8.91,2942.34,Emma Robert,Accord-cadre,Critique,Faible
+21,236,Remplacement des menuiseries,2024-02-21,2024-08-09,2024-08-06,Completed,930105.65,870476.13,-6.41,162539.16,Fonds vert,Léon Grosse,16.96,11.48,,Emma Robert,Marché négocié,Basse,Faible
+22,189,Isolation thermique,2016-11-24,2017-05-06,2017-03-29,Completed,171628.42,198551.28,15.69,82840.36,Département,Léon Grosse,25.83,32.96,12977.7,Karim Diallo,Accord-cadre,Critique,Faible
+23,49,Rénovation de toiture,2022-03-09,2022-08-26,2022-07-28,Completed,226822.36,218647.44,-3.6,92549.03,Autofinancement,Eiffage Énergie,14.0,14.38,31924.04,Emma Robert,Accord-cadre,Critique,Élevé
+24,39,Remplacement des menuiseries,2024-01-09,2024-10-07,2024-10-14,Completed,953709.73,1000259.2,4.88,439984.84,Fonds vert,Eiffage Énergie,15.01,7.73,39570.34,Jean Dupont,Accord-cadre,Haute,Moyen
+25,386,Installation photovoltaïque,2021-07-23,2022-02-09,2021-12-30,Completed,878748.22,882814.17,0.46,25313.36,Autofinancement,SPIE Building Solutions,11.83,13.66,,Nicolas Leroy,Accord-cadre,Basse,Élevé
+26,415,Remplacement du chauffage,2025-03-04,,2025-05-20,In Progress,343104.84,136454.92,-60.23,57054.21,Union européenne,Eiffage Énergie,24.25,,,Sophie Bernard,MAPA,Moyenne,Faible
+27,83,Remplacement des menuiseries,2021-07-05,2021-10-20,2021-09-17,Completed,399868.93,400310.3,0.11,64071.5,Département,Engie Solutions,7.39,18.72,80667.55,Emma Robert,Marché négocié,Moyenne,Élevé
+28,162,Rénovation de toiture,2020-06-13,2021-02-14,2021-02-22,Completed,157481.25,170662.59,8.37,70742.26,Fonds vert,Groupe Martin,16.31,9.44,6447.16,Nicolas Leroy,Appel d'offres ouvert,Moyenne,Faible
+29,168,Rénovation de toiture,2018-07-04,2018-08-12,2019-04-07,Cancelled,587571.95,53189.52,-90.95,18896.27,Fonds vert,Groupe Martin,8.54,,,Nicolas Leroy,Marché négocié,Haute,Élevé
+30,296,Remplacement des menuiseries,2018-07-10,2019-03-02,2019-01-21,Completed,1028833.52,1150037.87,11.78,605934.05,ADEME,Eiffage Énergie,7.19,11.58,155452.57,Nicolas Leroy,Accord-cadre,Critique,Moyen
+31,118,Isolation thermique,2021-03-01,2021-05-09,2021-05-22,Completed,2526655.68,2892453.44,14.48,324340.23,Département,Entreprise Durand,25.79,18.94,40501.58,Sophie Bernard,Marché négocié,Moyenne,Moyen
+32,304,Isolation thermique,2022-03-23,2022-09-16,2022-09-17,Completed,476130.36,481148.26,1.05,66098.41,Fonds vert,Eiffage Énergie,33.96,20.65,28072.31,Sophie Bernard,Marché négocié,Moyenne,Élevé
+33,388,Rénovation de toiture,2017-11-23,2018-03-31,2018-02-04,Completed,529630.16,503249.48,-4.98,66329.51,Union européenne,Bouygues Bâtiment,12.02,9.92,10880.46,Jean Dupont,Appel d'offres ouvert,Moyenne,Faible
+34,407,Rénovation de toiture,2024-03-16,2024-09-09,2024-09-09,Completed,392681.32,408006.7,3.9,214132.04,Fonds vert,Engie Solutions,14.52,13.89,28811.06,Sophie Bernard,Marché négocié,Basse,Faible
+35,405,Isolation thermique,2025-09-13,,2026-04-01,In Progress,902368.47,645199.61,-28.5,351436.08,Union européenne,Eiffage Énergie,26.46,,,Karim Diallo,MAPA,Haute,Faible
+36,358,Rénovation de toiture,2021-06-10,2022-01-10,2022-01-26,Completed,1001645.38,1127026.69,12.52,365169.96,Région,SPIE Building Solutions,11.52,16.63,31561.01,Emma Robert,Appel d'offres ouvert,Basse,Élevé
+37,178,Remplacement des menuiseries,2022-04-16,2022-06-02,2022-06-11,Completed,1106430.94,1067442.85,-3.52,586677.46,ADEME,Léon Grosse,12.1,9.19,84248.55,Emma Robert,Marché négocié,Haute,Élevé
+38,132,Éclairage LED,2018-04-25,2018-09-10,2018-08-24,Completed,476476.11,451310.18,-5.28,194592.57,Autofinancement,Entreprise Durand,9.89,5.0,30019.16,Nicolas Leroy,MAPA,Haute,Faible
+39,356,Ventilation double flux,2016-11-13,2017-01-16,2017-01-30,Completed,343095.02,340496.21,-0.76,55168.05,ADEME,Eiffage Énergie,15.21,17.95,60660.1,Karim Diallo,Appel d'offres ouvert,Haute,Élevé
+40,60,Installation photovoltaïque,2022-07-11,2022-12-05,2022-11-26,Completed,624632.4,678628.71,8.64,24620.62,ADEME,Entreprise Durand,7.43,8.94,83918.87,Nicolas Leroy,Accord-cadre,Moyenne,Élevé
+41,262,Rénovation de toiture,2018-07-08,2019-02-16,2018-12-31,Completed,888744.05,964110.79,8.48,347222.8,Fonds vert,Bouygues Bâtiment,16.05,6.03,70812.53,Jean Dupont,Appel d'offres ouvert,Haute,Élevé
+42,100,Remplacement du chauffage,2018-08-09,2019-04-04,2019-03-14,Completed,951383.5,883636.99,-7.12,364324.74,ADEME,Léon Grosse,14.56,26.28,,Jean Dupont,Accord-cadre,Haute,Élevé
+43,152,Remplacement du chauffage,2018-11-16,2019-04-08,2019-02-28,Completed,532813.63,611930.71,14.85,183611.57,Département,SPIE Building Solutions,13.89,26.68,65557.19,Nicolas Leroy,Accord-cadre,Moyenne,Élevé
+44,424,Remplacement des menuiseries,2024-08-13,2024-12-24,2024-12-03,Completed,442100.91,443668.34,0.35,72895.59,Département,Eiffage Énergie,14.09,8.08,,Nicolas Leroy,MAPA,Moyenne,Élevé
+45,310,Installation photovoltaïque,2023-08-19,2024-05-04,2024-03-30,Completed,734981.13,668009.96,-9.11,198443.45,Autofinancement,VINCI Facilities,14.12,9.13,74371.16,Nicolas Leroy,Marché négocié,Haute,Élevé
+46,240,Remplacement du chauffage,2022-09-23,2023-02-24,2023-01-09,Completed,424709.66,482779.47,13.67,255334.51,Autofinancement,Groupe Martin,22.74,30.68,114421.76,Karim Diallo,Marché négocié,Haute,Élevé
+47,320,Remplacement des menuiseries,2021-09-01,2022-01-27,2022-01-04,Completed,1256445.25,1174473.33,-6.52,234635.41,Fonds vert,Groupe Martin,15.12,11.83,169224.59,Karim Diallo,Marché négocié,Critique,Moyen
+48,218,Isolation thermique,2020-08-07,2021-02-06,2021-02-15,Completed,419703.42,407023.44,-3.02,49931.45,Autofinancement,Eiffage Énergie,34.98,33.21,68299.25,Jean Dupont,Accord-cadre,Moyenne,Élevé
+49,98,Remplacement du chauffage,2015-06-03,2016-04-06,2016-02-15,Completed,1527456.42,1667903.49,9.19,451143.04,Région,SPIE Building Solutions,23.99,27.78,119474.63,Jean Dupont,Appel d'offres ouvert,Basse,Élevé
+50,319,Ventilation double flux,2023-04-17,2024-02-04,2024-01-19,Completed,2096233.23,2272129.07,8.39,690844.24,Union européenne,Entreprise Durand,16.35,24.13,353145.74,Karim Diallo,Appel d'offres ouvert,Haute,Faible
+51,199,Isolation thermique,2015-02-25,2015-12-21,2015-11-01,Completed,687510.83,703571.78,2.34,302047.86,Département,Bouygues Bâtiment,20.6,30.79,75461.35,Jean Dupont,Appel d'offres ouvert,Moyenne,Moyen
+52,468,Isolation thermique,2023-04-07,2023-12-16,2023-11-14,Completed,2522397.16,2655401.69,5.27,520600.11,Département,Groupe Martin,25.19,26.04,311814.76,Karim Diallo,MAPA,Haute,Faible
+53,82,Remplacement des menuiseries,2015-08-11,2016-04-23,2016-03-13,Completed,543908.04,490616.09,-9.8,87778.67,Union européenne,Engie Solutions,9.58,14.93,36758.49,Emma Robert,Accord-cadre,Critique,Faible
+54,238,Isolation thermique,2024-03-18,,2024-07-19,In Progress,1398777.69,806782.42,-42.32,205447.53,Autofinancement,VINCI Facilities,25.42,,,Karim Diallo,MAPA,Moyenne,Faible
+55,234,Remplacement des menuiseries,2023-08-10,2023-10-19,2023-10-20,Completed,1168480.28,1239248.28,6.06,88360.39,Fonds vert,Entreprise Durand,10.34,15.35,140211.73,Karim Diallo,Marché négocié,Basse,Moyen
+56,332,Éclairage LED,2015-04-17,2015-08-26,2015-08-23,Completed,148569.02,138137.36,-7.02,38982.68,Fonds vert,Bouygues Bâtiment,5.55,7.44,5114.83,Sophie Bernard,Appel d'offres ouvert,Haute,Moyen
+57,1,Isolation thermique,2023-03-18,2023-11-26,2023-10-27,Completed,1701536.46,1840694.44,8.18,473648.47,Département,Bouygues Bâtiment,14.03,15.86,90840.15,Sophie Bernard,Appel d'offres ouvert,Moyenne,Faible
+58,324,Isolation thermique,2020-04-03,2020-07-12,2020-07-19,Completed,964752.86,924491.37,-4.17,455228.16,Autofinancement,SPIE Building Solutions,18.89,22.08,93848.83,Nicolas Leroy,Marché négocié,Critique,Élevé
+59,297,Remplacement du chauffage,2021-06-01,2021-12-07,2021-11-02,Completed,734272.3,691336.49,-5.85,343101.69,ADEME,Entreprise Durand,17.92,28.59,124081.23,Karim Diallo,Accord-cadre,Basse,Faible
+60,75,Isolation thermique,2017-05-24,2017-10-17,2017-08-30,Completed,1334327.87,1392956.25,4.39,59871.1,ADEME,Eiffage Énergie,29.0,23.74,63437.79,Jean Dupont,Accord-cadre,Basse,Faible
+61,214,Isolation thermique,2020-03-12,2020-05-21,2020-06-05,Completed,2243509.3,2293506.4,2.23,886570.47,Fonds vert,VINCI Facilities,17.43,19.53,203714.22,Sophie Bernard,MAPA,Moyenne,Élevé
+62,382,Rénovation de toiture,2025-01-20,,2025-07-30,In Progress,805285.06,651584.82,-19.09,186762.7,Département,Eiffage Énergie,10.01,,,Alice Martin,MAPA,Moyenne,Moyen
+63,184,Rénovation de toiture,2016-06-21,2017-02-04,2017-02-13,Completed,360781.62,417546.42,15.73,200404.43,ADEME,SPIE Building Solutions,11.83,14.97,6472.68,Nicolas Leroy,MAPA,Basse,Moyen
+64,489,Éclairage LED,2015-05-07,2015-10-06,2015-09-25,Completed,211636.69,231688.64,9.47,22239.37,Fonds vert,Groupe Martin,3.22,6.2,22980.3,Sophie Bernard,MAPA,Critique,Élevé
+65,189,Installation photovoltaïque,2020-01-13,2020-09-10,2020-09-20,Completed,237162.1,213701.09,-9.89,89579.8,Autofinancement,Eiffage Énergie,13.64,4.32,1700.96,Karim Diallo,Appel d'offres ouvert,Moyenne,Élevé
+66,37,Rénovation de toiture,2015-07-05,2016-01-17,2015-11-30,Completed,2186324.06,2085862.53,-4.59,773701.29,Union européenne,Entreprise Durand,7.19,4.73,38019.59,Alice Martin,Marché négocié,Moyenne,Faible
+67,267,Isolation thermique,2024-04-09,2024-06-04,2024-06-05,Completed,1092797.41,1134084.09,3.78,315173.88,Département,Groupe Martin,32.79,33.95,346743.84,Alice Martin,Appel d'offres ouvert,Haute,Élevé
+68,260,Éclairage LED,2020-04-15,2020-06-26,2020-05-30,Completed,271484.74,292187.46,7.63,34759.15,Région,Léon Grosse,4.95,3.55,12555.95,Alice Martin,Accord-cadre,Moyenne,Élevé
+69,437,Éclairage LED,2025-03-13,,2025-06-19,In Progress,426354.43,291722.95,-31.58,62513.93,Région,Bouygues Bâtiment,4.09,,,Jean Dupont,Marché négocié,Critique,Faible
+70,44,Rénovation de toiture,2025-11-21,,2026-03-05,Planned,283298.64,,,16761.96,Union européenne,VINCI Facilities,10.31,,,Jean Dupont,Accord-cadre,Moyenne,Moyen
+71,399,Ventilation double flux,2019-08-04,2020-03-12,2020-02-29,Completed,153962.07,150251.06,-2.41,82064.19,Département,VINCI Facilities,17.44,11.77,15805.46,Emma Robert,MAPA,Critique,Moyen
+72,80,Ventilation double flux,2015-05-01,2015-12-02,2015-11-15,Completed,759335.55,750161.03,-1.21,393359.79,ADEME,Groupe Martin,12.9,19.81,,Sophie Bernard,Marché négocié,Basse,Faible
+73,301,Isolation thermique,2025-05-24,,2025-09-13,In Progress,2291620.86,1383075.13,-39.65,84091.94,Union européenne,Léon Grosse,15.3,,,Alice Martin,Accord-cadre,Moyenne,Élevé
+74,76,Éclairage LED,2022-09-22,2023-04-22,2023-05-09,Completed,145667.26,163885.43,12.51,26972.29,Région,Bouygues Bâtiment,10.22,4.29,,Sophie Bernard,MAPA,Basse,Faible
+75,257,Rénovation de toiture,2015-07-21,2015-09-23,2015-09-25,Completed,493231.2,549882.69,11.49,82136.32,ADEME,Eiffage Énergie,13.56,8.85,74778.56,Sophie Bernard,Accord-cadre,Haute,Faible
+76,219,Rénovation de toiture,2017-04-25,2017-12-19,2017-12-20,Completed,1658330.43,1508803.95,-9.02,470095.51,Fonds vert,Bouygues Bâtiment,14.44,5.52,19169.7,Nicolas Leroy,Appel d'offres ouvert,Moyenne,Faible
+77,347,Installation photovoltaïque,2018-02-01,2018-04-26,2018-05-14,Completed,1075780.49,1045182.03,-2.84,237322.94,Autofinancement,Léon Grosse,10.55,9.81,,Emma Robert,Marché négocié,Haute,Moyen
+78,401,Rénovation de toiture,2015-08-17,2016-04-23,2016-03-05,Completed,192545.48,217614.29,13.02,3579.76,Autofinancement,Engie Solutions,11.28,11.14,53694.35,Emma Robert,MAPA,Moyenne,Faible
+79,398,Ventilation double flux,2016-01-02,2016-05-07,2016-03-19,Completed,824034.09,751007.18,-8.86,366633.82,Département,Léon Grosse,17.79,8.1,61346.68,Emma Robert,Accord-cadre,Basse,Faible
+80,381,Isolation thermique,2023-02-04,2023-09-03,2023-07-20,Completed,1331130.96,1405882.29,5.62,375663.27,Région,SPIE Building Solutions,20.25,23.55,29776.36,Emma Robert,Accord-cadre,Moyenne,Faible
+81,228,Éclairage LED,2023-10-12,2024-02-10,2024-02-22,Completed,945960.4,1014552.45,7.25,455102.71,ADEME,Bouygues Bâtiment,10.89,3.86,80552.66,Karim Diallo,Appel d'offres ouvert,Moyenne,Élevé
+82,227,Rénovation de toiture,2018-06-11,2019-01-04,2018-11-30,Completed,534196.42,606837.3,13.6,227936.47,Département,Bouygues Bâtiment,15.95,5.84,16010.12,Emma Robert,Marché négocié,Moyenne,Élevé
+83,327,Remplacement du chauffage,2021-03-11,2021-07-10,2021-07-14,Completed,1975522.02,2196480.51,11.18,1004282.65,Union européenne,Groupe Martin,25.47,20.72,233178.52,Emma Robert,Accord-cadre,Basse,Faible
+84,246,Isolation thermique,2021-02-01,2021-03-29,2021-04-13,Completed,824190.57,811997.46,-1.48,243267.75,Département,Engie Solutions,22.66,22.93,84401.95,Karim Diallo,MAPA,Haute,Faible
+85,189,Rénovation de toiture,2025-07-04,,2025-11-25,Planned,116601.65,,,4196.21,ADEME,VINCI Facilities,14.17,,,Sophie Bernard,Marché négocié,Moyenne,Moyen
+86,370,Remplacement du chauffage,2020-08-19,2021-03-02,2021-01-12,Completed,153637.0,164924.75,7.35,27685.49,Département,Engie Solutions,28.21,19.06,28660.95,Karim Diallo,MAPA,Critique,Faible
+87,381,Remplacement du chauffage,2025-04-14,2025-07-17,2025-07-26,Completed,1708278.39,1850263.49,8.31,988001.02,Union européenne,Groupe Martin,21.21,11.71,14806.0,Sophie Bernard,MAPA,Haute,Élevé
+88,199,Isolation thermique,2017-11-18,2018-04-11,2018-02-24,Completed,427804.8,411699.11,-3.76,205175.73,Union européenne,Eiffage Énergie,26.55,30.04,73623.22,Sophie Bernard,Appel d'offres ouvert,Moyenne,Faible
+89,148,Ventilation double flux,2023-10-08,2024-02-06,2024-01-27,Completed,1455365.34,1549653.35,6.48,469760.55,ADEME,Bouygues Bâtiment,14.54,16.18,322615.48,Jean Dupont,Accord-cadre,Basse,Moyen
+90,301,Remplacement du chauffage,2025-03-11,2025-04-18,2025-11-15,Cancelled,1986348.21,128289.54,-93.54,24119.39,Région,SPIE Building Solutions,30.88,,,Emma Robert,Appel d'offres ouvert,Haute,Élevé
+91,137,Remplacement du chauffage,2022-03-19,2022-07-16,2022-07-04,Completed,1496664.11,1541676.07,3.01,617057.82,Région,SPIE Building Solutions,28.23,17.4,214935.72,Karim Diallo,Accord-cadre,Moyenne,Moyen
+92,48,Remplacement des menuiseries,2016-06-01,2017-02-16,2017-02-11,Completed,1548386.63,1439415.76,-7.04,437971.52,Département,VINCI Facilities,11.52,19.05,385454.17,Karim Diallo,Accord-cadre,Moyenne,Moyen
+93,338,Remplacement des menuiseries,2019-07-12,2019-11-23,2019-12-11,Completed,605764.61,600245.61,-0.91,83115.37,Région,Engie Solutions,13.56,14.2,29304.01,Emma Robert,Accord-cadre,Critique,Élevé
+94,110,Isolation thermique,2015-04-24,2015-07-09,2015-06-19,Completed,2890355.18,2798301.25,-3.18,119609.8,ADEME,Engie Solutions,14.91,35.64,,Alice Martin,Accord-cadre,Moyenne,Faible
+95,334,Remplacement des menuiseries,2021-06-23,2022-02-26,2022-02-10,Completed,107541.38,120218.26,11.79,46099.65,Union européenne,Eiffage Énergie,12.21,17.24,9822.63,Alice Martin,MAPA,Basse,Faible
+96,303,Éclairage LED,2016-05-10,2016-06-22,2016-06-25,Completed,887047.15,829415.07,-6.5,445281.85,Département,Groupe Martin,10.56,7.12,94399.59,Emma Robert,Accord-cadre,Moyenne,Moyen
+97,122,Ventilation double flux,2024-10-23,2025-08-29,2025-07-08,Completed,368080.26,384125.48,4.36,185459.69,Union européenne,Groupe Martin,19.92,13.92,43774.52,Nicolas Leroy,Accord-cadre,Moyenne,Moyen
+98,94,Éclairage LED,2019-07-05,2019-12-09,2019-11-24,Completed,538112.05,512652.58,-4.73,235273.46,Fonds vert,SPIE Building Solutions,4.82,9.1,27552.6,Karim Diallo,MAPA,Moyenne,Faible
+99,28,Remplacement du chauffage,2024-07-06,2025-05-06,2025-03-22,Completed,872919.3,844523.52,-3.25,126446.54,Département,Eiffage Énergie,15.59,18.37,140720.74,Sophie Bernard,Marché négocié,Basse,Élevé
+100,375,Rénovation de toiture,2023-11-19,2024-06-28,2024-06-06,Completed,826432.9,874810.38,5.85,348784.35,Union européenne,Entreprise Durand,14.04,9.78,70757.85,Karim Diallo,Accord-cadre,Moyenne,Moyen
+101,477,Isolation thermique,2023-07-18,2024-04-05,2024-02-12,Completed,2064250.7,1914503.14,-7.25,572525.13,Département,Eiffage Énergie,31.44,35.09,468505.23,Nicolas Leroy,Appel d'offres ouvert,Haute,Faible
+102,104,Éclairage LED,2022-07-10,2023-02-02,2022-12-27,Completed,933731.29,874028.69,-6.39,78610.93,Autofinancement,VINCI Facilities,4.35,9.97,88846.39,Nicolas Leroy,MAPA,Basse,Faible
+103,451,Isolation thermique,2024-06-19,2024-12-10,2024-12-22,Completed,934724.05,975085.04,4.32,185992.35,Union européenne,SPIE Building Solutions,25.07,31.06,143520.09,Emma Robert,Appel d'offres ouvert,Haute,Élevé
+104,405,Remplacement du chauffage,2025-07-09,,2025-12-28,Planned,1110841.27,,,571545.5,ADEME,Groupe Martin,28.7,,,Nicolas Leroy,Marché négocié,Haute,Faible
+105,498,Isolation thermique,2019-04-04,2019-06-04,2019-05-28,Completed,1029457.35,967496.13,-6.02,506502.09,ADEME,Groupe Martin,24.59,26.8,182878.45,Jean Dupont,MAPA,Basse,Élevé
+106,15,Installation photovoltaïque,2020-03-20,2020-11-30,2020-11-08,Completed,1267578.39,1366233.25,7.78,157987.63,Autofinancement,Bouygues Bâtiment,10.75,8.87,9371.21,Alice Martin,MAPA,Moyenne,Moyen
+107,61,Remplacement du chauffage,2022-08-03,2023-02-12,2023-02-09,Completed,142249.02,161474.05,13.52,14904.88,Région,Groupe Martin,26.78,16.65,4259.19,Emma Robert,Appel d'offres ouvert,Haute,Élevé
+108,212,Remplacement du chauffage,2018-03-06,2018-07-20,2018-07-09,Completed,1418949.67,1568930.83,10.57,164918.02,Autofinancement,Engie Solutions,28.34,17.04,99226.87,Alice Martin,Marché négocié,Critique,Élevé
+109,190,Éclairage LED,2019-11-10,2020-03-03,2020-03-20,Completed,828700.4,774512.49,-6.54,297772.6,Union européenne,VINCI Facilities,8.91,9.69,65055.93,Emma Robert,Appel d'offres ouvert,Basse,Moyen
+110,418,Rénovation de toiture,2019-09-12,2019-11-17,2019-12-01,Completed,402106.81,392139.74,-2.48,183522.8,Région,Bouygues Bâtiment,14.68,18.98,148989.89,Nicolas Leroy,MAPA,Haute,Faible
+111,471,Remplacement des menuiseries,2020-03-22,2020-11-29,2020-12-01,Completed,263614.78,282904.94,7.32,98077.42,ADEME,SPIE Building Solutions,18.51,16.55,121718.7,Sophie Bernard,Appel d'offres ouvert,Haute,Élevé
+112,165,Isolation thermique,2015-02-24,2015-08-08,2015-07-29,Completed,924819.24,967331.36,4.6,506737.03,Autofinancement,Eiffage Énergie,28.06,26.14,,Nicolas Leroy,Appel d'offres ouvert,Moyenne,Élevé
+113,445,Rénovation de toiture,2016-06-17,2016-10-04,2016-08-12,Completed,452012.98,490098.88,8.43,162435.65,Fonds vert,Eiffage Énergie,17.52,11.95,45608.49,Alice Martin,Accord-cadre,Haute,Élevé
+114,341,Remplacement des menuiseries,2025-07-03,2026-04-10,2026-03-18,Completed,481471.92,461033.1,-4.25,253514.5,Union européenne,Entreprise Durand,14.8,15.68,14280.06,Emma Robert,Appel d'offres ouvert,Basse,Moyen
+115,284,Remplacement du chauffage,2025-08-23,,2026-05-11,Planned,713305.16,,,290263.0,Fonds vert,Entreprise Durand,26.0,,,Alice Martin,Marché négocié,Moyenne,Moyen
+116,184,Installation photovoltaïque,2020-02-04,2020-12-09,2020-11-10,Completed,426530.6,486071.49,13.96,34431.15,Département,VINCI Facilities,9.41,8.02,3467.66,Sophie Bernard,Appel d'offres ouvert,Basse,Faible
+117,76,Remplacement du chauffage,2025-05-12,,2025-08-04,Planned,310152.22,,,84340.6,Union européenne,SPIE Building Solutions,16.9,,,Alice Martin,Accord-cadre,Moyenne,Moyen
+118,284,Installation photovoltaïque,2025-06-05,,2026-02-16,In Progress,1211758.84,443551.12,-63.4,143059.96,Région,Engie Solutions,15.9,,,Karim Diallo,Marché négocié,Haute,Élevé
+119,253,Rénovation de toiture,2024-07-08,2025-02-15,2025-02-13,Completed,680176.0,759210.68,11.62,318538.94,Union européenne,Eiffage Énergie,6.99,13.56,51839.66,Jean Dupont,Accord-cadre,Moyenne,Élevé
+120,491,Remplacement des menuiseries,2015-03-23,2015-04-08,2015-07-06,Cancelled,903150.76,30521.89,-96.62,8247.65,ADEME,Bouygues Bâtiment,7.53,,,Jean Dupont,Accord-cadre,Moyenne,Moyen
+121,369,Remplacement du chauffage,2022-04-03,2022-11-06,2022-10-25,Completed,450306.58,452758.34,0.54,169681.47,ADEME,VINCI Facilities,17.78,15.62,,Karim Diallo,Marché négocié,Moyenne,Élevé
+122,490,Rénovation de toiture,2021-06-10,2021-11-26,2021-10-27,Completed,383339.97,413609.87,7.9,126834.92,Autofinancement,Léon Grosse,14.04,10.71,,Emma Robert,Marché négocié,Basse,Faible
+123,291,Remplacement des menuiseries,2016-09-04,2017-06-13,2017-06-04,Completed,2444874.88,2480784.1,1.47,1357045.82,Autofinancement,SPIE Building Solutions,8.02,14.09,247129.55,Emma Robert,Appel d'offres ouvert,Haute,Élevé
+124,69,Isolation thermique,2018-09-17,2019-03-17,2019-04-02,Completed,776783.83,813741.34,4.76,371161.09,Région,VINCI Facilities,27.25,38.4,459348.74,Nicolas Leroy,Marché négocié,Haute,Élevé
+125,186,Remplacement des menuiseries,2018-08-22,2019-01-23,2019-01-13,Completed,168592.7,191352.32,13.5,84904.68,Région,Entreprise Durand,12.41,19.13,11586.31,Sophie Bernard,Appel d'offres ouvert,Basse,Faible
+126,263,Isolation thermique,2022-07-02,2023-01-16,2022-12-17,Completed,2922911.08,2820339.17,-3.51,1331630.13,Région,Bouygues Bâtiment,17.72,28.71,392551.31,Jean Dupont,Accord-cadre,Moyenne,Moyen
+127,142,Rénovation de toiture,2024-07-04,2025-02-06,2024-12-16,Completed,130590.66,123165.43,-5.69,13610.93,Fonds vert,Léon Grosse,6.6,6.5,13797.74,Nicolas Leroy,Marché négocié,Haute,Élevé
+128,269,Rénovation de toiture,2023-05-05,2024-02-23,2024-01-26,Completed,1009256.75,1089832.17,7.98,474038.0,Autofinancement,Bouygues Bâtiment,14.68,16.04,20749.96,Sophie Bernard,Appel d'offres ouvert,Critique,Moyen
+129,382,Isolation thermique,2025-06-21,,2025-08-27,In Progress,894457.18,751213.84,-16.01,250383.32,Autofinancement,Léon Grosse,34.4,,,Karim Diallo,Accord-cadre,Moyenne,Faible
+130,280,Isolation thermique,2016-07-20,2016-11-05,2016-11-14,Completed,374046.49,395710.78,5.79,35277.22,Fonds vert,Groupe Martin,26.66,17.59,57009.53,Sophie Bernard,Accord-cadre,Haute,Faible
+131,164,Remplacement du chauffage,2025-08-25,,2026-03-09,In Progress,561602.64,313004.53,-44.27,140729.26,Fonds vert,VINCI Facilities,18.94,,,Sophie Bernard,Appel d'offres ouvert,Critique,Moyen
+132,326,Rénovation de toiture,2023-09-16,2023-12-27,2024-01-08,Completed,1217303.47,1316147.95,8.12,586222.05,Région,VINCI Facilities,11.95,12.15,191792.14,Nicolas Leroy,MAPA,Haute,Élevé
+133,496,Remplacement du chauffage,2022-07-06,2023-01-23,2023-01-02,Completed,100649.14,107159.34,6.47,54244.22,Département,Léon Grosse,15.92,18.83,8300.4,Alice Martin,Accord-cadre,Moyenne,Élevé
+134,390,Rénovation de toiture,2016-10-01,2017-01-20,2017-02-03,Completed,701019.65,712478.32,1.63,157277.36,Fonds vert,SPIE Building Solutions,8.97,15.64,113829.14,Jean Dupont,MAPA,Moyenne,Moyen
+135,33,Ventilation double flux,2020-05-14,2021-03-28,2021-02-13,Completed,1860690.04,1971861.3,5.97,49939.91,Union européenne,Eiffage Énergie,7.35,23.34,412124.54,Emma Robert,Accord-cadre,Critique,Faible
+136,374,Isolation thermique,2022-03-08,2022-12-28,2022-11-07,Completed,3097445.86,3107438.58,0.32,787298.79,Région,Entreprise Durand,23.91,19.07,58009.4,Jean Dupont,Accord-cadre,Moyenne,Élevé
+137,485,Isolation thermique,2025-11-06,,2026-07-12,Planned,860693.17,,,227030.61,Autofinancement,Bouygues Bâtiment,25.1,,,Alice Martin,Appel d'offres ouvert,Haute,Moyen
+138,413,Remplacement du chauffage,2021-06-16,2021-09-15,2021-08-13,Completed,1022322.09,1093516.42,6.96,124684.34,Région,SPIE Building Solutions,29.93,28.65,120367.44,Nicolas Leroy,Appel d'offres ouvert,Haute,Moyen
+139,271,Rénovation de toiture,2021-08-20,2022-02-22,2022-01-30,Completed,927129.99,889621.53,-4.05,32232.65,Union européenne,Engie Solutions,16.38,9.81,232499.43,Alice Martin,MAPA,Basse,Moyen
+140,130,Remplacement des menuiseries,2025-04-01,2025-08-25,2025-07-07,Completed,608622.95,705309.2,15.89,157699.95,Autofinancement,SPIE Building Solutions,13.65,9.48,28853.41,Karim Diallo,MAPA,Moyenne,Faible
+141,10,Isolation thermique,2020-05-03,2020-12-08,2020-10-15,Completed,1038374.32,1169258.13,12.6,9711.16,Autofinancement,Bouygues Bâtiment,18.12,25.68,249193.7,Alice Martin,Marché négocié,Moyenne,Moyen
+142,353,Remplacement du chauffage,2024-08-08,2025-06-05,2025-05-15,Completed,2897981.48,3280051.88,13.18,1007885.78,Autofinancement,Engie Solutions,27.62,26.24,473591.5,Alice Martin,Appel d'offres ouvert,Moyenne,Moyen
+143,237,Rénovation de toiture,2022-09-20,2023-06-13,2023-06-07,Completed,793396.06,744406.58,-6.17,403252.34,Département,VINCI Facilities,9.31,16.88,307599.57,Sophie Bernard,Marché négocié,Basse,Élevé
+144,109,Installation photovoltaïque,2020-06-01,2020-09-16,2020-07-23,Completed,507747.95,487468.4,-3.99,61525.0,Union européenne,Léon Grosse,14.71,13.26,135702.5,Nicolas Leroy,Marché négocié,Haute,Moyen
+145,321,Installation photovoltaïque,2022-08-01,2023-01-08,2023-01-01,Completed,1842524.55,2103184.99,14.15,418812.93,Fonds vert,Bouygues Bâtiment,14.19,15.75,287419.86,Emma Robert,Accord-cadre,Critique,Élevé
+146,467,Isolation thermique,2022-12-16,2023-09-04,2023-09-08,Completed,2655857.44,2899982.06,9.19,885952.82,Fonds vert,Entreprise Durand,26.67,33.55,487885.49,Emma Robert,Marché négocié,Haute,Faible
+147,484,Isolation thermique,2015-01-15,2015-04-21,2015-03-16,Completed,491036.08,448189.0,-8.73,100898.57,ADEME,VINCI Facilities,26.25,22.29,41054.09,Sophie Bernard,MAPA,Haute,Faible
+148,461,Rénovation de toiture,2015-03-16,2015-05-24,2015-06-05,Completed,798023.33,847076.08,6.15,24436.76,Fonds vert,Groupe Martin,14.35,12.0,75131.43,Jean Dupont,Appel d'offres ouvert,Haute,Élevé
+149,34,Remplacement des menuiseries,2016-08-04,2016-11-30,2016-10-08,Completed,877783.05,970694.03,10.58,50291.86,Région,Bouygues Bâtiment,18.56,11.78,,Emma Robert,Marché négocié,Haute,Moyen
+150,454,Éclairage LED,2022-08-25,2023-03-19,2023-03-25,Completed,211624.06,195335.52,-7.7,10819.09,Autofinancement,Bouygues Bâtiment,9.78,7.58,26146.47,Sophie Bernard,Marché négocié,Basse,Élevé
+151,245,Installation photovoltaïque,2023-05-22,2023-12-26,2023-11-28,Completed,313431.13,339259.44,8.24,112950.77,Département,Léon Grosse,8.23,6.86,12440.37,Jean Dupont,MAPA,Moyenne,Élevé
+152,111,Isolation thermique,2015-12-23,2016-08-30,2016-08-17,Completed,1228593.03,1152957.06,-6.16,494383.81,Union européenne,Bouygues Bâtiment,24.53,19.4,153594.6,Sophie Bernard,Marché négocié,Basse,Moyen
+153,53,Installation photovoltaïque,2020-08-24,2021-02-21,2021-02-06,Completed,2437524.23,2677384.76,9.84,920848.9,Région,Eiffage Énergie,9.28,10.33,108947.96,Jean Dupont,Appel d'offres ouvert,Moyenne,Moyen
+154,223,Remplacement du chauffage,2023-05-15,2023-12-03,2023-11-05,Completed,660517.01,629705.39,-4.66,42857.67,ADEME,Bouygues Bâtiment,23.22,22.34,76163.13,Emma Robert,Marché négocié,Haute,Faible
+155,164,Isolation thermique,2025-08-21,2026-01-22,2026-02-08,Completed,838739.56,803252.91,-4.23,394497.98,Union européenne,SPIE Building Solutions,20.02,21.3,181826.65,Nicolas Leroy,MAPA,Moyenne,Élevé
+156,318,Remplacement du chauffage,2016-07-23,2017-03-12,2017-02-01,Completed,695669.65,633062.21,-9.0,173781.19,Autofinancement,Léon Grosse,26.57,19.48,123190.45,Karim Diallo,Marché négocié,Basse,Faible
+157,403,Rénovation de toiture,2023-03-15,2023-12-17,2023-10-23,Completed,1485349.25,1676390.2,12.86,173657.36,Région,VINCI Facilities,11.38,7.72,16430.99,Karim Diallo,MAPA,Moyenne,Moyen
+158,134,Ventilation double flux,2020-06-01,2020-08-09,2020-08-26,Completed,1011062.19,1046675.92,3.52,207295.9,Fonds vert,Engie Solutions,10.32,18.91,,Karim Diallo,Accord-cadre,Haute,Moyen
+159,376,Isolation thermique,2025-01-09,2025-05-24,2025-05-15,Completed,575063.88,558163.61,-2.94,104139.68,Région,Engie Solutions,30.02,25.07,105871.31,Alice Martin,Appel d'offres ouvert,Haute,Faible
+160,477,Remplacement des menuiseries,2025-07-08,,2025-12-26,Planned,769159.75,,,22784.67,ADEME,Engie Solutions,9.84,,,Karim Diallo,MAPA,Critique,Faible
+161,118,Remplacement du chauffage,2024-11-14,,2025-05-08,In Progress,2642176.7,1932846.82,-26.85,470997.15,Autofinancement,Groupe Martin,27.43,,,Jean Dupont,Appel d'offres ouvert,Moyenne,Moyen
+162,157,Ventilation double flux,2025-06-08,2025-10-11,2025-10-07,Completed,223051.1,231315.56,3.71,81277.33,Fonds vert,VINCI Facilities,15.59,9.15,23884.84,Jean Dupont,MAPA,Haute,Faible
+163,299,Remplacement du chauffage,2019-08-04,2020-01-05,2019-12-24,Completed,874934.72,912049.42,4.24,97513.95,Fonds vert,VINCI Facilities,25.66,16.75,200715.99,Karim Diallo,Accord-cadre,Haute,Élevé
+164,436,Remplacement du chauffage,2020-07-23,2021-04-17,2021-03-06,Completed,129566.74,144456.14,11.49,4545.02,Union européenne,Bouygues Bâtiment,12.72,27.14,,Sophie Bernard,Marché négocié,Critique,Élevé
+165,336,Isolation thermique,2015-12-04,2016-03-23,2016-03-12,Completed,763273.61,694646.26,-8.99,155998.14,Autofinancement,SPIE Building Solutions,30.77,19.1,63171.47,Jean Dupont,Accord-cadre,Critique,Moyen
+166,375,Remplacement du chauffage,2025-07-20,,2025-12-23,In Progress,389832.17,261492.0,-32.92,97031.79,Fonds vert,Groupe Martin,31.89,,,Karim Diallo,MAPA,Basse,Élevé
+167,293,Remplacement du chauffage,2025-03-17,2025-12-27,2025-11-21,Completed,1483875.28,1557840.03,4.98,109826.76,ADEME,Eiffage Énergie,26.08,26.8,65120.21,Jean Dupont,MAPA,Moyenne,Élevé
+168,292,Ventilation double flux,2023-10-11,2024-01-23,2023-12-08,Completed,736198.74,716650.64,-2.66,343976.52,ADEME,SPIE Building Solutions,14.03,21.14,53030.69,Jean Dupont,Marché négocié,Moyenne,Élevé
+169,201,Isolation thermique,2016-12-02,2017-07-06,2017-05-28,Completed,1889241.86,1844847.23,-2.35,935133.92,Département,Groupe Martin,19.35,26.99,,Jean Dupont,Accord-cadre,Moyenne,Faible
+170,293,Rénovation de toiture,2025-03-07,,2025-09-13,Planned,549921.68,,,39288.92,Autofinancement,Groupe Martin,13.57,,,Sophie Bernard,Appel d'offres ouvert,Moyenne,Moyen
+171,159,Éclairage LED,2025-08-25,2026-05-14,2026-05-17,Completed,123482.69,118175.08,-4.3,7216.78,ADEME,Groupe Martin,5.0,11.31,13643.8,Karim Diallo,Accord-cadre,Haute,Faible
+172,49,Éclairage LED,2025-09-19,,2026-04-08,Planned,335441.14,,,117982.59,Union européenne,Eiffage Énergie,3.26,,,Alice Martin,MAPA,Critique,Faible
+173,92,Éclairage LED,2017-03-19,2017-09-29,2017-08-12,Completed,280972.79,295355.51,5.12,129600.79,Autofinancement,SPIE Building Solutions,5.89,7.08,22416.73,Nicolas Leroy,Accord-cadre,Moyenne,Élevé
+174,227,Remplacement des menuiseries,2022-12-11,2023-07-10,2023-07-22,Completed,284226.13,321600.02,13.15,11393.78,Fonds vert,SPIE Building Solutions,14.15,17.54,48085.19,Nicolas Leroy,Accord-cadre,Haute,Moyen
+175,427,Installation photovoltaïque,2018-01-06,2018-05-05,2018-04-10,Completed,1066091.9,1215755.81,14.04,306446.86,Région,SPIE Building Solutions,15.42,10.62,64143.9,Karim Diallo,Appel d'offres ouvert,Haute,Faible
+176,169,Installation photovoltaïque,2019-10-19,2020-03-09,2020-03-15,Completed,286120.85,290600.94,1.57,109649.15,Région,VINCI Facilities,7.99,14.33,11062.87,Nicolas Leroy,Appel d'offres ouvert,Moyenne,Faible
+177,364,Remplacement du chauffage,2015-06-09,2015-10-19,2015-08-27,Completed,1892771.32,2100656.13,10.98,99457.35,Fonds vert,SPIE Building Solutions,18.47,27.12,,Karim Diallo,MAPA,Basse,Élevé
+178,198,Remplacement des menuiseries,2016-01-11,2016-09-23,2016-10-06,Completed,182448.21,203788.18,11.7,56956.87,ADEME,Léon Grosse,16.32,18.24,29425.71,Alice Martin,Accord-cadre,Moyenne,Moyen
+179,482,Isolation thermique,2020-09-11,2021-04-08,2021-02-13,Completed,611707.05,623094.28,1.86,125324.49,Région,VINCI Facilities,27.82,38.63,113684.13,Emma Robert,Marché négocié,Haute,Moyen
+180,187,Rénovation de toiture,2016-12-13,2017-09-07,2017-08-24,Completed,288108.54,317040.07,10.04,112663.35,Région,SPIE Building Solutions,8.18,15.67,31767.76,Alice Martin,Appel d'offres ouvert,Critique,Moyen
+181,318,Remplacement des menuiseries,2024-11-13,2025-08-28,2025-07-27,Completed,278608.95,302439.26,8.55,73288.48,Fonds vert,SPIE Building Solutions,9.15,13.92,88029.32,Alice Martin,Marché négocié,Haute,Moyen
+182,345,Remplacement des menuiseries,2023-10-17,2024-06-30,2024-05-18,Completed,794077.88,879188.92,10.72,311164.88,Union européenne,Groupe Martin,18.92,17.85,145035.69,Alice Martin,Accord-cadre,Critique,Élevé
+183,355,Isolation thermique,2017-07-19,2017-09-19,2017-10-25,Cancelled,1893031.39,109370.58,-94.22,12524.93,Autofinancement,Entreprise Durand,27.21,,,Emma Robert,Appel d'offres ouvert,Moyenne,Moyen
+184,276,Isolation thermique,2016-01-09,2016-07-19,2016-07-27,Completed,955406.08,1006144.68,5.31,273031.56,Département,Léon Grosse,27.67,15.61,67605.64,Karim Diallo,MAPA,Critique,Faible
+185,308,Remplacement du chauffage,2020-03-09,2021-01-25,2020-12-04,Completed,1132731.1,1051091.88,-7.21,441837.65,Département,Groupe Martin,18.87,26.96,295581.3,Karim Diallo,Marché négocié,Moyenne,Moyen
+186,222,Installation photovoltaïque,2015-06-04,2016-04-27,2016-03-03,Completed,2430340.83,2642256.5,8.72,1355466.63,Région,Entreprise Durand,6.76,12.11,287241.16,Alice Martin,Marché négocié,Haute,Faible
+187,459,Installation photovoltaïque,2023-02-12,2023-05-20,2023-05-17,Completed,1191993.29,1379821.7,15.76,437509.27,Région,Groupe Martin,11.46,11.37,86675.78,Jean Dupont,Appel d'offres ouvert,Moyenne,Élevé
+188,373,Isolation thermique,2024-08-10,,2025-04-15,In Progress,3469758.75,1469325.36,-57.65,138601.07,Fonds vert,Eiffage Énergie,30.63,,,Jean Dupont,Accord-cadre,Moyenne,Moyen
+189,413,Remplacement du chauffage,2023-01-16,2023-08-11,2023-07-31,Completed,1004637.48,1089611.95,8.46,332011.72,Département,Eiffage Énergie,25.68,20.28,85202.5,Nicolas Leroy,Accord-cadre,Moyenne,Moyen
+190,152,Remplacement du chauffage,2021-04-12,2021-11-11,2021-09-25,Completed,494335.48,497225.06,0.58,245981.7,Autofinancement,Léon Grosse,27.97,14.98,36808.35,Sophie Bernard,Marché négocié,Moyenne,Élevé
+191,36,Installation photovoltaïque,2025-08-07,,2025-10-03,In Progress,1224404.46,883403.47,-27.85,222530.69,Fonds vert,Eiffage Énergie,14.77,,,Jean Dupont,MAPA,Haute,Faible
+192,23,Isolation thermique,2016-08-07,2017-02-09,2017-02-12,Completed,2224266.52,2575079.01,15.77,1297917.83,ADEME,Léon Grosse,19.2,15.25,179952.55,Jean Dupont,MAPA,Basse,Moyen
+193,97,Éclairage LED,2025-02-20,,2025-09-15,Planned,291834.31,,,17156.11,Fonds vert,Léon Grosse,4.72,,,Emma Robert,Marché négocié,Haute,Moyen
+194,468,Ventilation double flux,2024-04-22,2024-10-15,2024-10-21,Completed,2102911.91,2270909.4,7.99,389847.36,Fonds vert,SPIE Building Solutions,17.98,14.79,177102.16,Sophie Bernard,Accord-cadre,Haute,Moyen
+195,29,Remplacement du chauffage,2019-05-24,2019-07-11,2019-07-08,Completed,1532894.94,1676844.51,9.39,709260.46,Région,VINCI Facilities,18.24,22.64,371911.81,Alice Martin,Appel d'offres ouvert,Moyenne,Moyen
+196,134,Remplacement du chauffage,2024-05-08,,2025-01-24,In Progress,2140257.38,1234613.31,-42.31,479952.87,ADEME,Groupe Martin,28.12,,,Emma Robert,MAPA,Moyenne,Faible
+197,24,Remplacement des menuiseries,2023-04-25,2024-01-18,2023-12-28,Completed,287761.12,283985.94,-1.31,136638.98,Union européenne,Bouygues Bâtiment,10.1,15.58,131870.22,Sophie Bernard,Marché négocié,Haute,Moyen
+198,450,Remplacement du chauffage,2016-04-24,2016-09-25,2016-08-16,Completed,547311.47,590239.7,7.84,69564.29,Département,SPIE Building Solutions,21.62,24.37,56128.11,Emma Robert,Marché négocié,Basse,Faible
+199,438,Remplacement du chauffage,2021-03-13,2021-04-17,2021-05-05,Completed,877071.41,899651.79,2.57,400423.0,Union européenne,VINCI Facilities,28.28,28.18,78906.82,Alice Martin,Marché négocié,Moyenne,Faible
+200,383,Installation photovoltaïque,2017-11-16,2018-02-05,2018-01-05,Completed,1442181.66,1657980.88,14.96,156016.74,Autofinancement,Engie Solutions,8.33,14.06,51944.56,Sophie Bernard,Appel d'offres ouvert,Haute,Faible
+201,291,Remplacement des menuiseries,2021-03-01,2021-06-05,2021-05-08,Completed,1581749.53,1643182.99,3.88,526119.42,Département,VINCI Facilities,13.78,17.32,303781.67,Emma Robert,MAPA,Haute,Faible
+202,416,Isolation thermique,2025-12-04,,2026-01-31,In Progress,1298033.79,744688.44,-42.63,194801.6,Union européenne,Léon Grosse,20.38,,,Karim Diallo,Appel d'offres ouvert,Haute,Moyen
+203,167,Remplacement du chauffage,2023-03-22,2023-07-15,2023-05-27,Completed,625902.31,579555.13,-7.4,53288.03,Autofinancement,SPIE Building Solutions,27.79,29.79,332216.85,Nicolas Leroy,Accord-cadre,Moyenne,Moyen
+204,233,Remplacement du chauffage,2020-12-22,2021-11-15,2021-09-24,Completed,1088686.02,1135555.28,4.31,468489.91,ADEME,Eiffage Énergie,16.18,12.1,19918.48,Sophie Bernard,MAPA,Haute,Élevé
+205,391,Installation photovoltaïque,2020-10-05,2021-05-04,2021-05-13,Completed,150388.8,149416.53,-0.65,77801.56,Département,Entreprise Durand,14.12,11.8,23396.87,Emma Robert,Appel d'offres ouvert,Haute,Faible
+206,374,Ventilation double flux,2025-04-14,2025-06-21,2025-07-05,Completed,2462647.87,2342226.49,-4.89,877902.62,Union européenne,Engie Solutions,14.63,14.57,44320.76,Alice Martin,Marché négocié,Moyenne,Moyen
+207,166,Remplacement du chauffage,2025-03-13,,2025-09-06,Planned,309723.5,,,23261.89,ADEME,Entreprise Durand,20.62,,,Sophie Bernard,MAPA,Haute,Élevé
+208,259,Ventilation double flux,2019-12-17,2020-07-15,2020-07-01,Completed,770219.03,805037.65,4.52,76283.67,ADEME,Groupe Martin,14.49,7.63,30020.03,Emma Robert,Marché négocié,Basse,Élevé
+209,110,Isolation thermique,2020-03-22,2020-07-24,2020-06-06,Completed,2845408.18,3027763.92,6.41,1565446.04,Fonds vert,VINCI Facilities,23.02,29.37,,Sophie Bernard,Appel d'offres ouvert,Haute,Moyen
+210,33,Installation photovoltaïque,2023-05-22,2023-12-18,2023-11-15,Completed,2084400.25,2244882.56,7.7,947514.97,Autofinancement,Groupe Martin,5.79,9.36,165273.6,Karim Diallo,Accord-cadre,Moyenne,Élevé
+211,87,Remplacement du chauffage,2017-08-21,2018-04-16,2018-03-30,Completed,562254.31,638657.57,13.59,175090.2,Union européenne,SPIE Building Solutions,25.44,25.55,26051.05,Karim Diallo,Marché négocié,Haute,Moyen
+212,235,Remplacement du chauffage,2023-06-10,2024-03-20,2024-02-25,Completed,552340.69,497206.97,-9.98,261112.14,Fonds vert,Léon Grosse,20.95,34.25,194925.63,Emma Robert,Appel d'offres ouvert,Haute,Élevé
+213,114,Rénovation de toiture,2017-08-22,2018-06-27,2018-05-14,Completed,1338016.32,1303433.02,-2.58,193477.91,Union européenne,Entreprise Durand,12.28,15.88,277444.89,Nicolas Leroy,MAPA,Haute,Moyen
+214,438,Rénovation de toiture,2024-12-06,2025-07-04,2025-05-15,Completed,942793.33,991902.43,5.21,374122.97,Autofinancement,VINCI Facilities,12.53,8.45,23660.84,Sophie Bernard,Appel d'offres ouvert,Haute,Élevé
+215,300,Remplacement des menuiseries,2025-06-19,,2025-10-06,In Progress,795403.82,330516.79,-58.45,156188.8,Autofinancement,Bouygues Bâtiment,17.95,,,Jean Dupont,Marché négocié,Moyenne,Faible
+216,429,Isolation thermique,2022-12-14,2023-07-17,2023-05-30,Completed,272002.58,283804.16,4.34,88273.79,Fonds vert,Groupe Martin,21.44,16.99,18933.07,Sophie Bernard,MAPA,Haute,Élevé
+217,279,Éclairage LED,2024-10-12,2024-11-23,2024-12-21,Cancelled,68170.1,2775.9,-95.93,518.74,Fonds vert,Groupe Martin,6.63,,,Jean Dupont,Appel d'offres ouvert,Basse,Élevé
+218,274,Remplacement du chauffage,2019-03-14,2019-10-28,2019-10-19,Completed,168244.23,189633.73,12.71,89898.98,Union européenne,SPIE Building Solutions,26.65,22.73,,Karim Diallo,MAPA,Haute,Élevé
+219,232,Isolation thermique,2018-09-11,2019-01-03,2018-11-28,Completed,2667141.31,2505991.6,-6.04,44484.43,Département,Groupe Martin,18.14,31.01,684875.94,Emma Robert,Appel d'offres ouvert,Moyenne,Faible
+220,85,Rénovation de toiture,2016-03-02,2016-06-29,2016-05-12,Completed,1248717.61,1344614.88,7.68,8954.78,ADEME,Eiffage Énergie,7.28,14.73,456086.09,Karim Diallo,Accord-cadre,Moyenne,Faible
+221,424,Isolation thermique,2025-04-20,,2025-10-11,Planned,331399.35,,,133269.21,Union européenne,Groupe Martin,27.84,,,Emma Robert,Accord-cadre,Haute,Élevé
+222,326,Remplacement du chauffage,2025-09-11,2025-12-22,2025-12-27,Completed,1258604.5,1381830.85,9.79,271804.23,ADEME,Entreprise Durand,17.79,31.71,500553.8,Nicolas Leroy,Marché négocié,Moyenne,Faible
+223,77,Remplacement du chauffage,2016-08-18,2017-02-19,2016-12-26,Completed,746170.02,719351.15,-3.59,134782.3,Union européenne,Léon Grosse,15.49,29.64,260816.16,Karim Diallo,MAPA,Moyenne,Élevé
+224,442,Ventilation double flux,2023-01-25,2023-10-24,2023-10-30,Completed,1311981.64,1300326.99,-0.89,509343.73,Fonds vert,Eiffage Énergie,14.84,17.99,91254.12,Jean Dupont,Marché négocié,Moyenne,Faible
+225,391,Remplacement du chauffage,2025-05-03,2025-06-18,2025-08-15,Cancelled,273965.0,10283.97,-96.25,1744.41,Région,Bouygues Bâtiment,28.95,,,Jean Dupont,MAPA,Moyenne,Élevé
+226,101,Ventilation double flux,2020-08-07,2021-06-11,2021-04-24,Completed,1031800.69,1055926.57,2.34,349669.11,Département,Entreprise Durand,21.9,17.64,40656.57,Nicolas Leroy,MAPA,Moyenne,Moyen
+227,170,Remplacement des menuiseries,2016-06-16,2017-01-31,2016-12-15,Completed,1089855.22,1044067.28,-4.2,197018.27,Département,Engie Solutions,19.89,6.72,67609.73,Emma Robert,Accord-cadre,Critique,Faible
+228,36,Isolation thermique,2025-06-14,,2025-10-13,Planned,1111931.15,,,355154.68,Département,SPIE Building Solutions,15.85,,,Emma Robert,MAPA,Moyenne,Élevé
+229,78,Isolation thermique,2025-11-03,2026-01-19,2026-01-30,Completed,814750.17,802761.47,-1.47,160023.54,Département,Entreprise Durand,28.92,27.59,207421.85,Sophie Bernard,MAPA,Moyenne,Élevé
+230,264,Remplacement des menuiseries,2024-12-01,2025-06-05,2025-05-31,Completed,369524.36,385134.02,4.22,169899.18,Union européenne,Bouygues Bâtiment,13.35,10.66,40129.17,Karim Diallo,Marché négocié,Moyenne,Faible
+231,440,Isolation thermique,2018-03-09,2018-06-08,2018-05-15,Completed,304705.69,343350.58,12.68,56940.62,ADEME,Bouygues Bâtiment,25.64,36.46,43110.68,Emma Robert,Appel d'offres ouvert,Haute,Élevé
+232,79,Remplacement du chauffage,2019-10-17,2020-01-31,2020-02-06,Completed,191104.14,221589.91,15.95,116533.93,Département,Entreprise Durand,23.64,10.61,9698.23,Jean Dupont,Appel d'offres ouvert,Haute,Faible
+233,204,Remplacement du chauffage,2023-04-07,2023-12-31,2023-12-14,Completed,554786.31,604518.58,8.96,250647.87,Région,Bouygues Bâtiment,17.72,14.38,56182.64,Alice Martin,Marché négocié,Basse,Élevé
+234,191,Isolation thermique,2023-05-03,2023-11-14,2023-09-30,Completed,579510.06,660588.27,13.99,159559.55,Fonds vert,VINCI Facilities,20.83,16.99,26296.58,Karim Diallo,Marché négocié,Haute,Élevé
+235,125,Remplacement des menuiseries,2023-08-19,2024-01-19,2024-02-01,Completed,1465589.53,1603280.66,9.39,189575.75,Fonds vert,Entreprise Durand,18.35,12.61,30594.07,Sophie Bernard,MAPA,Moyenne,Faible
+236,198,Remplacement du chauffage,2024-03-03,,2024-11-07,In Progress,169077.66,130697.26,-22.7,70807.34,Autofinancement,SPIE Building Solutions,31.46,,,Nicolas Leroy,Appel d'offres ouvert,Haute,Élevé
+237,400,Remplacement des menuiseries,2017-10-10,2018-01-14,2017-11-27,Completed,327983.79,295279.62,-9.97,65270.91,Autofinancement,Léon Grosse,14.39,9.3,32201.76,Karim Diallo,MAPA,Moyenne,Élevé
+238,410,Isolation thermique,2022-05-04,2022-12-27,2022-11-16,Completed,568666.71,564158.04,-0.79,231525.36,Département,Bouygues Bâtiment,25.32,19.07,75533.5,Sophie Bernard,Marché négocié,Haute,Faible
+239,151,Isolation thermique,2024-04-13,,2024-07-11,In Progress,604225.31,376112.9,-37.75,42439.22,Autofinancement,SPIE Building Solutions,23.92,,,Emma Robert,Appel d'offres ouvert,Moyenne,Faible
+240,65,Isolation thermique,2022-08-09,2023-03-07,2023-02-01,Completed,742956.41,802692.58,8.04,42057.76,Union européenne,Engie Solutions,27.04,18.66,26217.2,Sophie Bernard,MAPA,Haute,Élevé
+241,253,Remplacement des menuiseries,2025-05-14,,2026-01-09,Planned,557644.93,,,125404.19,Union européenne,Groupe Martin,11.58,,,Alice Martin,Accord-cadre,Moyenne,Faible
+242,404,Éclairage LED,2025-09-08,,2026-01-09,In Progress,228567.55,89518.49,-60.83,4393.6,Département,Léon Grosse,6.83,,,Karim Diallo,Accord-cadre,Critique,Moyen
+243,231,Remplacement du chauffage,2022-09-01,2023-05-28,2023-05-07,Completed,382554.85,352897.61,-7.75,35770.9,Union européenne,VINCI Facilities,21.66,32.64,133645.87,Alice Martin,Accord-cadre,Haute,Élevé
+244,215,Éclairage LED,2023-05-04,2023-08-08,2023-07-22,Completed,116180.47,131662.7,13.33,69266.05,ADEME,SPIE Building Solutions,4.72,3.12,3366.55,Nicolas Leroy,Marché négocié,Basse,Élevé
+245,430,Remplacement du chauffage,2023-09-12,2023-12-21,2023-11-26,Completed,626896.83,649646.93,3.63,187783.46,Union européenne,Groupe Martin,18.15,23.27,105361.89,Emma Robert,Accord-cadre,Haute,Élevé
+246,226,Ventilation double flux,2019-12-07,2020-07-10,2020-06-17,Completed,1691238.08,1720527.24,1.73,41689.28,Région,Entreprise Durand,18.43,14.04,255697.24,Karim Diallo,Accord-cadre,Haute,Faible
+247,452,Remplacement du chauffage,2019-05-21,2020-03-11,2020-02-11,Completed,302861.98,285286.03,-5.8,90899.02,ADEME,Groupe Martin,26.84,22.23,42502.99,Jean Dupont,Accord-cadre,Basse,Faible
+248,490,Éclairage LED,2022-08-10,2022-09-27,2023-03-09,Cancelled,229055.5,15034.13,-93.44,2526.28,Département,Engie Solutions,8.92,,,Sophie Bernard,Marché négocié,Moyenne,Moyen
+249,465,Ventilation double flux,2017-01-17,2017-06-04,2017-05-06,Completed,950750.02,972581.57,2.3,317513.35,Autofinancement,Entreprise Durand,14.87,19.98,208715.02,Sophie Bernard,Marché négocié,Haute,Moyen
+250,117,Ventilation double flux,2019-04-23,2019-09-06,2019-08-08,Completed,632159.53,727896.24,15.14,98200.45,Union européenne,Groupe Martin,21.77,13.75,38038.51,Sophie Bernard,Accord-cadre,Haute,Faible
+251,30,Isolation thermique,2021-04-18,2021-08-20,2021-07-27,Completed,2192901.67,2421424.1,10.42,744590.51,Fonds vert,Léon Grosse,31.4,28.07,88397.0,Emma Robert,Marché négocié,Moyenne,Élevé
+252,474,Isolation thermique,2024-07-19,2025-03-09,2025-01-23,Completed,1337317.66,1298988.08,-2.87,160150.87,Département,SPIE Building Solutions,33.78,27.52,95528.71,Karim Diallo,MAPA,Haute,Faible
+253,53,Éclairage LED,2023-04-12,2023-10-25,2023-09-10,Completed,841014.52,909873.55,8.19,59281.38,Région,SPIE Building Solutions,9.58,10.56,111373.71,Alice Martin,Appel d'offres ouvert,Haute,Moyen
+254,452,Isolation thermique,2022-03-18,2022-11-05,2022-10-04,Completed,393957.03,409143.07,3.85,116098.86,Autofinancement,SPIE Building Solutions,34.71,24.76,47340.26,Nicolas Leroy,Accord-cadre,Haute,Moyen
+255,286,Remplacement du chauffage,2024-10-15,,2025-05-12,In Progress,1068216.33,827186.49,-22.56,417322.07,Fonds vert,Bouygues Bâtiment,24.4,,,Alice Martin,MAPA,Haute,Élevé
+256,433,Isolation thermique,2016-08-13,2016-12-19,2016-12-03,Completed,527712.8,516207.28,-2.18,256560.65,Fonds vert,Engie Solutions,21.62,22.31,19274.94,Karim Diallo,Marché négocié,Critique,Élevé
+257,207,Installation photovoltaïque,2016-07-18,2016-12-30,2017-01-09,Completed,373836.64,378902.24,1.36,53024.15,Autofinancement,Entreprise Durand,11.78,8.68,21244.72,Jean Dupont,MAPA,Basse,Faible
+258,380,Installation photovoltaïque,2023-11-09,2024-05-26,2024-04-23,Completed,282766.01,277997.12,-1.69,37817.0,Union européenne,Léon Grosse,12.05,11.74,27913.2,Karim Diallo,Appel d'offres ouvert,Haute,Élevé
+259,276,Éclairage LED,2018-04-25,2018-09-16,2018-09-15,Completed,409264.15,392840.3,-4.01,137883.99,Région,Groupe Martin,5.39,9.74,42183.15,Karim Diallo,Appel d'offres ouvert,Critique,Élevé
+260,8,Remplacement des menuiseries,2024-04-03,,2024-07-25,In Progress,2107877.75,1139327.03,-45.95,330316.58,Autofinancement,Groupe Martin,18.16,,,Sophie Bernard,Marché négocié,Moyenne,Faible
+261,108,Rénovation de toiture,2020-07-05,2020-11-12,2020-11-30,Completed,201513.28,226450.22,12.37,49684.32,ADEME,Entreprise Durand,8.28,15.42,,Alice Martin,Appel d'offres ouvert,Haute,Faible
+262,46,Remplacement du chauffage,2016-05-08,2016-11-01,2016-09-10,Completed,1287038.99,1417633.61,10.15,81188.07,ADEME,Léon Grosse,16.47,16.76,89486.76,Karim Diallo,Accord-cadre,Basse,Faible
+263,43,Isolation thermique,2022-04-04,2022-09-30,2022-09-07,Completed,878847.9,848032.75,-3.51,67449.04,Département,Léon Grosse,20.42,22.54,166009.38,Alice Martin,Appel d'offres ouvert,Moyenne,Élevé
+264,257,Éclairage LED,2020-06-19,2020-09-11,2020-08-05,Completed,276728.86,301297.95,8.88,49813.89,Fonds vert,Léon Grosse,10.74,5.62,47486.5,Emma Robert,MAPA,Moyenne,Moyen
+265,12,Rénovation de toiture,2018-03-10,2018-04-15,2018-10-24,Cancelled,1254801.99,77694.23,-93.81,24379.91,Région,Groupe Martin,7.06,,,Sophie Bernard,Accord-cadre,Critique,Faible
+266,211,Isolation thermique,2016-04-16,2016-12-14,2016-12-06,Completed,967183.04,1120991.94,15.9,509593.77,Fonds vert,Groupe Martin,25.42,29.76,168155.2,Nicolas Leroy,Appel d'offres ouvert,Moyenne,Moyen
+267,9,Remplacement du chauffage,2021-07-18,2021-11-01,2021-11-03,Completed,1647174.68,1595106.44,-3.16,791568.29,ADEME,Eiffage Énergie,28.28,16.33,,Nicolas Leroy,MAPA,Moyenne,Faible
+268,333,Remplacement des menuiseries,2016-07-06,2017-02-10,2017-02-09,Completed,1003624.32,980362.15,-2.32,146606.22,Fonds vert,VINCI Facilities,10.03,20.6,244537.15,Nicolas Leroy,Marché négocié,Moyenne,Élevé
+269,224,Isolation thermique,2021-02-18,2021-06-04,2021-05-25,Completed,798275.52,786417.93,-1.49,279975.62,Fonds vert,Eiffage Énergie,22.35,27.1,89231.84,Alice Martin,Marché négocié,Basse,Élevé
+270,3,Isolation thermique,2017-06-22,2017-10-27,2017-11-01,Completed,1110957.01,1030393.51,-7.25,566071.99,Fonds vert,Entreprise Durand,27.82,20.21,159257.44,Nicolas Leroy,Marché négocié,Basse,Moyen
+271,500,Ventilation double flux,2022-07-09,2022-11-10,2022-10-14,Completed,662954.6,615533.65,-7.15,9272.96,ADEME,Groupe Martin,13.14,18.33,114970.03,Sophie Bernard,Accord-cadre,Critique,Moyen
+272,251,Rénovation de toiture,2022-06-23,2022-08-18,2022-08-17,Completed,1353014.08,1245047.89,-7.98,586996.69,Union européenne,Groupe Martin,7.63,12.65,232078.05,Nicolas Leroy,Marché négocié,Moyenne,Faible
+273,350,Isolation thermique,2023-07-24,2024-02-06,2023-12-13,Completed,2005028.6,1952977.42,-2.6,194442.89,Union européenne,VINCI Facilities,18.96,41.73,466991.81,Alice Martin,Appel d'offres ouvert,Haute,Faible
+274,165,Rénovation de toiture,2024-05-16,2025-02-05,2025-01-17,Completed,704239.24,790679.94,12.27,204040.55,ADEME,Engie Solutions,11.86,14.25,,Emma Robert,Accord-cadre,Moyenne,Faible
+275,387,Remplacement des menuiseries,2024-06-09,2024-08-04,2025-01-31,Cancelled,1002194.14,64807.66,-93.53,327.49,Union européenne,SPIE Building Solutions,11.8,,,Alice Martin,Accord-cadre,Haute,Élevé
+276,24,Remplacement du chauffage,2025-05-05,,2025-12-06,Planned,953969.61,,,7544.95,Autofinancement,Engie Solutions,19.67,,,Karim Diallo,Appel d'offres ouvert,Moyenne,Moyen
+277,296,Ventilation double flux,2024-06-04,2024-10-15,2024-08-29,Completed,835665.69,951257.91,13.83,397216.01,Région,VINCI Facilities,11.51,19.75,265128.52,Sophie Bernard,Appel d'offres ouvert,Basse,Élevé
+278,462,Ventilation double flux,2018-01-18,2018-09-13,2018-07-27,Completed,273663.24,290781.51,6.26,95291.42,ADEME,VINCI Facilities,18.07,18.87,22449.14,Sophie Bernard,Accord-cadre,Haute,Faible
+279,74,Remplacement du chauffage,2021-08-05,2021-12-15,2021-12-01,Completed,777449.75,806651.85,3.76,309735.02,Autofinancement,Groupe Martin,25.63,18.0,169416.52,Emma Robert,MAPA,Moyenne,Faible
+280,471,Rénovation de toiture,2024-10-22,2025-06-04,2025-06-07,Completed,776604.87,872442.53,12.34,89887.13,Fonds vert,Entreprise Durand,6.8,15.85,116570.47,Karim Diallo,Appel d'offres ouvert,Moyenne,Élevé
+281,388,Remplacement du chauffage,2022-11-01,2023-07-28,2023-08-03,Completed,491566.38,479799.6,-2.39,18128.02,Région,Entreprise Durand,18.7,23.02,25248.82,Alice Martin,MAPA,Haute,Élevé
+282,283,Isolation thermique,2020-04-15,2020-10-21,2020-10-30,Completed,1083005.48,1193035.04,10.16,488814.81,ADEME,SPIE Building Solutions,33.32,15.6,16573.47,Sophie Bernard,MAPA,Moyenne,Moyen
+283,29,Remplacement du chauffage,2023-11-10,2024-08-24,2024-08-15,Completed,1487731.37,1402540.42,-5.73,85822.43,Union européenne,VINCI Facilities,27.22,23.34,383410.85,Jean Dupont,Marché négocié,Basse,Moyen
+284,383,Éclairage LED,2023-02-12,2023-10-04,2023-09-21,Completed,342199.7,363581.13,6.25,109678.3,Autofinancement,Engie Solutions,7.67,9.43,34839.06,Jean Dupont,Marché négocié,Moyenne,Moyen
+285,427,Isolation thermique,2022-07-12,2022-11-22,2022-11-24,Completed,814302.35,813685.85,-0.08,209324.98,Région,Engie Solutions,26.93,26.02,157158.61,Jean Dupont,Marché négocié,Moyenne,Élevé
+286,476,Isolation thermique,2025-03-10,,2025-09-03,In Progress,517150.76,333967.96,-35.42,9652.39,Union européenne,Léon Grosse,30.58,,,Karim Diallo,Appel d'offres ouvert,Moyenne,Faible
+287,186,Isolation thermique,2024-08-10,2025-02-06,2025-01-22,Completed,183286.99,186512.82,1.76,62321.06,Département,VINCI Facilities,30.85,30.28,18339.44,Jean Dupont,Accord-cadre,Moyenne,Faible
+288,47,Éclairage LED,2022-04-22,2022-07-13,2022-06-15,Completed,1368872.62,1240485.28,-9.38,158543.75,Fonds vert,Entreprise Durand,9.03,9.1,193492.45,Nicolas Leroy,Appel d'offres ouvert,Haute,Moyen
+289,357,Remplacement des menuiseries,2024-07-12,2025-03-22,2025-04-05,Completed,2054810.7,1990644.65,-3.12,859095.77,Région,Eiffage Énergie,18.92,13.39,63673.07,Sophie Bernard,Marché négocié,Moyenne,Élevé
+290,474,Remplacement du chauffage,2025-10-02,,2026-01-07,In Progress,828148.98,527386.59,-36.32,50811.3,Fonds vert,VINCI Facilities,22.72,,,Sophie Bernard,MAPA,Moyenne,Moyen
+291,459,Remplacement du chauffage,2025-07-17,2026-03-09,2026-01-16,Completed,1175152.38,1220109.6,3.83,252897.73,Région,Engie Solutions,22.75,12.97,98872.9,Karim Diallo,Marché négocié,Moyenne,Faible
+292,21,Éclairage LED,2025-05-14,,2025-12-21,Planned,642808.26,,,67796.91,Union européenne,Entreprise Durand,6.03,,,Nicolas Leroy,Appel d'offres ouvert,Moyenne,Faible
+293,229,Remplacement des menuiseries,2022-04-07,2022-08-26,2022-07-28,Completed,185038.03,211520.36,14.31,73048.12,Département,VINCI Facilities,7.3,8.89,6745.15,Karim Diallo,MAPA,Moyenne,Élevé
+294,65,Éclairage LED,2024-06-23,2025-03-03,2025-01-24,Completed,210223.02,240316.3,14.31,47881.53,Union européenne,VINCI Facilities,3.13,8.78,12335.85,Nicolas Leroy,Marché négocié,Haute,Faible
+295,474,Éclairage LED,2025-08-11,,2026-02-28,Planned,473411.78,,,170052.17,Autofinancement,Engie Solutions,7.66,,,Karim Diallo,MAPA,Moyenne,Élevé
+296,50,Installation photovoltaïque,2015-09-25,2015-12-18,2015-12-01,Completed,463723.79,418544.47,-9.74,140408.23,Département,Groupe Martin,13.9,14.39,108697.47,Emma Robert,Marché négocié,Moyenne,Moyen
+297,396,Isolation thermique,2023-08-17,2024-03-09,2024-01-15,Completed,759682.07,791133.31,4.14,383739.82,ADEME,SPIE Building Solutions,26.93,29.58,81230.28,Sophie Bernard,MAPA,Moyenne,Élevé
+298,294,Remplacement des menuiseries,2023-06-04,2023-12-12,2023-11-26,Completed,309149.56,283366.71,-8.34,1818.66,Département,Eiffage Énergie,7.56,23.46,69573.37,Nicolas Leroy,Marché négocié,Moyenne,Moyen
+299,22,Remplacement du chauffage,2019-10-08,2020-01-18,2019-12-13,Completed,2433487.97,2299096.0,-5.52,168140.71,Autofinancement,Engie Solutions,21.5,34.53,,Emma Robert,MAPA,Haute,Moyen
+300,93,Remplacement du chauffage,2024-06-24,2024-08-31,2024-08-31,Cancelled,694091.71,21034.46,-96.97,211.73,Union européenne,Eiffage Énergie,29.8,,,Nicolas Leroy,Appel d'offres ouvert,Haute,Moyen
+301,371,Éclairage LED,2022-05-12,2022-09-19,2022-08-03,Completed,1270678.0,1313733.96,3.39,377794.14,Fonds vert,Groupe Martin,6.64,3.65,43781.13,Jean Dupont,Appel d'offres ouvert,Moyenne,Moyen
+302,472,Éclairage LED,2018-11-17,2019-01-18,2019-01-26,Completed,1109931.19,1047815.31,-5.6,575417.02,Union européenne,Entreprise Durand,4.43,8.8,73631.3,Alice Martin,Marché négocié,Moyenne,Faible
+303,141,Isolation thermique,2022-10-02,2023-04-23,2023-04-02,Completed,2431078.79,2280953.46,-6.18,1162962.25,Union européenne,Léon Grosse,29.39,22.45,457016.81,Jean Dupont,MAPA,Haute,Faible
+304,71,Rénovation de toiture,2020-08-21,2020-11-04,2020-10-13,Completed,160925.11,155124.4,-3.6,27814.98,Autofinancement,Bouygues Bâtiment,11.24,12.25,7040.42,Alice Martin,Accord-cadre,Moyenne,Moyen
+305,246,Isolation thermique,2023-05-13,2024-02-04,2024-01-07,Completed,1600358.84,1609463.2,0.57,508392.73,ADEME,Groupe Martin,33.4,17.69,65114.28,Alice Martin,MAPA,Moyenne,Élevé
+306,395,Isolation thermique,2020-07-15,2020-11-17,2020-11-12,Completed,511219.13,514221.52,0.59,121121.83,Département,Bouygues Bâtiment,27.75,38.61,102453.24,Sophie Bernard,Accord-cadre,Moyenne,Moyen
+307,156,Éclairage LED,2025-06-09,2025-06-23,2026-02-28,Cancelled,249441.59,5921.47,-97.63,841.41,Union européenne,Entreprise Durand,7.68,,,Nicolas Leroy,Accord-cadre,Moyenne,Faible
+308,141,Remplacement du chauffage,2023-05-14,2024-02-12,2024-01-15,Completed,3007486.8,3425431.21,13.9,546734.43,Région,Bouygues Bâtiment,25.91,18.18,370092.01,Karim Diallo,MAPA,Moyenne,Élevé
+309,188,Rénovation de toiture,2020-06-08,2021-03-07,2021-03-10,Completed,792644.58,814556.32,2.76,396254.61,Union européenne,Bouygues Bâtiment,15.28,8.85,75992.47,Sophie Bernard,Appel d'offres ouvert,Moyenne,Moyen
+310,10,Rénovation de toiture,2025-04-24,,2025-10-26,In Progress,901523.75,361188.59,-59.94,103998.39,ADEME,Groupe Martin,8.23,,,Emma Robert,MAPA,Moyenne,Moyen
+311,73,Isolation thermique,2016-08-03,2017-04-23,2017-03-25,Completed,890062.77,904263.43,1.6,269358.78,Fonds vert,Eiffage Énergie,30.24,36.68,,Sophie Bernard,MAPA,Critique,Faible
+312,115,Remplacement du chauffage,2017-07-11,2017-10-27,2017-11-08,Completed,1223496.2,1250075.47,2.17,38546.18,Union européenne,Bouygues Bâtiment,12.56,30.43,195763.09,Karim Diallo,MAPA,Basse,Moyen
+313,420,Éclairage LED,2023-11-07,2024-02-21,2024-02-21,Completed,120858.83,130881.27,8.29,52455.68,Autofinancement,VINCI Facilities,6.58,4.57,8423.62,Sophie Bernard,MAPA,Moyenne,Faible
+314,249,Isolation thermique,2016-08-22,2017-02-06,2017-01-21,Completed,69255.77,71954.12,3.9,33942.97,Union européenne,Groupe Martin,20.07,13.4,2141.82,Alice Martin,Marché négocié,Haute,Faible
+315,134,Remplacement des menuiseries,2025-05-21,2025-09-03,2025-08-26,Completed,1332882.37,1445950.09,8.48,275555.57,Région,Engie Solutions,10.82,16.43,,Karim Diallo,Marché négocié,Haute,Moyen
+316,152,Installation photovoltaïque,2025-03-03,,2025-05-11,In Progress,252422.99,166973.05,-33.85,48903.76,ADEME,Groupe Martin,13.02,,,Alice Martin,Accord-cadre,Moyenne,Moyen
+317,212,Éclairage LED,2021-07-08,2022-01-14,2021-11-30,Completed,585830.85,560151.39,-4.38,299738.07,ADEME,SPIE Building Solutions,4.96,3.54,20614.03,Alice Martin,MAPA,Moyenne,Faible
+318,9,Rénovation de toiture,2023-03-04,2023-07-28,2023-07-08,Completed,1782276.82,2014235.52,13.01,847654.09,ADEME,SPIE Building Solutions,6.65,9.42,,Nicolas Leroy,Marché négocié,Basse,Faible
+319,405,Éclairage LED,2025-11-18,,2026-07-25,In Progress,428098.22,220312.96,-48.54,121170.47,Union européenne,Eiffage Énergie,5.52,,,Jean Dupont,Marché négocié,Critique,Élevé
+320,365,Remplacement des menuiseries,2025-05-24,,2025-08-28,In Progress,261831.01,108007.83,-58.75,18381.53,Région,Engie Solutions,15.3,,,Jean Dupont,Accord-cadre,Haute,Moyen
+321,466,Remplacement du chauffage,2023-05-25,2024-01-16,2024-02-01,Completed,1222427.45,1340099.05,9.63,62389.59,Union européenne,Eiffage Énergie,17.84,21.88,436454.11,Sophie Bernard,MAPA,Moyenne,Faible
+322,35,Éclairage LED,2021-03-02,2021-05-27,2021-05-03,Completed,764807.82,882690.95,15.41,220503.86,Département,Groupe Martin,4.33,9.18,158718.52,Nicolas Leroy,Accord-cadre,Basse,Moyen
+323,46,Isolation thermique,2022-07-21,2023-04-04,2023-03-03,Completed,714613.02,769094.39,7.62,313105.15,Département,Léon Grosse,26.95,35.64,190292.84,Emma Robert,Marché négocié,Moyenne,Faible
+324,193,Remplacement du chauffage,2025-10-13,2026-04-01,2026-02-19,Completed,957138.23,915491.89,-4.35,185450.01,Département,Bouygues Bâtiment,25.43,33.27,,Nicolas Leroy,Accord-cadre,Moyenne,Élevé
+325,222,Isolation thermique,2022-01-19,2022-06-19,2022-05-26,Completed,2531923.85,2832118.95,11.86,738818.18,Union européenne,SPIE Building Solutions,34.21,35.91,851761.36,Nicolas Leroy,Marché négocié,Critique,Moyen
+326,476,Remplacement du chauffage,2025-08-14,,2026-01-19,Planned,774753.95,,,105431.86,Fonds vert,Groupe Martin,12.63,,,Emma Robert,Accord-cadre,Critique,Élevé
+327,95,Isolation thermique,2019-03-04,2019-05-08,2019-05-01,Completed,1014636.38,1020767.69,0.6,96444.46,Autofinancement,Entreprise Durand,25.98,37.76,526341.2,Sophie Bernard,Marché négocié,Moyenne,Faible
+328,464,Installation photovoltaïque,2017-04-04,2017-06-26,2017-05-25,Completed,738433.59,774515.76,4.89,35442.84,ADEME,Léon Grosse,6.65,15.81,183482.32,Alice Martin,Marché négocié,Moyenne,Faible
+329,408,Isolation thermique,2022-10-06,2023-05-21,2023-04-17,Completed,724092.41,814515.15,12.49,117520.47,Département,Entreprise Durand,18.77,29.85,128766.65,Nicolas Leroy,MAPA,Haute,Élevé
+330,91,Isolation thermique,2019-08-06,2020-06-06,2020-05-07,Completed,1113404.58,1236068.81,11.02,442082.11,ADEME,Entreprise Durand,27.97,37.67,92830.26,Emma Robert,Appel d'offres ouvert,Haute,Élevé
+331,97,Isolation thermique,2025-10-18,,2026-05-08,Planned,597969.48,,,328286.64,Fonds vert,Léon Grosse,29.41,,,Jean Dupont,Marché négocié,Haute,Élevé
+332,257,Remplacement du chauffage,2025-02-18,2025-11-14,2025-11-23,Completed,727296.76,747940.07,2.84,264031.52,Région,SPIE Building Solutions,21.27,31.01,262020.69,Nicolas Leroy,Accord-cadre,Moyenne,Faible
+333,97,Rénovation de toiture,2025-10-10,,2025-11-26,Planned,540916.17,,,104850.76,Département,VINCI Facilities,7.17,,,Sophie Bernard,Appel d'offres ouvert,Moyenne,Élevé
+334,371,Isolation thermique,2025-03-01,,2025-05-28,Planned,3225473.99,,,712458.97,Département,Engie Solutions,33.06,,,Emma Robert,Accord-cadre,Moyenne,Moyen
+335,116,Remplacement du chauffage,2020-12-16,2021-08-11,2021-07-13,Completed,2307750.84,2637176.73,14.27,366732.5,Département,Entreprise Durand,26.5,38.83,,Nicolas Leroy,MAPA,Haute,Moyen
+336,166,Remplacement du chauffage,2025-06-21,2025-12-04,2025-12-04,Completed,433068.82,418312.04,-3.41,187838.95,Département,Bouygues Bâtiment,22.11,30.44,76015.02,Alice Martin,Appel d'offres ouvert,Haute,Faible
+337,3,Ventilation double flux,2018-07-24,2019-03-04,2019-01-11,Completed,1296219.89,1290136.97,-0.47,290518.69,Autofinancement,SPIE Building Solutions,20.02,9.67,76200.86,Jean Dupont,Appel d'offres ouvert,Moyenne,Faible
+338,369,Isolation thermique,2024-05-24,,2025-02-04,In Progress,711624.43,508396.46,-28.56,62531.56,Union européenne,Groupe Martin,17.33,,,Emma Robert,Marché négocié,Basse,Faible
+339,401,Remplacement des menuiseries,2024-08-21,2025-01-30,2024-12-09,Completed,403734.89,383403.95,-5.04,25329.78,Union européenne,Engie Solutions,17.99,14.18,68347.02,Alice Martin,Marché négocié,Haute,Faible
+340,452,Installation photovoltaïque,2025-06-03,2025-11-23,2025-12-04,Completed,143034.35,137870.26,-3.61,2588.31,Autofinancement,Léon Grosse,6.21,9.18,17551.84,Nicolas Leroy,Accord-cadre,Critique,Élevé
+341,34,Remplacement du chauffage,2020-04-23,2020-11-11,2020-10-13,Completed,1104505.47,1231443.99,11.49,297560.33,Union européenne,Engie Solutions,18.26,30.31,,Karim Diallo,Appel d'offres ouvert,Moyenne,Élevé
+342,57,Éclairage LED,2024-09-20,2024-11-05,2024-11-10,Completed,452559.76,449865.43,-0.6,228181.95,Fonds vert,SPIE Building Solutions,10.23,4.55,,Emma Robert,MAPA,Haute,Moyen
+343,475,Remplacement du chauffage,2021-02-19,2021-07-03,2021-06-27,Completed,433722.96,415049.27,-4.31,57245.77,ADEME,VINCI Facilities,29.04,22.41,26947.61,Jean Dupont,Appel d'offres ouvert,Moyenne,Moyen
+344,450,Rénovation de toiture,2017-06-08,2018-01-07,2017-11-28,Completed,411722.86,468995.4,13.91,66057.92,Union européenne,Entreprise Durand,12.96,9.14,21050.92,Jean Dupont,Appel d'offres ouvert,Basse,Moyen
+345,426,Ventilation double flux,2020-03-15,2020-07-05,2020-07-18,Completed,1886034.15,2077458.44,10.15,700077.87,Autofinancement,SPIE Building Solutions,11.23,7.46,100699.39,Alice Martin,MAPA,Moyenne,Moyen
+346,382,Remplacement du chauffage,2025-05-06,,2025-11-25,Planned,1178095.56,,,137096.8,ADEME,VINCI Facilities,12.31,,,Nicolas Leroy,Appel d'offres ouvert,Haute,Faible
+347,462,Isolation thermique,2025-06-04,,2026-02-24,In Progress,249419.21,164503.85,-34.05,32881.47,ADEME,Groupe Martin,30.38,,,Nicolas Leroy,Marché négocié,Basse,Élevé
+348,31,Remplacement des menuiseries,2023-05-16,2024-01-13,2023-12-30,Completed,287720.64,269417.26,-6.36,85949.72,ADEME,Engie Solutions,13.08,7.33,3621.13,Alice Martin,Marché négocié,Moyenne,Faible
+349,52,Remplacement du chauffage,2023-05-01,2023-09-14,2023-07-22,Completed,552471.12,515802.35,-6.64,282609.67,Département,Engie Solutions,27.79,24.11,95624.96,Alice Martin,Accord-cadre,Basse,Moyen
+350,462,Installation photovoltaïque,2025-09-01,2025-11-08,2026-02-06,Cancelled,221219.44,23764.99,-89.26,4336.76,ADEME,Bouygues Bâtiment,10.3,,,Karim Diallo,Marché négocié,Haute,Faible
+351,111,Remplacement des menuiseries,2021-05-12,2021-08-05,2021-07-13,Completed,863655.82,786372.79,-8.95,397411.8,Région,SPIE Building Solutions,8.45,21.46,169904.13,Sophie Bernard,Accord-cadre,Moyenne,Moyen
+352,33,Remplacement des menuiseries,2025-06-07,,2025-08-31,Planned,1757559.61,,,811042.45,Département,Engie Solutions,14.27,,,Emma Robert,Marché négocié,Moyenne,Élevé
+353,59,Remplacement du chauffage,2023-03-20,2023-11-16,2023-10-09,Completed,992379.72,930111.79,-6.27,245960.79,Région,Entreprise Durand,19.98,16.2,57501.53,Nicolas Leroy,Marché négocié,Haute,Moyen
+354,77,Remplacement du chauffage,2020-07-23,2021-02-02,2020-12-13,Completed,827455.39,910229.17,10.0,496618.76,Autofinancement,Léon Grosse,16.32,35.7,314140.92,Alice Martin,Marché négocié,Moyenne,Faible
+355,190,Isolation thermique,2024-08-07,2024-10-08,2024-10-26,Completed,1129364.68,1220245.67,8.05,64318.26,Union européenne,Engie Solutions,26.13,24.86,166903.05,Nicolas Leroy,MAPA,Haute,Moyen
+356,137,Remplacement des menuiseries,2025-01-11,2025-02-27,2025-05-12,Cancelled,922583.99,105985.56,-88.51,48735.03,Autofinancement,SPIE Building Solutions,19.95,,,Alice Martin,Accord-cadre,Moyenne,Moyen
+357,287,Remplacement des menuiseries,2018-03-20,2018-04-20,2018-07-02,Cancelled,317577.73,14514.11,-95.43,4812.31,Département,Entreprise Durand,17.75,,,Sophie Bernard,MAPA,Moyenne,Moyen
+358,404,Remplacement des menuiseries,2025-04-23,,2025-08-31,In Progress,363407.34,261195.44,-28.13,79134.18,Département,VINCI Facilities,18.78,,,Karim Diallo,Appel d'offres ouvert,Moyenne,Moyen
+359,483,Remplacement des menuiseries,2025-04-22,,2025-06-21,In Progress,416512.79,245703.98,-41.01,36967.45,ADEME,SPIE Building Solutions,19.43,,,Alice Martin,Marché négocié,Moyenne,Moyen
+360,440,Isolation thermique,2023-06-20,2023-11-17,2023-10-24,Completed,207012.41,197043.4,-4.82,107551.81,Département,Bouygues Bâtiment,27.96,19.15,22643.16,Nicolas Leroy,MAPA,Haute,Faible
+361,255,Installation photovoltaïque,2022-03-04,2022-07-14,2022-07-01,Completed,726640.74,839233.59,15.49,296271.86,Fonds vert,Groupe Martin,9.13,9.92,9545.35,Alice Martin,Marché négocié,Haute,Élevé
+362,169,Rénovation de toiture,2020-07-09,2021-05-09,2021-03-24,Completed,226528.17,210864.8,-6.91,27879.93,Autofinancement,Entreprise Durand,7.28,9.09,7017.55,Karim Diallo,Appel d'offres ouvert,Haute,Faible
+363,89,Remplacement du chauffage,2020-02-04,2020-06-02,2020-06-10,Completed,392693.49,404172.71,2.92,14749.14,ADEME,Bouygues Bâtiment,15.59,20.73,61972.89,Nicolas Leroy,Appel d'offres ouvert,Moyenne,Moyen
+364,31,Remplacement du chauffage,2025-04-17,,2025-06-02,In Progress,402930.57,175157.29,-56.53,46684.1,Département,Eiffage Énergie,18.02,,,Jean Dupont,Appel d'offres ouvert,Moyenne,Moyen
+365,237,Remplacement du chauffage,2025-08-10,,2026-01-06,In Progress,1455564.57,934976.86,-35.77,195896.67,Union européenne,VINCI Facilities,15.9,,,Nicolas Leroy,Appel d'offres ouvert,Moyenne,Moyen
+366,46,Remplacement du chauffage,2025-03-25,,2025-09-14,Planned,988174.78,,,233142.15,ADEME,Entreprise Durand,22.33,,,Jean Dupont,Accord-cadre,Basse,Moyen
+367,301,Remplacement du chauffage,2025-04-17,2025-08-23,2025-08-15,Completed,2142183.98,2297487.56,7.25,415485.22,ADEME,VINCI Facilities,27.62,16.24,302537.8,Jean Dupont,Appel d'offres ouvert,Moyenne,Élevé
+368,100,Isolation thermique,2024-04-21,2024-10-01,2024-08-25,Completed,519726.9,517932.21,-0.35,127449.61,Autofinancement,VINCI Facilities,22.03,20.64,,Jean Dupont,MAPA,Basse,Moyen
+369,421,Rénovation de toiture,2025-07-23,,2026-03-27,Planned,177173.82,,,8653.65,Autofinancement,VINCI Facilities,10.14,,,Sophie Bernard,Appel d'offres ouvert,Haute,Faible
+370,79,Remplacement du chauffage,2024-05-23,2024-10-26,2024-11-03,Completed,255529.7,263250.76,3.02,90691.99,Union européenne,Eiffage Énergie,26.28,12.38,11316.12,Alice Martin,Accord-cadre,Haute,Faible
+371,319,Remplacement des menuiseries,2025-06-06,,2026-01-10,Planned,1213813.25,,,195819.23,Département,Bouygues Bâtiment,18.36,,,Jean Dupont,MAPA,Haute,Moyen
+372,160,Remplacement des menuiseries,2025-12-24,2026-03-13,2026-03-11,Completed,499242.79,518701.22,3.9,12611.32,Département,Entreprise Durand,7.28,11.19,68659.47,Jean Dupont,MAPA,Moyenne,Moyen
+373,325,Isolation thermique,2020-02-24,2020-05-09,2020-05-26,Completed,1252024.21,1418087.03,13.26,562510.05,Département,Entreprise Durand,34.58,18.58,84595.96,Nicolas Leroy,MAPA,Moyenne,Moyen
+374,489,Ventilation double flux,2020-03-05,2021-01-03,2020-11-23,Completed,410302.89,440614.98,7.39,42886.46,ADEME,Groupe Martin,7.29,20.22,74945.42,Emma Robert,Marché négocié,Haute,Moyen
+375,29,Rénovation de toiture,2024-03-18,2024-06-30,2024-05-31,Completed,986737.38,940377.26,-4.7,443508.89,ADEME,Léon Grosse,6.17,18.45,303081.84,Nicolas Leroy,Marché négocié,Haute,Moyen
+376,494,Rénovation de toiture,2023-06-09,2023-12-27,2023-11-26,Completed,864547.94,789821.75,-8.64,21841.57,Département,Eiffage Énergie,17.95,6.94,66810.24,Sophie Bernard,Appel d'offres ouvert,Moyenne,Moyen
+377,208,Isolation thermique,2022-05-17,2022-10-05,2022-10-17,Completed,417360.98,478357.13,14.61,219618.41,Région,Bouygues Bâtiment,17.12,27.26,,Nicolas Leroy,Appel d'offres ouvert,Critique,Moyen
+378,350,Remplacement des menuiseries,2025-08-06,2025-12-29,2025-11-24,Completed,1422622.03,1322659.77,-7.03,362115.36,Autofinancement,VINCI Facilities,17.22,16.12,180395.59,Alice Martin,Marché négocié,Critique,Élevé
+379,61,Ventilation double flux,2025-12-21,2026-03-07,2026-02-24,Completed,244304.79,230759.97,-5.54,21116.8,Département,Léon Grosse,21.57,8.67,2217.85,Alice Martin,Marché négocié,Critique,Faible
+380,300,Remplacement des menuiseries,2025-04-06,2026-01-21,2026-01-06,Completed,813058.69,934371.74,14.92,336286.02,Autofinancement,Eiffage Énergie,10.29,8.65,91828.51,Alice Martin,Marché négocié,Haute,Élevé
+381,72,Isolation thermique,2022-03-25,2022-07-20,2022-06-28,Completed,171182.67,180799.01,5.62,47430.2,Autofinancement,Groupe Martin,28.24,30.31,,Sophie Bernard,MAPA,Basse,Élevé
+382,179,Installation photovoltaïque,2021-05-05,2021-07-24,2021-06-26,Completed,554696.11,512513.02,-7.6,243150.56,Union européenne,VINCI Facilities,13.74,6.64,,Alice Martin,Accord-cadre,Haute,Faible
+383,124,Remplacement des menuiseries,2019-04-17,2019-08-09,2019-06-18,Completed,529264.07,543298.13,2.65,82105.53,Département,Bouygues Bâtiment,19.21,22.79,131331.86,Alice Martin,Accord-cadre,Haute,Moyen
+384,469,Ventilation double flux,2021-07-17,2021-09-25,2021-09-28,Completed,185662.15,214582.28,15.58,79336.49,Autofinancement,Bouygues Bâtiment,7.01,10.29,16070.15,Jean Dupont,MAPA,Moyenne,Moyen
+385,487,Remplacement du chauffage,2016-03-20,2016-12-03,2016-11-11,Completed,1417896.1,1349017.61,-4.86,737544.49,Région,Eiffage Énergie,15.45,32.96,389618.28,Jean Dupont,Accord-cadre,Moyenne,Élevé
+386,354,Éclairage LED,2025-03-06,,2025-07-23,In Progress,258550.64,149315.05,-42.25,24519.85,Autofinancement,Engie Solutions,4.39,,,Emma Robert,MAPA,Haute,Faible
+387,14,Rénovation de toiture,2021-03-05,2021-09-18,2021-08-02,Completed,708963.71,734596.16,3.62,137903.22,Autofinancement,SPIE Building Solutions,6.76,15.67,260197.75,Sophie Bernard,MAPA,Moyenne,Élevé
+388,417,Remplacement du chauffage,2015-07-24,2016-05-28,2016-04-07,Completed,568657.59,542639.0,-4.58,225426.86,ADEME,Léon Grosse,24.45,24.2,85224.54,Sophie Bernard,Accord-cadre,Haute,Élevé
+389,139,Isolation thermique,2020-06-20,2021-01-25,2021-01-24,Completed,1759644.19,1838632.08,4.49,883227.64,Autofinancement,Bouygues Bâtiment,25.1,20.67,31394.82,Sophie Bernard,Appel d'offres ouvert,Moyenne,Faible
+390,16,Remplacement du chauffage,2024-07-14,2025-02-06,2025-02-09,Completed,1302532.09,1363001.59,4.64,145258.92,Fonds vert,Groupe Martin,12.54,14.23,38885.01,Alice Martin,Accord-cadre,Haute,Faible
+391,332,Isolation thermique,2020-06-17,2020-12-10,2020-12-06,Completed,379970.56,385050.31,1.34,195118.54,Département,Léon Grosse,31.34,22.94,15770.72,Alice Martin,MAPA,Haute,Faible
+392,348,Installation photovoltaïque,2018-07-04,2018-12-25,2018-11-09,Completed,866510.27,896792.6,3.49,417585.54,ADEME,Entreprise Durand,6.7,11.94,138376.15,Alice Martin,Accord-cadre,Moyenne,Élevé
+393,139,Remplacement des menuiseries,2025-04-07,,2025-12-19,In Progress,1092230.48,824906.78,-24.48,166230.19,Région,Bouygues Bâtiment,19.04,,,Karim Diallo,MAPA,Moyenne,Moyen
+394,444,Installation photovoltaïque,2018-03-20,2018-06-19,2018-07-05,Completed,2114953.83,2172393.9,2.72,1090879.06,Union européenne,Bouygues Bâtiment,8.28,16.0,68607.92,Alice Martin,Appel d'offres ouvert,Moyenne,Moyen
+395,88,Remplacement des menuiseries,2017-12-24,2018-10-16,2018-09-29,Completed,395919.26,365935.84,-7.57,149417.48,Union européenne,Groupe Martin,10.12,15.12,112621.49,Sophie Bernard,Marché négocié,Haute,Moyen
+396,250,Éclairage LED,2019-08-01,2020-01-11,2020-01-13,Completed,335339.5,371769.75,10.86,42123.9,Union européenne,Groupe Martin,10.81,7.97,12032.26,Nicolas Leroy,MAPA,Moyenne,Moyen
+397,311,Éclairage LED,2022-06-11,2022-10-06,2022-09-23,Completed,143417.11,134540.92,-6.19,4390.73,Région,Engie Solutions,6.37,4.18,14205.46,Emma Robert,Marché négocié,Critique,Faible
+398,227,Isolation thermique,2025-07-12,,2026-03-26,Planned,737264.83,,,383150.2,Région,Léon Grosse,29.81,,,Emma Robert,Accord-cadre,Moyenne,Élevé
+399,331,Remplacement du chauffage,2025-06-13,,2026-01-15,Planned,1295147.04,,,667139.11,Autofinancement,Entreprise Durand,23.54,,,Emma Robert,Appel d'offres ouvert,Moyenne,Élevé
+400,446,Éclairage LED,2016-03-06,2016-05-22,2016-04-28,Completed,162092.2,175328.45,8.17,86003.54,Département,SPIE Building Solutions,8.28,4.64,50974.84,Alice Martin,Accord-cadre,Basse,Faible
+401,398,Remplacement des menuiseries,2019-03-20,2019-04-19,2019-09-02,Cancelled,616147.97,70404.86,-88.57,16516.67,Fonds vert,Engie Solutions,10.22,,,Jean Dupont,Appel d'offres ouvert,Critique,Élevé
+402,318,Isolation thermique,2025-03-08,,2025-10-05,Planned,360528.26,,,165544.36,ADEME,SPIE Building Solutions,20.77,,,Nicolas Leroy,Marché négocié,Basse,Moyen
+403,444,Éclairage LED,2025-01-06,,2025-05-06,Planned,1168894.39,,,166284.83,Région,Eiffage Énergie,10.13,,,Emma Robert,Appel d'offres ouvert,Critique,Faible
+404,128,Isolation thermique,2017-04-05,2018-02-13,2018-01-09,Completed,856340.49,872351.31,1.87,204215.02,Union européenne,Léon Grosse,20.89,28.7,27824.56,Nicolas Leroy,Accord-cadre,Moyenne,Élevé
+405,74,Éclairage LED,2025-10-25,,2026-02-26,Planned,435874.55,,,225026.41,ADEME,Bouygues Bâtiment,6.87,,,Alice Martin,Appel d'offres ouvert,Moyenne,Moyen
+406,49,Remplacement du chauffage,2025-02-09,2025-12-08,2025-11-12,Completed,781478.79,762877.39,-2.38,365947.88,Fonds vert,Eiffage Énergie,30.49,33.13,73549.6,Nicolas Leroy,Accord-cadre,Basse,Faible
+407,325,Éclairage LED,2023-01-01,2023-08-23,2023-07-02,Completed,141145.04,139624.3,-1.08,28006.07,Union européenne,Bouygues Bâtiment,4.44,5.54,25223.98,Emma Robert,Marché négocié,Moyenne,Élevé
+408,305,Remplacement des menuiseries,2022-03-21,2022-10-19,2022-09-09,Completed,807550.58,850064.81,5.26,315271.65,Région,SPIE Building Solutions,12.43,15.15,144662.72,Emma Robert,Appel d'offres ouvert,Critique,Faible
+409,402,Éclairage LED,2025-02-08,,2025-09-05,In Progress,102468.34,56596.68,-44.77,3284.95,Union européenne,Eiffage Énergie,6.23,,,Alice Martin,MAPA,Basse,Élevé
+410,283,Isolation thermique,2021-10-05,2022-06-12,2022-05-19,Completed,717422.18,781270.23,8.9,47088.43,Région,Eiffage Énergie,32.72,21.84,23202.86,Sophie Bernard,Accord-cadre,Basse,Moyen
+411,319,Ventilation double flux,2025-05-23,,2025-08-05,In Progress,929059.04,471907.59,-49.21,92790.21,Autofinancement,Eiffage Énergie,19.23,,,Alice Martin,Appel d'offres ouvert,Moyenne,Moyen
+412,191,Isolation thermique,2025-01-15,,2025-05-14,Planned,435405.7,,,6230.49,Fonds vert,Engie Solutions,14.79,,,Jean Dupont,Appel d'offres ouvert,Moyenne,Élevé
+413,179,Isolation thermique,2023-05-02,2023-10-04,2023-09-09,Completed,318205.21,333154.1,4.7,25461.23,Union européenne,Entreprise Durand,14.48,33.47,,Nicolas Leroy,Accord-cadre,Basse,Faible
+414,338,Rénovation de toiture,2025-05-03,2025-10-03,2025-08-12,Completed,432612.64,456630.7,5.55,217187.41,Département,Groupe Martin,16.29,7.67,15828.3,Sophie Bernard,Appel d'offres ouvert,Moyenne,Moyen
+415,395,Rénovation de toiture,2024-10-23,2025-06-02,2025-05-04,Completed,137379.23,134788.18,-1.89,33010.94,Région,Eiffage Énergie,7.77,11.23,29799.27,Alice Martin,Appel d'offres ouvert,Moyenne,Moyen
+416,337,Remplacement du chauffage,2023-01-21,2023-08-29,2023-08-25,Completed,406534.59,424341.26,4.38,218756.73,Fonds vert,Bouygues Bâtiment,12.33,35.98,92126.44,Jean Dupont,Marché négocié,Moyenne,Élevé
+417,35,Remplacement du chauffage,2024-12-09,2025-08-24,2025-07-28,Completed,1405844.98,1333018.18,-5.18,478505.12,ADEME,Bouygues Bâtiment,20.89,27.78,480305.06,Alice Martin,Accord-cadre,Haute,Élevé
+418,269,Rénovation de toiture,2025-01-15,,2025-06-21,In Progress,760958.36,589929.64,-22.48,63141.9,Département,Eiffage Énergie,8.94,,,Emma Robert,Appel d'offres ouvert,Basse,Moyen
+419,132,Ventilation double flux,2022-10-08,2023-05-03,2023-05-12,Completed,1021021.55,998414.36,-2.21,506919.7,Autofinancement,Eiffage Énergie,11.71,12.89,77389.39,Alice Martin,Marché négocié,Moyenne,Moyen
+420,391,Isolation thermique,2025-07-09,2026-03-01,2026-02-22,Completed,461346.32,485955.32,5.33,51420.12,Union européenne,Entreprise Durand,30.33,26.79,53118.82,Sophie Bernard,MAPA,Basse,Moyen
+421,112,Remplacement du chauffage,2022-11-05,2023-03-23,2023-03-28,Completed,951169.8,953092.19,0.2,429975.54,Fonds vert,SPIE Building Solutions,18.89,16.4,196020.91,Emma Robert,Accord-cadre,Critique,Moyen
+422,290,Rénovation de toiture,2019-06-07,2019-10-07,2019-10-25,Completed,455327.67,413417.73,-9.2,99010.89,Union européenne,VINCI Facilities,7.45,19.24,,Alice Martin,Appel d'offres ouvert,Moyenne,Élevé
+423,196,Remplacement des menuiseries,2024-09-11,,2024-12-29,In Progress,378497.51,204202.56,-46.05,100231.39,Région,Bouygues Bâtiment,7.51,,,Nicolas Leroy,MAPA,Moyenne,Faible
+424,359,Remplacement des menuiseries,2025-08-12,,2026-03-30,In Progress,553570.39,293458.66,-46.99,128421.81,Région,Engie Solutions,15.17,,,Sophie Bernard,Appel d'offres ouvert,Haute,Élevé
+425,376,Isolation thermique,2025-02-25,,2025-11-14,In Progress,490065.14,237531.17,-51.53,37515.92,Autofinancement,Engie Solutions,29.05,,,Jean Dupont,Appel d'offres ouvert,Moyenne,Faible
+426,129,Isolation thermique,2017-03-13,2017-10-13,2017-10-06,Completed,940414.5,962385.39,2.34,444335.37,Union européenne,Entreprise Durand,14.09,27.55,78692.75,Alice Martin,MAPA,Haute,Élevé
+427,330,Remplacement du chauffage,2015-05-14,2015-08-10,2015-08-25,Completed,2444835.3,2483410.9,1.58,753451.97,Région,Groupe Martin,14.3,32.12,461963.57,Nicolas Leroy,Accord-cadre,Moyenne,Faible
+428,89,Remplacement du chauffage,2023-12-13,2024-07-27,2024-08-11,Completed,191065.12,207971.97,8.85,51218.26,Fonds vert,SPIE Building Solutions,15.01,33.65,100597.57,Nicolas Leroy,Marché négocié,Moyenne,Moyen
+429,36,Isolation thermique,2025-07-19,2025-12-18,2025-12-13,Completed,867288.66,926063.4,6.78,165365.31,Département,Eiffage Énergie,31.3,23.67,24070.2,Sophie Bernard,Appel d'offres ouvert,Haute,Élevé
+430,413,Isolation thermique,2025-04-09,,2025-06-12,Planned,619213.46,,,183248.77,Autofinancement,Eiffage Énergie,25.55,,,Sophie Bernard,Accord-cadre,Haute,Faible
+431,322,Isolation thermique,2025-10-01,,2026-05-07,In Progress,1022199.61,790984.89,-22.62,344847.26,Autofinancement,SPIE Building Solutions,34.9,,,Alice Martin,Appel d'offres ouvert,Haute,Élevé
+432,88,Remplacement des menuiseries,2018-04-23,2018-10-10,2018-09-05,Completed,1011035.53,1158552.66,14.59,584673.8,Union européenne,Engie Solutions,18.34,11.59,86328.25,Sophie Bernard,Marché négocié,Haute,Moyen
+433,123,Ventilation double flux,2023-07-10,2024-02-25,2024-02-24,Completed,1146853.14,1082158.93,-5.64,425913.13,Union européenne,Entreprise Durand,8.36,22.44,105517.39,Karim Diallo,MAPA,Basse,Moyen
+434,236,Ventilation double flux,2025-03-04,,2025-10-18,Planned,1675883.17,,,692660.28,ADEME,SPIE Building Solutions,17.73,,,Emma Robert,MAPA,Basse,Élevé
+435,93,Isolation thermique,2025-06-19,,2026-02-11,Planned,397038.55,,,111191.13,Département,Entreprise Durand,22.5,,,Nicolas Leroy,Appel d'offres ouvert,Moyenne,Moyen
+436,417,Isolation thermique,2022-02-19,2022-06-17,2022-05-20,Completed,515203.61,505424.97,-1.9,168159.9,Région,Bouygues Bâtiment,26.98,24.34,85717.58,Emma Robert,Marché négocié,Basse,Faible
+437,367,Isolation thermique,2022-07-18,2023-04-24,2023-03-26,Completed,904939.51,991138.66,9.53,222015.86,Fonds vert,Léon Grosse,32.08,33.12,420502.14,Sophie Bernard,Marché négocié,Moyenne,Moyen
+438,176,Ventilation double flux,2024-08-21,,2024-11-05,In Progress,1545187.61,1051410.19,-31.96,120310.27,Autofinancement,Léon Grosse,15.86,,,Nicolas Leroy,Marché négocié,Critique,Faible
+439,41,Isolation thermique,2015-08-15,2015-09-23,2016-01-09,Cancelled,996628.68,115705.09,-88.39,6628.1,Autofinancement,Léon Grosse,16.48,,,Karim Diallo,Marché négocié,Moyenne,Élevé
+440,359,Remplacement des menuiseries,2025-04-18,,2026-01-07,In Progress,478226.47,203545.94,-57.44,36742.68,ADEME,VINCI Facilities,19.15,,,Nicolas Leroy,MAPA,Moyenne,Moyen
+441,210,Isolation thermique,2025-07-15,,2026-04-10,Planned,2682532.46,,,1174633.65,Fonds vert,Bouygues Bâtiment,24.81,,,Emma Robert,MAPA,Moyenne,Moyen
+442,84,Rénovation de toiture,2019-05-08,2020-01-28,2020-01-05,Completed,507692.29,555402.77,9.4,42360.68,Union européenne,Eiffage Énergie,12.99,10.56,15569.89,Sophie Bernard,Appel d'offres ouvert,Haute,Faible
+443,377,Installation photovoltaïque,2020-03-20,2020-08-20,2020-06-28,Completed,1973303.42,1945928.56,-1.39,371531.75,Région,Léon Grosse,13.86,9.58,,Alice Martin,MAPA,Moyenne,Faible
+444,248,Remplacement du chauffage,2022-04-19,2022-07-01,2022-07-06,Completed,1049292.73,1002476.73,-4.46,301526.2,Autofinancement,Bouygues Bâtiment,14.2,16.93,231845.7,Karim Diallo,Accord-cadre,Haute,Faible
+445,84,Rénovation de toiture,2023-04-06,2024-02-03,2024-01-10,Completed,419709.45,459981.32,9.6,242216.02,ADEME,Engie Solutions,14.95,7.34,10822.25,Karim Diallo,MAPA,Haute,Faible
+446,20,Remplacement du chauffage,2024-03-12,2024-07-04,2024-06-14,Completed,765300.99,773656.13,1.09,254615.22,Région,SPIE Building Solutions,31.57,12.65,9101.45,Alice Martin,MAPA,Moyenne,Élevé
+447,289,Remplacement du chauffage,2024-07-09,,2025-02-12,In Progress,437654.65,278842.09,-36.29,89606.66,ADEME,VINCI Facilities,29.75,,,Karim Diallo,MAPA,Haute,Faible
+448,174,Isolation thermique,2025-08-12,2025-09-19,2026-01-22,Cancelled,962459.7,36204.39,-96.24,18345.93,Fonds vert,Léon Grosse,30.67,,,Emma Robert,Appel d'offres ouvert,Basse,Élevé
+449,301,Remplacement des menuiseries,2025-07-03,2026-05-10,2026-03-30,Completed,1525039.32,1498444.4,-1.74,466552.01,Union européenne,VINCI Facilities,18.34,9.42,175486.83,Emma Robert,Marché négocié,Moyenne,Élevé
+450,299,Éclairage LED,2022-03-25,2022-06-15,2022-05-11,Completed,465083.64,530849.98,14.14,110888.07,Département,SPIE Building Solutions,6.81,10.52,126061.62,Sophie Bernard,Appel d'offres ouvert,Moyenne,Faible
+451,327,Éclairage LED,2024-06-09,,2024-10-22,In Progress,811319.24,377537.83,-53.47,14995.96,Union européenne,Groupe Martin,9.96,,,Nicolas Leroy,Marché négocié,Basse,Faible
+452,228,Rénovation de toiture,2025-08-01,,2026-01-21,In Progress,848625.22,617272.16,-27.26,67271.86,Région,Bouygues Bâtiment,7.04,,,Nicolas Leroy,Marché négocié,Critique,Élevé
+453,213,Remplacement des menuiseries,2015-07-24,2016-03-06,2016-01-27,Completed,430575.36,395786.74,-8.08,165303.02,Union européenne,Bouygues Bâtiment,17.83,10.1,40437.22,Emma Robert,Appel d'offres ouvert,Haute,Faible
+454,472,Remplacement des menuiseries,2019-02-22,2019-10-09,2019-10-27,Completed,1211125.89,1096277.47,-9.48,205101.51,ADEME,Engie Solutions,7.81,10.43,87269.83,Emma Robert,Accord-cadre,Moyenne,Moyen
+455,404,Isolation thermique,2025-03-22,,2025-08-04,In Progress,511848.88,268033.32,-47.63,95271.98,Autofinancement,Bouygues Bâtiment,31.69,,,Jean Dupont,Appel d'offres ouvert,Haute,Élevé
+456,462,Rénovation de toiture,2025-03-04,,2025-06-05,Planned,146122.96,,,72770.78,Département,Bouygues Bâtiment,15.59,,,Jean Dupont,MAPA,Haute,Faible
+457,453,Isolation thermique,2019-08-23,2020-02-11,2020-02-27,Completed,291725.27,332556.39,14.0,67969.64,Département,Bouygues Bâtiment,33.04,12.45,21315.74,Jean Dupont,Appel d'offres ouvert,Moyenne,Moyen
+458,79,Remplacement des menuiseries,2025-01-04,2025-07-24,2025-06-01,Completed,108472.43,121594.83,12.1,32701.53,Autofinancement,Bouygues Bâtiment,13.7,12.91,11800.58,Jean Dupont,Accord-cadre,Moyenne,Faible
+459,161,Éclairage LED,2019-03-01,2019-10-18,2019-11-04,Completed,633634.84,580935.03,-8.32,162180.41,Fonds vert,Engie Solutions,9.67,7.87,83488.94,Emma Robert,Appel d'offres ouvert,Haute,Élevé
+460,334,Isolation thermique,2025-03-07,2025-09-28,2025-10-04,Completed,307561.85,306453.9,-0.36,107489.32,Autofinancement,Bouygues Bâtiment,16.13,16.49,9395.31,Emma Robert,Marché négocié,Haute,Élevé
+461,154,Remplacement des menuiseries,2015-08-21,2015-11-22,2015-10-19,Completed,1055516.45,1055361.98,-0.01,82893.85,Union européenne,SPIE Building Solutions,15.99,14.68,39530.09,Jean Dupont,Marché négocié,Moyenne,Moyen
+462,320,Isolation thermique,2024-09-05,2024-11-10,2024-12-09,Cancelled,2922599.85,102078.98,-96.51,8422.41,Union européenne,Groupe Martin,14.08,,,Nicolas Leroy,Accord-cadre,Moyenne,Élevé
+463,122,Remplacement des menuiseries,2025-01-21,2025-07-05,2025-07-04,Completed,800657.6,725414.51,-9.4,44321.8,Région,Groupe Martin,17.74,16.03,50409.88,Jean Dupont,Marché négocié,Haute,Moyen
+464,183,Rénovation de toiture,2015-11-10,2015-11-23,2016-06-26,Cancelled,579997.6,12573.53,-97.83,1598.38,Fonds vert,Léon Grosse,8.58,,,Sophie Bernard,Marché négocié,Moyenne,Moyen
+465,45,Éclairage LED,2018-01-08,2018-04-14,2018-03-15,Completed,249435.86,248677.1,-0.3,130941.48,Région,VINCI Facilities,7.17,8.07,35367.99,Sophie Bernard,Appel d'offres ouvert,Haute,Moyen
+466,420,Rénovation de toiture,2025-05-24,,2025-08-18,Planned,192695.31,,,8405.78,Autofinancement,SPIE Building Solutions,15.76,,,Alice Martin,Appel d'offres ouvert,Haute,Faible
+467,311,Remplacement du chauffage,2025-10-16,,2026-03-20,Planned,228452.76,,,11019.69,Fonds vert,Groupe Martin,30.5,,,Nicolas Leroy,Appel d'offres ouvert,Haute,Élevé
+468,272,Isolation thermique,2024-07-18,2024-11-04,2024-09-22,Completed,1958132.35,2064643.26,5.44,541358.56,Union européenne,Bouygues Bâtiment,22.46,19.89,198266.05,Karim Diallo,MAPA,Moyenne,Élevé
+469,357,Remplacement du chauffage,2025-03-02,,2025-07-17,In Progress,1448084.64,537344.98,-62.89,104332.52,Fonds vert,Entreprise Durand,23.39,,,Sophie Bernard,MAPA,Haute,Élevé
+470,443,Installation photovoltaïque,2022-09-17,2022-11-28,2022-12-06,Completed,680885.88,720664.2,5.84,90602.71,ADEME,Groupe Martin,7.05,11.19,,Alice Martin,Accord-cadre,Moyenne,Élevé
+471,406,Isolation thermique,2023-02-25,2024-01-22,2023-12-01,Completed,2312347.39,2170979.72,-6.11,980344.97,Région,SPIE Building Solutions,31.35,27.17,,Emma Robert,Accord-cadre,Haute,Faible
+472,445,Éclairage LED,2022-06-12,2023-01-10,2022-11-23,Completed,504914.43,541601.36,7.27,94547.39,Fonds vert,Bouygues Bâtiment,8.49,7.17,27365.09,Emma Robert,MAPA,Haute,Faible
+473,122,Remplacement des menuiseries,2025-08-10,2026-05-06,2026-05-02,Completed,455042.18,454104.06,-0.21,157846.69,Autofinancement,Entreprise Durand,13.31,17.58,55284.2,Nicolas Leroy,Accord-cadre,Basse,Faible
+474,129,Isolation thermique,2022-07-16,2023-05-02,2023-04-09,Completed,855553.37,794469.74,-7.14,312229.98,Région,Léon Grosse,28.2,26.2,74836.66,Jean Dupont,MAPA,Moyenne,Moyen
+475,411,Remplacement du chauffage,2025-04-14,2025-11-22,2025-12-09,Completed,2023578.91,2051438.23,1.38,1086589.43,Autofinancement,Eiffage Énergie,26.2,13.34,29857.46,Jean Dupont,Appel d'offres ouvert,Haute,Élevé
+476,421,Rénovation de toiture,2025-04-21,,2025-08-20,Planned,161417.42,,,9679.3,Fonds vert,Eiffage Énergie,8.56,,,Emma Robert,Accord-cadre,Basse,Faible
+477,360,Remplacement du chauffage,2016-03-12,2016-10-02,2016-09-25,Completed,572779.95,565591.05,-1.26,234406.4,Fonds vert,Bouygues Bâtiment,12.07,27.81,67243.21,Alice Martin,MAPA,Haute,Moyen
+478,490,Remplacement des menuiseries,2025-05-05,,2026-02-04,In Progress,593100.29,301925.4,-49.09,81901.74,Autofinancement,Eiffage Énergie,10.3,,,Jean Dupont,Accord-cadre,Moyenne,Faible
+479,18,Remplacement du chauffage,2017-08-04,2018-02-06,2018-01-25,Completed,1428870.09,1622369.76,13.54,244949.4,Autofinancement,SPIE Building Solutions,12.59,25.06,199668.84,Nicolas Leroy,Appel d'offres ouvert,Haute,Moyen
+480,167,Installation photovoltaïque,2025-06-07,2026-03-09,2026-03-09,Completed,1446126.87,1408236.28,-2.62,450850.95,Département,Eiffage Énergie,5.36,8.95,99810.03,Emma Robert,Appel d'offres ouvert,Haute,Moyen
+481,46,Remplacement des menuiseries,2025-09-19,,2025-11-06,Planned,512602.97,,,241874.05,Union européenne,Groupe Martin,12.46,,,Karim Diallo,MAPA,Critique,Faible
+482,152,Isolation thermique,2025-03-04,,2025-06-12,Planned,613801.71,,,113639.14,Département,Bouygues Bâtiment,17.36,,,Jean Dupont,Appel d'offres ouvert,Moyenne,Élevé
+483,394,Remplacement des menuiseries,2019-02-18,2019-09-26,2019-08-19,Completed,2643927.53,2992900.01,13.2,892621.53,Union européenne,Engie Solutions,12.04,23.41,332149.99,Alice Martin,Appel d'offres ouvert,Haute,Élevé
+484,443,Remplacement du chauffage,2024-05-02,2024-10-24,2024-10-11,Completed,1067960.1,1182692.79,10.74,295731.43,Union européenne,Engie Solutions,28.49,19.9,,Nicolas Leroy,MAPA,Moyenne,Élevé
+485,194,Éclairage LED,2025-04-04,,2025-10-10,In Progress,277882.47,194833.38,-29.89,26454.11,ADEME,Léon Grosse,4.61,,,Emma Robert,Marché négocié,Moyenne,Élevé
+486,255,Rénovation de toiture,2025-03-05,2025-10-30,2025-11-04,Completed,380377.81,433010.45,13.84,189055.05,Fonds vert,Léon Grosse,13.85,5.75,5532.84,Alice Martin,MAPA,Haute,Faible
+487,212,Ventilation double flux,2025-03-03,,2025-05-05,Planned,987778.0,,,53725.48,Fonds vert,Groupe Martin,14.46,,,Jean Dupont,Marché négocié,Critique,Faible
+488,137,Remplacement du chauffage,2025-04-22,2026-01-08,2026-01-06,Completed,1065088.4,1124580.4,5.59,546421.75,ADEME,Groupe Martin,15.04,17.23,212835.77,Alice Martin,Marché négocié,Moyenne,Faible
+489,203,Éclairage LED,2022-04-03,2022-10-21,2022-10-24,Completed,339438.77,391999.74,15.48,26683.8,Fonds vert,Eiffage Énergie,6.3,3.11,3045.02,Sophie Bernard,MAPA,Moyenne,Faible
+490,100,Isolation thermique,2025-06-01,2025-09-01,2025-09-15,Completed,1302720.23,1219173.33,-6.41,301798.58,Union européenne,Engie Solutions,33.2,27.02,,Jean Dupont,Marché négocié,Critique,Moyen
+491,273,Remplacement des menuiseries,2017-11-24,2018-07-12,2018-07-20,Completed,824056.54,921473.89,11.82,120294.74,Région,Léon Grosse,15.58,18.13,146720.71,Nicolas Leroy,Marché négocié,Moyenne,Élevé
+492,26,Éclairage LED,2015-10-02,2016-02-07,2016-02-12,Completed,191948.78,211513.77,10.19,93259.76,Autofinancement,Bouygues Bâtiment,10.39,10.94,31988.71,Nicolas Leroy,Appel d'offres ouvert,Haute,Faible
+493,223,Remplacement des menuiseries,2025-07-21,2026-03-15,2026-02-01,Completed,485670.41,530739.02,9.28,20092.12,Autofinancement,Léon Grosse,11.43,12.58,42888.64,Nicolas Leroy,Accord-cadre,Critique,Élevé
+494,257,Remplacement du chauffage,2025-05-23,2025-10-12,2025-09-28,Completed,902414.28,847109.57,-6.13,351618.77,ADEME,Engie Solutions,28.26,31.73,268104.36,Jean Dupont,MAPA,Haute,Élevé
+495,147,Rénovation de toiture,2015-07-17,2016-04-05,2016-04-04,Completed,144669.02,136054.81,-5.95,58448.57,ADEME,Eiffage Énergie,7.91,13.63,28597.92,Karim Diallo,Accord-cadre,Moyenne,Élevé
+496,421,Remplacement des menuiseries,2025-12-15,2026-07-22,2026-06-22,Completed,56393.64,63431.25,12.48,32111.95,Autofinancement,Groupe Martin,14.92,19.14,34297.62,Karim Diallo,Appel d'offres ouvert,Haute,Élevé
+497,230,Remplacement du chauffage,2016-09-08,2017-03-23,2017-01-31,Completed,536641.42,490811.63,-8.54,261142.71,Département,SPIE Building Solutions,13.43,16.7,,Alice Martin,Appel d'offres ouvert,Moyenne,Élevé
+498,372,Remplacement des menuiseries,2021-10-16,2021-12-07,2022-01-20,Cancelled,339033.67,39863.15,-88.24,2382.08,Union européenne,Groupe Martin,14.6,,,Sophie Bernard,MAPA,Critique,Faible
+499,481,Isolation thermique,2021-06-24,2022-01-12,2021-12-17,Completed,967560.19,988240.2,2.14,251000.96,Autofinancement,Entreprise Durand,18.28,34.44,199037.07,Alice Martin,Appel d'offres ouvert,Critique,Faible
+500,136,Éclairage LED,2023-11-03,2024-03-11,2024-02-27,Completed,153725.77,165235.68,7.49,1735.18,Région,Léon Grosse,7.92,8.18,59956.91,Nicolas Leroy,MAPA,Moyenne,Élevé
+501,168,Isolation thermique,2022-03-24,2022-12-27,2022-12-29,Completed,1075498.45,1241181.12,15.41,43383.57,Région,Bouygues Bâtiment,23.17,21.99,179014.41,Nicolas Leroy,Marché négocié,Haute,Élevé
+502,402,Éclairage LED,2025-06-15,2025-11-26,2025-11-05,Completed,161185.17,185370.95,15.0,81144.49,ADEME,Groupe Martin,3.16,11.55,18287.1,Sophie Bernard,Appel d'offres ouvert,Critique,Faible
+503,74,Isolation thermique,2025-09-18,,2026-05-29,In Progress,728147.19,400592.7,-44.98,70166.95,ADEME,Eiffage Énergie,15.37,,,Jean Dupont,Accord-cadre,Basse,Élevé
+504,73,Remplacement du chauffage,2022-04-23,2022-10-12,2022-10-16,Completed,571330.6,540484.26,-5.4,216780.48,Autofinancement,Eiffage Énergie,26.32,32.49,,Emma Robert,MAPA,Moyenne,Élevé
+505,415,Ventilation double flux,2025-08-23,,2025-10-23,Planned,252050.86,,,73587.19,Département,Entreprise Durand,10.01,,,Karim Diallo,Accord-cadre,Moyenne,Élevé
+506,34,Remplacement du chauffage,2024-07-12,2024-11-03,2024-10-10,Completed,1137443.27,1075414.96,-5.45,13896.69,Autofinancement,Bouygues Bâtiment,12.51,15.75,,Jean Dupont,Accord-cadre,Critique,Faible
+507,402,Éclairage LED,2025-08-14,,2025-12-05,In Progress,71649.34,51265.09,-28.45,4048.35,Département,Entreprise Durand,5.26,,,Jean Dupont,Accord-cadre,Moyenne,Élevé
+508,61,Remplacement du chauffage,2025-08-02,,2026-03-01,Planned,122624.44,,,24376.94,Union européenne,SPIE Building Solutions,12.34,,,Sophie Bernard,MAPA,Moyenne,Élevé
+509,295,Ventilation double flux,2021-04-07,2021-12-07,2021-10-14,Completed,2422431.49,2614091.86,7.91,1185943.3,ADEME,Léon Grosse,9.64,15.48,281351.06,Alice Martin,MAPA,Moyenne,Élevé
+510,281,Éclairage LED,2023-07-13,2023-10-17,2023-10-20,Completed,392888.63,404207.61,2.88,94269.89,Fonds vert,Eiffage Énergie,6.85,12.6,,Emma Robert,Marché négocié,Haute,Moyen
+511,314,Rénovation de toiture,2018-04-21,2018-10-16,2018-10-01,Completed,675838.83,735276.92,8.79,65350.89,ADEME,Entreprise Durand,8.22,17.43,70309.89,Emma Robert,MAPA,Critique,Moyen
+512,498,Remplacement du chauffage,2022-03-12,2022-08-25,2022-07-13,Completed,544423.26,596644.11,9.59,152235.12,Fonds vert,Bouygues Bâtiment,28.83,30.01,204782.92,Emma Robert,MAPA,Moyenne,Moyen
+513,162,Isolation thermique,2023-12-01,2024-01-17,2024-02-01,Completed,262905.84,291468.75,10.86,79353.16,Fonds vert,SPIE Building Solutions,20.5,22.79,15564.71,Sophie Bernard,MAPA,Haute,Faible
+514,239,Rénovation de toiture,2024-09-16,2025-01-17,2025-01-17,Completed,91422.63,96917.11,6.01,24070.33,Département,VINCI Facilities,6.06,7.95,1548.6,Jean Dupont,Accord-cadre,Haute,Moyen
+515,371,Isolation thermique,2025-10-25,,2026-04-04,In Progress,2743239.81,1591079.11,-42.0,605261.0,Région,Bouygues Bâtiment,28.88,,,Jean Dupont,Marché négocié,Moyenne,Moyen
+516,136,Rénovation de toiture,2025-07-25,,2025-11-13,Planned,512631.02,,,94490.07,ADEME,Engie Solutions,6.29,,,Emma Robert,Accord-cadre,Haute,Moyen
+517,456,Remplacement des menuiseries,2015-12-09,2016-07-16,2016-06-11,Completed,680346.24,647878.64,-4.77,104011.07,Région,Eiffage Énergie,7.94,16.21,55847.64,Emma Robert,MAPA,Moyenne,Élevé
+518,385,Ventilation double flux,2020-07-25,2020-12-16,2020-12-02,Completed,487153.95,443501.75,-8.96,225283.3,Union européenne,Engie Solutions,14.47,15.68,96404.41,Emma Robert,Appel d'offres ouvert,Moyenne,Faible
+519,331,Remplacement du chauffage,2025-09-15,2026-01-11,2025-12-11,Completed,1056065.07,1089595.54,3.18,519652.24,Fonds vert,Entreprise Durand,29.38,28.06,139353.19,Nicolas Leroy,Appel d'offres ouvert,Basse,Faible
+520,54,Installation photovoltaïque,2020-08-09,2021-02-24,2021-03-06,Completed,1528598.14,1427179.86,-6.63,633145.55,Autofinancement,Bouygues Bâtiment,12.63,3.96,15167.81,Sophie Bernard,Marché négocié,Moyenne,Moyen
+521,331,Rénovation de toiture,2025-04-14,2025-12-03,2025-11-14,Completed,492792.59,523265.72,6.18,74728.1,Fonds vert,Eiffage Énergie,17.84,14.51,72060.4,Karim Diallo,MAPA,Basse,Élevé
+522,145,Remplacement des menuiseries,2016-03-08,2016-10-16,2016-10-03,Completed,128153.91,116135.93,-9.38,687.91,ADEME,Léon Grosse,9.78,9.05,,Emma Robert,Appel d'offres ouvert,Moyenne,Élevé
+523,284,Isolation thermique,2025-03-14,,2025-12-15,Planned,1502753.35,,,562795.61,Département,Entreprise Durand,23.19,,,Alice Martin,MAPA,Moyenne,Faible
+524,271,Remplacement du chauffage,2025-05-12,,2025-11-24,In Progress,1012722.27,718303.15,-29.07,187736.64,Département,SPIE Building Solutions,22.24,,,Jean Dupont,MAPA,Moyenne,Élevé
+525,79,Éclairage LED,2025-06-09,,2026-01-07,In Progress,163754.26,66101.9,-59.63,7229.75,Autofinancement,Léon Grosse,9.64,,,Karim Diallo,MAPA,Moyenne,Élevé
+526,73,Remplacement du chauffage,2025-04-06,2025-04-20,2025-07-20,Cancelled,501015.19,21308.39,-95.75,8531.81,Fonds vert,Engie Solutions,29.95,,,Jean Dupont,MAPA,Moyenne,Élevé
+527,271,Isolation thermique,2025-06-22,2025-07-23,2025-08-06,Completed,2627489.96,2557085.07,-2.68,448200.62,Département,Groupe Martin,33.88,15.65,370908.87,Emma Robert,Marché négocié,Moyenne,Moyen
+528,135,Remplacement du chauffage,2016-05-15,2016-12-15,2016-10-26,Completed,584389.24,570152.1,-2.44,291093.82,Fonds vert,Engie Solutions,26.29,25.52,178275.67,Sophie Bernard,Appel d'offres ouvert,Moyenne,Faible
+529,446,Rénovation de toiture,2025-05-17,,2026-01-19,In Progress,398922.34,238777.67,-40.14,91324.45,Région,Groupe Martin,6.02,,,Alice Martin,Appel d'offres ouvert,Critique,Faible
+530,453,Isolation thermique,2021-04-20,2021-11-07,2021-11-20,Completed,412477.48,373134.3,-9.54,77974.0,Autofinancement,SPIE Building Solutions,32.46,16.57,28369.62,Alice Martin,MAPA,Moyenne,Faible
+531,483,Remplacement des menuiseries,2025-07-18,,2025-12-15,In Progress,920727.85,540735.28,-41.27,183467.27,Département,Groupe Martin,16.44,,,Jean Dupont,Appel d'offres ouvert,Haute,Faible
+532,249,Remplacement des menuiseries,2021-05-01,2022-02-24,2022-01-13,Completed,49640.55,50457.97,1.65,353.38,Région,SPIE Building Solutions,7.43,16.41,2622.93,Karim Diallo,MAPA,Haute,Moyen
+533,16,Installation photovoltaïque,2025-03-21,2025-07-19,2025-06-04,Completed,1802985.45,1713968.5,-4.94,625211.98,Département,Entreprise Durand,6.58,4.73,12925.24,Emma Robert,MAPA,Moyenne,Moyen
+534,201,Remplacement du chauffage,2021-08-06,2022-05-14,2022-05-01,Completed,2630869.76,2413391.83,-8.27,1058526.42,Fonds vert,Eiffage Énergie,28.46,20.32,,Alice Martin,Appel d'offres ouvert,Basse,Moyen
+535,355,Remplacement des menuiseries,2019-07-06,2020-01-16,2019-12-18,Completed,909099.59,1030589.4,13.36,11747.19,Autofinancement,Léon Grosse,13.51,7.5,49039.73,Alice Martin,Accord-cadre,Moyenne,Faible
+536,139,Isolation thermique,2025-04-11,,2025-11-01,In Progress,1794118.46,1385363.84,-22.78,578323.07,Autofinancement,Engie Solutions,15.22,,,Alice Martin,Appel d'offres ouvert,Moyenne,Faible
+537,135,Remplacement du chauffage,2023-07-02,2023-11-30,2023-10-30,Completed,1479518.33,1456944.83,-1.53,432963.16,Fonds vert,Léon Grosse,22.24,17.88,124904.74,Karim Diallo,Marché négocié,Critique,Moyen
+538,115,Éclairage LED,2023-07-19,2023-10-13,2023-10-21,Completed,295393.3,279775.7,-5.29,68055.79,ADEME,VINCI Facilities,5.07,5.9,37956.04,Karim Diallo,Accord-cadre,Basse,Moyen
+539,62,Remplacement des menuiseries,2019-06-11,2019-12-25,2019-12-06,Completed,1552541.58,1712492.38,10.3,278656.7,Département,Bouygues Bâtiment,15.21,8.55,127323.58,Karim Diallo,MAPA,Haute,Moyen
+540,243,Éclairage LED,2016-07-11,2017-04-04,2017-02-18,Completed,207250.0,205454.01,-0.87,83953.57,Département,VINCI Facilities,6.46,5.54,,Emma Robert,MAPA,Haute,Moyen
+541,318,Remplacement du chauffage,2025-03-18,,2025-09-03,In Progress,320606.89,130344.11,-59.34,1101.78,Union européenne,Eiffage Énergie,30.4,,,Alice Martin,Accord-cadre,Basse,Moyen
+542,292,Rénovation de toiture,2025-07-08,2025-09-08,2025-11-10,Cancelled,764365.59,44244.4,-94.21,16394.56,Région,Eiffage Énergie,9.78,,,Sophie Bernard,Appel d'offres ouvert,Moyenne,Moyen
+543,176,Isolation thermique,2025-07-18,2026-02-14,2026-01-10,Completed,2527455.48,2617327.11,3.56,908283.96,Fonds vert,Groupe Martin,17.15,24.45,67651.8,Jean Dupont,MAPA,Moyenne,Moyen
+544,146,Remplacement du chauffage,2021-03-20,2021-09-29,2021-09-20,Completed,647062.86,697442.23,7.79,104940.37,Région,Entreprise Durand,26.81,16.81,105110.49,Sophie Bernard,Appel d'offres ouvert,Moyenne,Élevé
+545,467,Remplacement des menuiseries,2025-05-23,,2025-08-12,In Progress,1602821.38,912031.21,-43.1,101778.5,Union européenne,Groupe Martin,18.29,,,Nicolas Leroy,Marché négocié,Moyenne,Moyen
+546,273,Remplacement du chauffage,2023-02-24,2023-07-12,2023-06-18,Completed,890804.0,974779.37,9.43,217878.63,Union européenne,Engie Solutions,29.75,23.65,191392.43,Alice Martin,Accord-cadre,Basse,Faible
+547,205,Isolation thermique,2022-12-12,2023-06-03,2023-06-06,Completed,1664558.85,1925012.62,15.65,77807.7,Fonds vert,Bouygues Bâtiment,19.79,13.9,74736.31,Jean Dupont,MAPA,Moyenne,Élevé
+548,477,Remplacement des menuiseries,2025-08-02,,2026-04-24,In Progress,596403.59,263704.17,-55.78,58864.74,Fonds vert,Eiffage Énergie,18.26,,,Nicolas Leroy,Appel d'offres ouvert,Moyenne,Élevé
+549,393,Éclairage LED,2025-05-19,,2026-01-06,Planned,382237.37,,,90810.0,Autofinancement,Eiffage Énergie,9.49,,,Alice Martin,Marché négocié,Moyenne,Faible
+550,70,Isolation thermique,2025-05-09,,2025-12-21,Planned,1087311.16,,,331987.98,Autofinancement,Eiffage Énergie,21.36,,,Jean Dupont,Appel d'offres ouvert,Basse,Élevé
+551,106,Rénovation de toiture,2016-04-12,2016-08-07,2016-07-13,Completed,1148044.2,1261025.45,9.84,73742.67,ADEME,VINCI Facilities,15.11,13.76,182257.07,Emma Robert,Marché négocié,Basse,Élevé
+552,352,Isolation thermique,2019-07-07,2019-12-06,2019-12-06,Completed,436603.3,504908.38,15.64,60559.57,Région,Eiffage Énergie,24.24,36.3,183857.05,Emma Robert,Appel d'offres ouvert,Moyenne,Moyen
+553,309,Éclairage LED,2025-03-17,,2025-05-30,In Progress,186291.46,120050.57,-35.56,4752.94,Autofinancement,Groupe Martin,9.38,,,Alice Martin,Appel d'offres ouvert,Moyenne,Faible
+554,178,Éclairage LED,2024-04-20,2024-09-12,2024-08-28,Completed,564751.19,532461.9,-5.72,153487.79,Département,SPIE Building Solutions,10.92,9.03,82781.76,Nicolas Leroy,Marché négocié,Haute,Élevé
+555,90,Installation photovoltaïque,2015-02-17,2015-12-28,2015-11-18,Completed,723161.97,667561.46,-7.69,303893.65,Autofinancement,Groupe Martin,9.51,13.02,209970.25,Emma Robert,Marché négocié,Basse,Faible
+556,67,Remplacement du chauffage,2015-02-05,2015-09-20,2015-08-04,Completed,1176400.12,1363693.99,15.92,169942.0,Union européenne,Bouygues Bâtiment,29.23,27.38,,Nicolas Leroy,Accord-cadre,Haute,Faible
+557,72,Remplacement des menuiseries,2024-06-01,2024-12-05,2024-12-18,Completed,134165.59,126282.72,-5.88,36588.8,Union européenne,Entreprise Durand,13.63,10.53,,Karim Diallo,Accord-cadre,Moyenne,Élevé
+558,139,Remplacement du chauffage,2025-05-15,,2025-07-09,In Progress,995783.87,670082.93,-32.71,14406.38,Union européenne,Léon Grosse,29.76,,,Nicolas Leroy,Accord-cadre,Moyenne,Élevé
+559,151,Remplacement des menuiseries,2025-07-22,,2026-03-22,In Progress,599061.17,341185.35,-43.05,152712.37,Fonds vert,Entreprise Durand,16.32,,,Nicolas Leroy,Accord-cadre,Moyenne,Faible
+560,331,Remplacement des menuiseries,2025-06-13,,2025-08-24,In Progress,943511.48,525721.59,-44.28,67293.51,Autofinancement,SPIE Building Solutions,7.23,,,Alice Martin,Accord-cadre,Critique,Moyen
+561,170,Rénovation de toiture,2025-06-09,,2025-11-16,In Progress,529274.17,399608.74,-24.5,136491.88,Département,Eiffage Énergie,17.99,,,Alice Martin,Marché négocié,Haute,Élevé
+562,375,Rénovation de toiture,2025-09-17,,2026-04-01,In Progress,509372.95,284512.25,-44.14,117763.3,Région,Engie Solutions,10.24,,,Jean Dupont,Accord-cadre,Moyenne,Élevé
+563,72,Isolation thermique,2025-04-01,,2025-07-06,Planned,230192.78,,,112126.26,Département,Engie Solutions,24.2,,,Emma Robert,Marché négocié,Moyenne,Élevé
+564,320,Ventilation double flux,2025-06-14,,2025-10-28,In Progress,1643009.45,1362599.94,-17.07,554433.29,Fonds vert,Entreprise Durand,10.82,,,Alice Martin,Appel d'offres ouvert,Basse,Faible
+565,39,Installation photovoltaïque,2025-03-04,2025-05-03,2025-05-06,Completed,340670.12,343426.82,0.81,115408.47,ADEME,Entreprise Durand,7.06,8.69,44484.63,Sophie Bernard,Appel d'offres ouvert,Moyenne,Faible
+566,277,Remplacement du chauffage,2024-06-09,2025-01-22,2024-12-01,Completed,1404805.19,1534183.89,9.21,98578.11,Fonds vert,VINCI Facilities,23.3,24.3,324059.47,Sophie Bernard,Appel d'offres ouvert,Moyenne,Faible
+567,184,Isolation thermique,2024-07-24,2025-03-19,2025-03-26,Completed,432763.7,487791.15,12.72,124085.75,Autofinancement,Entreprise Durand,27.81,21.63,9352.31,Alice Martin,Marché négocié,Moyenne,Moyen
+568,408,Isolation thermique,2025-08-06,,2026-02-23,In Progress,740298.48,382019.46,-48.4,194033.12,Autofinancement,Léon Grosse,32.19,,,Nicolas Leroy,MAPA,Moyenne,Moyen
+569,333,Remplacement des menuiseries,2021-04-20,2021-07-30,2021-08-05,Completed,1007869.49,1025094.36,1.71,431557.14,Département,Eiffage Énergie,19.71,20.65,245130.68,Sophie Bernard,MAPA,Moyenne,Moyen
+570,40,Installation photovoltaïque,2019-10-11,2020-08-02,2020-07-10,Completed,477958.78,438799.48,-8.19,124957.84,Autofinancement,Entreprise Durand,13.79,10.22,49318.01,Jean Dupont,Marché négocié,Haute,Moyen
+571,416,Rénovation de toiture,2025-08-04,,2025-10-06,In Progress,734575.26,367676.56,-49.95,120307.1,Autofinancement,Eiffage Énergie,8.76,,,Karim Diallo,Marché négocié,Haute,Faible
+572,324,Éclairage LED,2024-06-18,,2024-11-25,In Progress,134411.26,66713.14,-50.37,4117.8,Union européenne,Groupe Martin,4.83,,,Nicolas Leroy,MAPA,Moyenne,Élevé
+573,98,Isolation thermique,2022-05-03,2022-09-10,2022-09-22,Completed,2304744.76,2410412.4,4.58,807888.96,ADEME,Bouygues Bâtiment,14.21,26.05,112034.34,Karim Diallo,Marché négocié,Haute,Élevé
+574,207,Remplacement du chauffage,2022-02-02,2022-08-10,2022-07-27,Completed,936421.36,1069005.97,14.16,427462.77,Autofinancement,Groupe Martin,15.58,24.95,61066.32,Sophie Bernard,Appel d'offres ouvert,Moyenne,Moyen
+575,28,Rénovation de toiture,2025-05-18,,2025-12-12,Planned,637579.77,,,185172.89,Union européenne,VINCI Facilities,12.77,,,Nicolas Leroy,Marché négocié,Critique,Moyen
+576,297,Remplacement du chauffage,2025-03-12,,2025-10-07,In Progress,504542.01,233540.7,-53.71,59536.38,ADEME,Engie Solutions,28.59,,,Alice Martin,Marché négocié,Basse,Élevé
+577,207,Remplacement des menuiseries,2025-08-22,,2026-01-29,In Progress,570142.7,265562.22,-53.42,29842.62,ADEME,Groupe Martin,16.62,,,Karim Diallo,Accord-cadre,Moyenne,Faible
+578,330,Isolation thermique,2022-10-12,2023-02-24,2023-01-09,Completed,998103.04,1016942.18,1.89,221342.83,Région,Entreprise Durand,33.63,18.32,263486.07,Alice Martin,MAPA,Moyenne,Élevé
+579,62,Éclairage LED,2024-05-18,2025-02-07,2025-02-18,Completed,424590.62,429446.37,1.14,175674.01,Région,Engie Solutions,6.73,12.83,191059.83,Jean Dupont,Appel d'offres ouvert,Moyenne,Élevé
+580,107,Éclairage LED,2021-03-03,2021-09-10,2021-07-24,Completed,254380.58,285638.96,12.29,118472.78,Fonds vert,Léon Grosse,7.29,3.85,16810.61,Jean Dupont,Marché négocié,Critique,Élevé
+581,483,Remplacement du chauffage,2025-10-15,,2026-06-02,In Progress,1803618.27,777949.33,-56.87,19209.34,Fonds vert,Groupe Martin,18.34,,,Nicolas Leroy,Accord-cadre,Basse,Moyen
+582,86,Remplacement des menuiseries,2025-06-24,,2025-11-18,In Progress,1159848.57,805823.3,-30.52,157068.85,Union européenne,Eiffage Énergie,19.53,,,Alice Martin,MAPA,Moyenne,Élevé
+583,443,Éclairage LED,2025-03-10,,2025-08-13,In Progress,420421.61,324550.6,-22.8,161756.0,ADEME,Léon Grosse,7.83,,,Nicolas Leroy,Marché négocié,Moyenne,Élevé
+584,283,Remplacement des menuiseries,2024-05-12,,2024-09-06,In Progress,390100.03,189579.71,-51.4,1216.36,Fonds vert,Engie Solutions,13.92,,,Karim Diallo,Marché négocié,Moyenne,Élevé
+585,316,Ventilation double flux,2017-02-20,2017-11-10,2017-11-25,Completed,279128.22,277153.2,-0.71,43837.21,Fonds vert,Bouygues Bâtiment,18.96,15.8,87388.73,Emma Robert,Appel d'offres ouvert,Haute,Moyen
+586,302,Remplacement des menuiseries,2020-05-04,2021-03-02,2021-02-06,Completed,1199824.75,1207774.38,0.66,108473.93,Autofinancement,Engie Solutions,15.52,11.93,119791.29,Alice Martin,Appel d'offres ouvert,Basse,Élevé
+587,378,Installation photovoltaïque,2018-08-10,2019-01-22,2018-12-27,Completed,840610.16,783254.96,-6.82,18492.57,Département,Bouygues Bâtiment,10.86,17.04,,Nicolas Leroy,Appel d'offres ouvert,Moyenne,Moyen
+588,206,Remplacement des menuiseries,2021-04-20,2021-12-18,2021-12-30,Completed,609064.45,568389.3,-6.68,277287.31,Fonds vert,Entreprise Durand,11.16,8.56,46475.57,Emma Robert,Appel d'offres ouvert,Moyenne,Moyen
+589,415,Remplacement du chauffage,2025-09-16,,2025-11-26,Planned,512484.98,,,260706.06,ADEME,Entreprise Durand,27.94,,,Sophie Bernard,Marché négocié,Moyenne,Moyen
+590,437,Remplacement des menuiseries,2025-08-13,,2025-10-26,Planned,710799.63,,,334678.14,Département,VINCI Facilities,17.48,,,Nicolas Leroy,Appel d'offres ouvert,Basse,Moyen
+591,120,Isolation thermique,2021-08-11,2022-04-22,2022-05-03,Completed,780835.88,751989.78,-3.69,39972.47,Département,VINCI Facilities,16.93,18.18,20337.32,Alice Martin,MAPA,Critique,Faible
+592,21,Remplacement des menuiseries,2025-01-07,,2025-05-06,In Progress,847044.76,686484.54,-18.96,143758.09,Fonds vert,Groupe Martin,7.17,,,Nicolas Leroy,MAPA,Moyenne,Élevé
+593,147,Rénovation de toiture,2023-07-22,2023-12-22,2023-11-21,Completed,106487.36,106075.3,-0.39,39123.99,Union européenne,Bouygues Bâtiment,7.66,9.84,20645.9,Nicolas Leroy,Marché négocié,Haute,Moyen
+594,376,Isolation thermique,2025-04-10,,2025-09-12,In Progress,476956.57,382920.61,-19.72,184766.02,Union européenne,Bouygues Bâtiment,32.67,,,Jean Dupont,Accord-cadre,Basse,Faible
+595,284,Remplacement du chauffage,2025-03-09,,2025-11-21,In Progress,1319612.69,825828.17,-37.42,237439.84,Fonds vert,Entreprise Durand,28.79,,,Sophie Bernard,Appel d'offres ouvert,Haute,Élevé
+596,209,Éclairage LED,2022-06-21,2023-04-21,2023-03-17,Completed,626193.09,568530.71,-9.21,189110.93,Département,Engie Solutions,9.98,4.03,39359.93,Sophie Bernard,Accord-cadre,Haute,Moyen
+597,54,Isolation thermique,2025-04-20,,2025-08-15,Planned,1518505.26,,,355557.99,ADEME,Léon Grosse,14.98,,,Karim Diallo,Accord-cadre,Moyenne,Élevé
+598,195,Remplacement des menuiseries,2015-10-16,2016-02-29,2016-03-09,Completed,1257741.31,1401339.0,11.42,39554.85,Région,Léon Grosse,17.7,14.01,124234.7,Alice Martin,MAPA,Haute,Faible
+599,225,Remplacement des menuiseries,2020-10-19,2021-01-19,2021-01-13,Completed,509460.76,525585.64,3.17,140490.99,ADEME,SPIE Building Solutions,15.04,15.29,29101.09,Karim Diallo,Appel d'offres ouvert,Critique,Élevé
+600,76,Installation photovoltaïque,2025-06-11,,2025-09-19,In Progress,124478.5,78165.46,-37.21,11909.06,Autofinancement,Entreprise Durand,6.31,,,Alice Martin,Accord-cadre,Critique,Faible
+601,338,Isolation thermique,2025-03-10,,2025-11-04,In Progress,606442.34,391626.27,-35.42,134847.65,Fonds vert,Bouygues Bâtiment,26.63,,,Alice Martin,MAPA,Haute,Moyen
+602,436,Isolation thermique,2021-03-01,2021-12-15,2021-10-28,Completed,212411.17,232187.03,9.31,14601.19,ADEME,Bouygues Bâtiment,22.32,40.07,,Emma Robert,Appel d'offres ouvert,Moyenne,Moyen
+603,485,Isolation thermique,2025-07-06,2026-01-09,2026-01-03,Completed,1109350.21,1063083.5,-4.17,274188.94,Union européenne,SPIE Building Solutions,32.89,22.11,70264.91,Nicolas Leroy,Accord-cadre,Basse,Faible
+604,303,Isolation thermique,2023-04-14,2023-11-03,2023-11-01,Completed,2341605.35,2590322.1,10.62,394752.93,Union européenne,Bouygues Bâtiment,32.82,24.68,327216.56,Alice Martin,Accord-cadre,Moyenne,Faible
+605,415,Isolation thermique,2025-03-04,,2025-05-30,In Progress,530634.49,321738.81,-39.37,118563.29,ADEME,Groupe Martin,30.71,,,Jean Dupont,MAPA,Basse,Élevé
+606,262,Isolation thermique,2020-08-12,2020-10-04,2020-10-03,Completed,3104398.22,3110031.92,0.18,1637757.83,Autofinancement,Groupe Martin,18.33,18.02,211615.55,Alice Martin,Appel d'offres ouvert,Haute,Faible
+607,187,Rénovation de toiture,2018-08-17,2019-01-17,2018-12-21,Completed,509152.02,499062.64,-1.98,135967.46,Département,Léon Grosse,13.4,16.33,33105.78,Alice Martin,MAPA,Moyenne,Moyen
+608,169,Installation photovoltaïque,2025-05-08,,2025-08-19,In Progress,201492.03,102604.77,-49.08,37339.19,Union européenne,VINCI Facilities,14.88,,,Karim Diallo,MAPA,Moyenne,Élevé
+609,456,Isolation thermique,2024-12-18,2025-09-14,2025-09-12,Completed,1011477.29,1134526.51,12.17,419363.74,ADEME,Bouygues Bâtiment,32.3,16.29,56123.26,Jean Dupont,Accord-cadre,Moyenne,Faible
+610,237,Éclairage LED,2025-11-03,,2026-01-28,In Progress,280192.85,211189.25,-24.63,116115.55,ADEME,Eiffage Énergie,4.2,,,Sophie Bernard,MAPA,Basse,Moyen
+611,202,Isolation thermique,2018-03-23,2018-11-26,2018-10-26,Completed,2159827.01,2028748.63,-6.07,118496.28,Région,SPIE Building Solutions,23.86,26.26,95886.64,Karim Diallo,Appel d'offres ouvert,Haute,Moyen
+612,40,Éclairage LED,2021-07-19,2021-11-07,2021-09-22,Completed,317557.98,329807.58,3.86,46386.43,Union européenne,Bouygues Bâtiment,8.5,6.47,31221.87,Nicolas Leroy,Appel d'offres ouvert,Haute,Moyen
+613,119,Remplacement des menuiseries,2015-07-05,2015-12-10,2015-10-27,Completed,653464.14,721511.22,10.41,266338.7,Région,Engie Solutions,9.08,16.9,99810.29,Nicolas Leroy,MAPA,Basse,Moyen
+614,220,Remplacement des menuiseries,2021-01-23,2021-10-25,2021-10-04,Completed,440288.41,428095.45,-2.77,66834.52,Autofinancement,Groupe Martin,10.36,10.88,6574.06,Nicolas Leroy,Accord-cadre,Moyenne,Faible
+615,486,Remplacement du chauffage,2015-01-11,2015-05-08,2015-05-19,Completed,1049663.91,1021968.1,-2.64,183649.1,Département,SPIE Building Solutions,31.41,23.5,310851.18,Alice Martin,Marché négocié,Moyenne,Faible
+616,155,Rénovation de toiture,2024-11-06,2025-01-22,2025-01-08,Completed,865935.88,967920.08,11.78,508185.85,Union européenne,SPIE Building Solutions,15.32,12.99,,Nicolas Leroy,Appel d'offres ouvert,Moyenne,Moyen
+617,436,Isolation thermique,2025-03-23,,2025-07-08,Planned,297469.24,,,44436.35,Département,SPIE Building Solutions,28.34,,,Karim Diallo,Appel d'offres ouvert,Basse,Élevé
+618,265,Rénovation de toiture,2025-08-25,,2025-12-01,Planned,478182.86,,,11837.55,Autofinancement,Groupe Martin,11.19,,,Sophie Bernard,Accord-cadre,Haute,Moyen
+619,27,Remplacement des menuiseries,2017-07-18,2017-09-30,2017-10-06,Cancelled,98687.9,6087.86,-93.83,2485.88,Département,Engie Solutions,10.34,,,Jean Dupont,Accord-cadre,Moyenne,Faible
+620,223,Éclairage LED,2025-05-17,2025-06-08,2026-01-25,Cancelled,214230.99,19781.69,-90.77,3474.16,Département,Eiffage Énergie,7.4,,,Sophie Bernard,MAPA,Haute,Moyen
+621,231,Installation photovoltaïque,2025-07-09,,2026-03-10,In Progress,277558.22,135259.2,-51.27,10348.48,Autofinancement,SPIE Building Solutions,7.05,,,Jean Dupont,Marché négocié,Haute,Élevé
+622,152,Isolation thermique,2025-11-21,2026-01-17,2026-06-15,Cancelled,350974.97,32756.42,-90.67,1875.8,Région,SPIE Building Solutions,21.13,,,Alice Martin,MAPA,Moyenne,Élevé
+623,305,Remplacement des menuiseries,2025-09-21,2025-10-27,2026-06-12,Cancelled,1344714.31,103908.96,-92.27,20143.31,Département,Entreprise Durand,16.84,,,Alice Martin,Marché négocié,Critique,Faible
+624,451,Éclairage LED,2025-06-18,,2026-03-09,Planned,351427.86,,,27207.88,Union européenne,Entreprise Durand,6.1,,,Jean Dupont,Marché négocié,Moyenne,Élevé
+625,322,Isolation thermique,2025-04-01,,2025-11-23,In Progress,889249.13,547188.54,-38.47,122884.03,Département,VINCI Facilities,26.05,,,Alice Martin,Accord-cadre,Haute,Moyen
+626,302,Isolation thermique,2025-03-11,2025-07-07,2025-06-19,Completed,2629631.32,2576602.1,-2.02,885028.3,Région,Léon Grosse,19.59,20.54,206245.85,Sophie Bernard,Marché négocié,Basse,Faible
+627,327,Remplacement du chauffage,2025-03-04,,2025-08-15,Planned,1140947.84,,,236764.55,Région,Léon Grosse,14.16,,,Alice Martin,MAPA,Moyenne,Élevé
+628,380,Isolation thermique,2025-05-05,,2025-10-18,In Progress,445453.38,292917.92,-34.24,145582.01,ADEME,Léon Grosse,31.88,,,Jean Dupont,MAPA,Moyenne,Moyen
+629,111,Remplacement des menuiseries,2024-08-04,,2024-10-28,In Progress,375044.57,269893.92,-28.04,21529.87,Département,Entreprise Durand,18.55,,,Jean Dupont,Accord-cadre,Moyenne,Élevé
+630,493,Remplacement des menuiseries,2025-07-12,2026-03-15,2026-03-09,Completed,762443.05,708464.3,-7.08,196319.37,Département,Entreprise Durand,11.53,14.86,92927.13,Sophie Bernard,Appel d'offres ouvert,Haute,Faible
+631,362,Remplacement du chauffage,2022-12-19,2023-02-12,2023-02-04,Completed,489483.59,513460.99,4.9,68266.13,ADEME,Léon Grosse,20.88,16.37,34022.58,Nicolas Leroy,Appel d'offres ouvert,Moyenne,Faible
+632,210,Remplacement des menuiseries,2025-01-08,2025-06-25,2025-05-25,Completed,2099404.89,2232871.42,6.36,181878.41,Département,Groupe Martin,7.66,7.93,161259.51,Karim Diallo,Accord-cadre,Moyenne,Moyen
+633,361,Isolation thermique,2020-05-14,2020-07-26,2020-12-18,Cancelled,477282.32,24580.74,-94.85,6491.32,Autofinancement,Léon Grosse,23.39,,,Sophie Bernard,Marché négocié,Haute,Élevé
+634,7,Isolation thermique,2020-09-22,2021-04-01,2021-03-14,Completed,1817779.32,2050231.73,12.79,211110.79,Union européenne,VINCI Facilities,27.81,22.43,136506.79,Nicolas Leroy,Accord-cadre,Critique,Moyen
+635,129,Isolation thermique,2025-04-17,,2025-08-19,In Progress,1659195.17,827294.86,-50.14,362302.76,Fonds vert,Léon Grosse,23.72,,,Sophie Bernard,Marché négocié,Haute,Élevé
+636,115,Rénovation de toiture,2024-07-11,,2024-10-09,In Progress,791282.58,548930.92,-30.63,131641.05,Union européenne,Groupe Martin,7.96,,,Alice Martin,Appel d'offres ouvert,Basse,Faible
+637,466,Rénovation de toiture,2025-01-22,2025-05-30,2025-05-19,Completed,2146570.27,2395770.96,11.61,306558.32,Fonds vert,VINCI Facilities,9.42,13.16,262510.79,Karim Diallo,Appel d'offres ouvert,Moyenne,Faible
+638,421,Installation photovoltaïque,2025-07-19,,2026-04-15,Planned,165639.61,,,8036.42,Fonds vert,Engie Solutions,12.88,,,Alice Martin,MAPA,Basse,Élevé
+639,225,Rénovation de toiture,2024-11-10,2025-02-15,2025-02-19,Completed,1663286.93,1848404.36,11.13,87179.56,Région,Groupe Martin,6.94,8.6,16368.17,Nicolas Leroy,Accord-cadre,Haute,Moyen
+640,156,Isolation thermique,2025-09-04,2026-02-16,2026-01-11,Completed,637366.16,673366.59,5.65,35806.61,Département,SPIE Building Solutions,30.77,12.78,8301.31,Jean Dupont,Marché négocié,Haute,Faible
+641,145,Remplacement du chauffage,2021-06-03,2022-02-28,2022-02-12,Completed,365912.54,366412.33,0.14,104533.4,Union européenne,Bouygues Bâtiment,15.39,16.22,,Jean Dupont,Appel d'offres ouvert,Basse,Moyen
+642,171,Éclairage LED,2015-06-13,2016-03-20,2016-02-03,Completed,831863.39,899724.39,8.16,410421.34,Fonds vert,Eiffage Énergie,8.64,7.64,168024.29,Nicolas Leroy,Appel d'offres ouvert,Moyenne,Moyen
+643,241,Isolation thermique,2025-06-03,,2025-11-16,Planned,871680.17,,,342786.39,Fonds vert,Bouygues Bâtiment,20.6,,,Alice Martin,Appel d'offres ouvert,Moyenne,Faible
+644,248,Remplacement des menuiseries,2025-04-05,,2025-06-22,In Progress,801857.87,305821.04,-61.86,42479.75,Département,Engie Solutions,18.5,,,Emma Robert,Marché négocié,Basse,Élevé
+645,471,Remplacement des menuiseries,2025-11-24,,2026-02-17,Planned,480692.09,,,85352.16,Département,Entreprise Durand,11.07,,,Jean Dupont,MAPA,Moyenne,Élevé
+646,144,Éclairage LED,2021-03-01,2021-08-10,2021-06-20,Completed,766291.4,798320.5,4.18,387626.93,Département,VINCI Facilities,10.77,5.25,67045.7,Alice Martin,Appel d'offres ouvert,Moyenne,Élevé
+647,154,Remplacement du chauffage,2020-08-08,2021-06-20,2021-05-06,Completed,1024474.76,1137279.12,11.01,188314.49,Département,Entreprise Durand,20.14,18.7,50355.09,Sophie Bernard,Marché négocié,Basse,Élevé
+648,180,Installation photovoltaïque,2015-06-19,2015-10-25,2015-11-07,Completed,1401028.57,1278201.92,-8.77,423610.55,ADEME,Entreprise Durand,15.52,8.1,188805.83,Emma Robert,Accord-cadre,Moyenne,Élevé
+649,63,Remplacement du chauffage,2015-07-14,2016-03-01,2016-02-02,Completed,591730.29,591592.4,-0.02,277661.92,Union européenne,Bouygues Bâtiment,31.76,16.55,107125.65,Karim Diallo,Marché négocié,Moyenne,Élevé
+650,373,Ventilation double flux,2025-07-07,2026-03-31,2026-02-13,Completed,873309.58,1003099.73,14.86,382232.02,Autofinancement,Léon Grosse,19.91,19.92,421712.48,Alice Martin,Accord-cadre,Haute,Moyen
+651,455,Isolation thermique,2015-03-20,2015-05-08,2015-05-14,Completed,428912.68,439734.38,2.52,146173.32,ADEME,VINCI Facilities,22.26,27.23,47434.91,Sophie Bernard,Accord-cadre,Moyenne,Faible
+652,20,Isolation thermique,2025-03-17,,2025-12-04,In Progress,484400.74,395068.13,-18.44,147096.72,Union européenne,Engie Solutions,31.0,,,Jean Dupont,Marché négocié,Haute,Élevé
+653,408,Rénovation de toiture,2025-05-07,2025-10-31,2025-09-07,Completed,376169.14,413192.29,9.84,130836.29,Région,Entreprise Durand,17.68,8.49,36624.08,Alice Martin,MAPA,Basse,Moyen
+654,183,Isolation thermique,2020-03-02,2020-04-19,2020-08-20,Cancelled,1552315.18,86033.76,-94.46,8745.55,Région,Bouygues Bâtiment,14.24,,,Nicolas Leroy,Appel d'offres ouvert,Haute,Élevé
+655,83,Ventilation double flux,2025-01-16,,2025-10-09,In Progress,377585.62,152357.77,-59.65,29544.79,Fonds vert,Léon Grosse,15.28,,,Nicolas Leroy,MAPA,Haute,Moyen
+656,422,Installation photovoltaïque,2025-12-14,2026-06-15,2026-06-11,Completed,682423.31,638769.08,-6.4,239372.41,Département,SPIE Building Solutions,6.81,6.52,,Karim Diallo,Appel d'offres ouvert,Moyenne,Faible
+657,227,Rénovation de toiture,2025-02-23,,2025-08-21,In Progress,541560.65,426133.04,-21.31,174735.77,Autofinancement,VINCI Facilities,6.69,,,Nicolas Leroy,Accord-cadre,Basse,Faible
+658,203,Remplacement du chauffage,2025-06-22,,2025-09-24,Planned,891785.77,,,55073.65,ADEME,Entreprise Durand,16.54,,,Nicolas Leroy,Appel d'offres ouvert,Haute,Élevé
+659,47,Installation photovoltaïque,2025-03-04,,2025-11-26,Planned,2694466.22,,,1467235.58,Département,Engie Solutions,8.71,,,Nicolas Leroy,Marché négocié,Critique,Moyen
+660,176,Remplacement des menuiseries,2025-06-03,,2025-08-10,Planned,1794751.38,,,919105.35,Union européenne,Bouygues Bâtiment,7.17,,,Karim Diallo,Appel d'offres ouvert,Moyenne,Faible
+661,287,Éclairage LED,2025-07-18,2025-10-16,2025-10-01,Completed,228503.59,233051.05,1.99,120752.17,Union européenne,VINCI Facilities,8.6,10.56,67577.02,Alice Martin,Appel d'offres ouvert,Basse,Élevé
+662,139,Isolation thermique,2025-09-12,2025-11-27,2025-12-14,Completed,1192936.97,1341623.17,12.46,370737.35,Département,Eiffage Énergie,15.76,23.18,35207.15,Emma Robert,Appel d'offres ouvert,Haute,Élevé
+663,330,Remplacement du chauffage,2023-07-22,2023-12-22,2023-12-04,Completed,1301849.64,1237994.84,-4.9,201346.01,ADEME,Groupe Martin,12.57,28.02,402995.62,Emma Robert,Appel d'offres ouvert,Moyenne,Élevé
+664,83,Remplacement des menuiseries,2025-01-10,,2025-06-08,Planned,236287.97,,,93942.23,Union européenne,Eiffage Énergie,13.65,,,Jean Dupont,Appel d'offres ouvert,Haute,Élevé
+665,268,Remplacement du chauffage,2023-03-02,2023-08-16,2023-08-15,Completed,220664.41,253609.04,14.93,84417.4,ADEME,VINCI Facilities,13.76,24.65,,Nicolas Leroy,Marché négocié,Basse,Élevé
+666,136,Installation photovoltaïque,2025-11-25,,2026-01-11,Planned,496051.16,,,11932.36,Région,SPIE Building Solutions,14.87,,,Emma Robert,Accord-cadre,Haute,Faible
+667,244,Rénovation de toiture,2025-09-21,,2026-06-27,Planned,662937.73,,,73832.09,Autofinancement,Engie Solutions,10.98,,,Alice Martin,Accord-cadre,Critique,Faible
+668,288,Remplacement du chauffage,2018-02-09,2018-06-10,2018-06-27,Completed,476577.44,548153.89,15.02,154232.24,Autofinancement,SPIE Building Solutions,18.63,30.6,31624.27,Karim Diallo,MAPA,Haute,Faible
+669,202,Éclairage LED,2023-05-03,2023-11-23,2023-10-27,Completed,385353.68,406014.9,5.36,53533.86,ADEME,Groupe Martin,3.16,3.66,13364.25,Emma Robert,Appel d'offres ouvert,Haute,Élevé
+670,217,Isolation thermique,2022-05-03,2022-11-20,2022-10-29,Completed,550907.32,565968.62,2.73,206248.75,Région,Léon Grosse,26.25,33.54,116627.72,Nicolas Leroy,Appel d'offres ouvert,Moyenne,Élevé
+671,458,Éclairage LED,2021-03-16,2021-10-14,2021-09-13,Completed,334785.99,379505.49,13.36,113385.45,Département,Engie Solutions,3.85,6.36,,Alice Martin,MAPA,Haute,Élevé
+672,350,Isolation thermique,2025-08-03,,2026-02-17,In Progress,1219486.92,591042.36,-51.53,264309.21,Autofinancement,Entreprise Durand,27.52,,,Karim Diallo,Appel d'offres ouvert,Basse,Élevé
+673,113,Remplacement du chauffage,2024-10-18,2025-04-21,2025-04-11,Completed,1444308.74,1655821.38,14.64,793319.77,Fonds vert,Entreprise Durand,17.98,16.13,213975.1,Nicolas Leroy,Accord-cadre,Haute,Moyen
+674,155,Isolation thermique,2025-11-17,,2026-04-23,Planned,968580.56,,,64788.83,ADEME,Bouygues Bâtiment,24.07,,,Jean Dupont,Marché négocié,Moyenne,Moyen
+675,434,Isolation thermique,2019-06-06,2020-01-08,2019-11-27,Completed,962108.5,893132.63,-7.17,305314.1,Autofinancement,Entreprise Durand,34.03,16.11,102886.46,Emma Robert,Appel d'offres ouvert,Haute,Faible
+676,128,Ventilation double flux,2025-05-08,,2025-08-28,Planned,625155.18,,,218116.97,Fonds vert,Groupe Martin,9.3,,,Karim Diallo,Marché négocié,Moyenne,Élevé
+677,142,Remplacement du chauffage,2025-06-06,,2025-09-04,In Progress,235581.2,163863.22,-30.44,47133.14,Autofinancement,Entreprise Durand,27.49,,,Alice Martin,Accord-cadre,Moyenne,Faible
+678,130,Remplacement du chauffage,2025-01-22,,2025-09-21,Planned,1702124.21,,,821153.32,Union européenne,VINCI Facilities,19.84,,,Alice Martin,Marché négocié,Moyenne,Faible
+679,12,Éclairage LED,2020-04-12,2020-08-11,2020-06-21,Completed,650552.74,657556.04,1.08,31911.56,Département,Entreprise Durand,9.07,10.98,218495.47,Karim Diallo,Marché négocié,Critique,Élevé
+680,375,Remplacement des menuiseries,2025-07-24,,2026-01-16,In Progress,792963.94,433116.72,-45.38,227131.33,Autofinancement,Entreprise Durand,18.14,,,Alice Martin,Marché négocié,Critique,Moyen
+681,205,Isolation thermique,2025-11-06,,2026-06-02,In Progress,890190.84,314268.48,-64.7,17450.46,Région,Groupe Martin,22.99,,,Karim Diallo,Marché négocié,Critique,Moyen
+682,339,Remplacement du chauffage,2019-08-13,2020-01-19,2020-01-31,Completed,1968786.68,2246160.32,14.09,352527.35,Fonds vert,VINCI Facilities,19.41,21.28,112234.5,Karim Diallo,Appel d'offres ouvert,Moyenne,Élevé
+683,104,Rénovation de toiture,2024-08-04,2025-03-30,2025-02-09,Completed,1101008.18,1112854.79,1.08,512306.83,Union européenne,Groupe Martin,14.88,10.17,90628.67,Nicolas Leroy,MAPA,Moyenne,Moyen
+684,119,Isolation thermique,2021-08-25,2022-01-13,2021-12-14,Completed,1746081.02,1781472.22,2.03,189997.82,Autofinancement,VINCI Facilities,30.17,20.96,123788.39,Jean Dupont,Appel d'offres ouvert,Moyenne,Faible
+685,165,Remplacement du chauffage,2025-11-25,,2026-01-29,Planned,1040097.44,,,38566.35,Fonds vert,Léon Grosse,29.38,,,Karim Diallo,Accord-cadre,Basse,Moyen
+686,482,Isolation thermique,2022-08-23,2023-07-05,2023-05-30,Completed,519205.79,584307.87,12.54,31824.84,ADEME,Engie Solutions,21.78,34.99,102971.98,Jean Dupont,Marché négocié,Moyenne,Élevé
+687,410,Éclairage LED,2024-02-15,2024-06-28,2024-06-24,Completed,186540.48,170629.73,-8.53,59546.75,Union européenne,SPIE Building Solutions,3.01,9.33,36954.77,Karim Diallo,Marché négocié,Haute,Moyen
+688,37,Isolation thermique,2022-08-13,2023-05-16,2023-04-04,Completed,1546450.54,1680986.23,8.7,424038.18,Union européenne,Entreprise Durand,32.56,20.61,165662.55,Karim Diallo,Accord-cadre,Moyenne,Moyen
+689,175,Isolation thermique,2020-03-09,2020-05-31,2020-05-06,Completed,865281.11,814917.28,-5.82,73384.64,ADEME,Groupe Martin,23.52,32.65,91758.41,Jean Dupont,MAPA,Haute,Moyen
+690,258,Rénovation de toiture,2018-12-04,2019-07-02,2019-06-04,Completed,608845.21,664242.06,9.1,354575.07,Région,Bouygues Bâtiment,14.98,9.19,,Emma Robert,Accord-cadre,Haute,Élevé
+691,479,Installation photovoltaïque,2021-12-03,2022-08-09,2022-08-11,Completed,829315.08,912119.48,9.98,190323.05,Région,Entreprise Durand,5.94,6.23,6574.67,Alice Martin,MAPA,Basse,Élevé
+692,454,Remplacement des menuiseries,2024-07-22,2025-02-05,2025-01-06,Completed,619368.79,690684.57,11.51,119279.95,Région,Groupe Martin,14.98,11.64,40151.05,Alice Martin,Appel d'offres ouvert,Moyenne,Faible
+693,113,Rénovation de toiture,2025-05-02,,2025-12-06,In Progress,676054.57,523500.71,-22.57,197023.45,Autofinancement,Bouygues Bâtiment,6.75,,,Karim Diallo,Appel d'offres ouvert,Basse,Moyen
+694,18,Rénovation de toiture,2020-04-04,2020-06-17,2020-05-28,Completed,770222.14,782019.5,1.53,268036.14,Fonds vert,VINCI Facilities,9.48,10.04,79995.02,Karim Diallo,Marché négocié,Moyenne,Élevé
+695,486,Rénovation de toiture,2016-04-15,2016-11-23,2016-11-03,Completed,797028.12,718992.9,-9.79,312165.63,Union européenne,Eiffage Énergie,14.98,18.6,246035.4,Emma Robert,Marché négocié,Moyenne,Élevé
+696,191,Isolation thermique,2025-07-22,,2026-02-21,In Progress,648740.5,301290.11,-53.56,146221.39,Autofinancement,VINCI Facilities,23.08,,,Nicolas Leroy,Accord-cadre,Haute,Moyen
+697,433,Remplacement du chauffage,2024-06-22,2024-11-10,2024-11-26,Completed,397975.99,395780.03,-0.55,13836.86,ADEME,Engie Solutions,23.24,17.03,14713.23,Jean Dupont,Marché négocié,Moyenne,Faible
+698,351,Rénovation de toiture,2024-06-13,2025-03-05,2025-02-18,Completed,452857.21,515085.2,13.74,30915.48,Union européenne,Engie Solutions,14.77,7.4,18099.05,Sophie Bernard,MAPA,Haute,Faible
+699,381,Remplacement du chauffage,2025-12-06,,2026-09-01,In Progress,1484190.55,678058.1,-54.31,117154.6,Région,Groupe Martin,21.37,,,Jean Dupont,Appel d'offres ouvert,Haute,Faible
+700,176,Isolation thermique,2025-07-07,,2025-11-17,In Progress,1551101.57,1027919.44,-33.73,286275.25,ADEME,SPIE Building Solutions,16.33,,,Nicolas Leroy,Appel d'offres ouvert,Moyenne,Faible
+701,265,Rénovation de toiture,2025-07-14,2026-04-29,2026-03-19,Completed,1257359.54,1139750.63,-9.35,501.55,Département,Bouygues Bâtiment,6.55,9.83,110120.94,Alice Martin,MAPA,Basse,Moyen
+702,196,Ventilation double flux,2025-04-12,,2025-11-16,Planned,444843.05,,,56100.34,Région,SPIE Building Solutions,9.74,,,Sophie Bernard,Appel d'offres ouvert,Moyenne,Moyen
+703,459,Rénovation de toiture,2025-01-20,2025-04-10,2025-04-04,Completed,1112893.56,1256244.93,12.88,74007.04,Autofinancement,Entreprise Durand,10.41,15.58,118769.45,Nicolas Leroy,MAPA,Moyenne,Élevé
+704,32,Remplacement du chauffage,2021-04-21,2021-09-18,2021-09-30,Completed,2384085.34,2290107.62,-3.94,830961.81,Fonds vert,Groupe Martin,31.18,22.27,118223.56,Alice Martin,MAPA,Moyenne,Moyen
+705,212,Isolation thermique,2025-02-04,,2025-10-24,Planned,1388566.73,,,753258.42,Région,Bouygues Bâtiment,31.78,,,Jean Dupont,MAPA,Basse,Faible
+706,108,Rénovation de toiture,2024-07-22,2024-09-24,2024-09-05,Completed,141207.24,130570.18,-7.53,70565.79,Autofinancement,VINCI Facilities,10.06,12.31,,Nicolas Leroy,MAPA,Haute,Élevé
+707,467,Remplacement du chauffage,2025-07-07,2025-10-24,2025-11-07,Completed,1571773.94,1743964.93,10.96,639847.32,Autofinancement,SPIE Building Solutions,22.18,22.53,327632.19,Emma Robert,MAPA,Haute,Faible
+708,40,Isolation thermique,2024-07-14,2024-08-07,2024-11-06,Cancelled,950516.25,51615.85,-94.57,1936.58,Union européenne,Engie Solutions,25.9,,,Emma Robert,Marché négocié,Moyenne,Moyen
+709,372,Ventilation double flux,2025-03-11,,2025-06-29,In Progress,416685.41,232903.39,-44.11,14000.16,Fonds vert,Léon Grosse,14.56,,,Alice Martin,Accord-cadre,Moyenne,Élevé
+710,183,Remplacement du chauffage,2024-05-09,2025-02-15,2025-01-04,Completed,767054.85,827668.76,7.9,116740.41,Région,Groupe Martin,18.7,24.69,101223.81,Alice Martin,Marché négocié,Critique,Moyen
+711,364,Rénovation de toiture,2021-03-06,2021-12-14,2021-11-18,Completed,599880.35,691015.43,15.19,200335.35,Union européenne,Engie Solutions,14.14,19.05,,Karim Diallo,Appel d'offres ouvert,Moyenne,Moyen
+712,197,Remplacement du chauffage,2022-02-17,2022-04-27,2022-04-15,Cancelled,897807.04,106550.12,-88.13,44022.29,Région,Entreprise Durand,21.69,,,Alice Martin,MAPA,Moyenne,Moyen
+713,124,Installation photovoltaïque,2023-06-11,2024-04-23,2024-03-01,Completed,613371.47,576066.4,-6.08,210972.49,Fonds vert,Entreprise Durand,6.96,14.43,83155.71,Nicolas Leroy,Accord-cadre,Moyenne,Élevé
+714,147,Remplacement du chauffage,2025-08-03,,2025-09-28,In Progress,107117.92,73061.75,-31.79,17808.18,Autofinancement,Engie Solutions,21.46,,,Alice Martin,Appel d'offres ouvert,Basse,Moyen
+715,191,Remplacement des menuiseries,2025-05-18,2026-03-13,2026-01-31,Completed,457672.56,436495.43,-4.63,234019.05,Département,Entreprise Durand,10.34,6.64,10277.18,Nicolas Leroy,Marché négocié,Moyenne,Élevé
+716,297,Remplacement des menuiseries,2025-03-06,,2025-04-23,Planned,319382.19,,,109412.89,Autofinancement,Engie Solutions,17.07,,,Karim Diallo,Marché négocié,Haute,Moyen
+717,145,Éclairage LED,2025-07-14,,2025-10-03,In Progress,57951.78,36990.94,-36.17,8693.94,Autofinancement,Léon Grosse,8.74,,,Sophie Bernard,MAPA,Moyenne,Moyen
+718,366,Remplacement du chauffage,2021-12-25,2022-08-30,2022-08-28,Completed,2058903.37,2275842.76,10.54,1136462.69,Autofinancement,Léon Grosse,16.44,21.5,,Nicolas Leroy,MAPA,Moyenne,Moyen
+719,117,Rénovation de toiture,2024-07-20,2025-03-19,2025-02-04,Completed,771293.85,778494.12,0.93,104332.8,ADEME,SPIE Building Solutions,17.61,9.16,25340.56,Jean Dupont,Accord-cadre,Critique,Moyen
+720,118,Isolation thermique,2025-01-04,2025-05-20,2025-05-18,Completed,2713948.07,2657296.26,-2.09,730959.08,Union européenne,SPIE Building Solutions,17.0,24.38,52134.56,Jean Dupont,Marché négocié,Critique,Faible
+721,70,Remplacement des menuiseries,2025-02-11,2025-07-19,2025-07-20,Completed,1847977.52,2060813.55,11.52,182779.6,Autofinancement,VINCI Facilities,12.5,12.14,188403.11,Karim Diallo,Marché négocié,Haute,Moyen
+722,289,Rénovation de toiture,2025-05-06,,2025-11-27,Planned,605788.93,,,101038.29,Région,Eiffage Énergie,9.12,,,Nicolas Leroy,Accord-cadre,Moyenne,Moyen
+723,227,Remplacement des menuiseries,2025-03-22,,2025-06-26,In Progress,530632.78,246707.82,-53.51,97589.13,ADEME,SPIE Building Solutions,19.33,,,Sophie Bernard,Appel d'offres ouvert,Moyenne,Moyen
+724,423,Isolation thermique,2016-12-25,2017-07-21,2017-06-11,Completed,276705.68,278010.85,0.47,59196.51,Département,Engie Solutions,32.23,29.52,,Emma Robert,MAPA,Haute,Élevé
+725,64,Remplacement des menuiseries,2015-05-22,2016-02-02,2016-01-24,Completed,442051.36,474137.13,7.26,246034.97,Région,Léon Grosse,14.1,19.71,,Nicolas Leroy,MAPA,Moyenne,Moyen
+726,388,Remplacement des menuiseries,2025-06-19,,2025-10-04,In Progress,247830.52,170540.36,-31.19,11687.49,Département,Eiffage Énergie,7.83,,,Karim Diallo,Accord-cadre,Haute,Élevé
+727,258,Isolation thermique,2023-03-06,2023-06-21,2023-05-31,Completed,879323.41,847450.66,-3.62,48680.15,Autofinancement,Eiffage Énergie,31.29,21.35,,Sophie Bernard,Appel d'offres ouvert,Moyenne,Moyen
+728,345,Isolation thermique,2025-06-04,,2025-11-17,Planned,2097403.76,,,545376.33,Département,SPIE Building Solutions,21.53,,,Alice Martin,Marché négocié,Moyenne,Faible
+729,86,Remplacement du chauffage,2025-06-09,,2025-10-26,Planned,771577.75,,,248972.99,Département,Entreprise Durand,13.67,,,Emma Robert,Marché négocié,Haute,Faible
+730,133,Installation photovoltaïque,2019-08-24,2019-10-18,2019-10-20,Completed,1399390.91,1394055.73,-0.38,686146.48,Département,SPIE Building Solutions,8.91,9.9,116226.08,Sophie Bernard,Marché négocié,Moyenne,Faible
+731,166,Rénovation de toiture,2025-02-24,,2025-10-13,In Progress,332786.74,246605.92,-25.9,85004.54,Région,SPIE Building Solutions,16.43,,,Karim Diallo,Accord-cadre,Haute,Élevé
+732,144,Éclairage LED,2023-05-23,2023-12-17,2023-12-07,Completed,779845.57,745045.26,-4.46,206334.14,Région,Engie Solutions,6.47,10.79,137794.87,Sophie Bernard,Accord-cadre,Moyenne,Élevé
+733,406,Rénovation de toiture,2025-05-13,,2026-02-14,In Progress,3032048.17,1286741.89,-57.56,452496.62,Fonds vert,SPIE Building Solutions,8.89,,,Sophie Bernard,MAPA,Moyenne,Élevé
+734,276,Remplacement du chauffage,2025-10-17,,2026-03-26,Planned,1271968.21,,,104027.53,Département,Eiffage Énergie,13.58,,,Jean Dupont,Marché négocié,Moyenne,Élevé
+735,399,Remplacement du chauffage,2020-03-09,2020-09-27,2020-09-06,Completed,326481.64,334283.91,2.39,24528.72,Autofinancement,SPIE Building Solutions,18.21,31.46,42246.38,Jean Dupont,Appel d'offres ouvert,Haute,Moyen
+736,208,Remplacement des menuiseries,2024-05-17,2024-12-01,2024-12-19,Completed,219197.19,229308.67,4.61,79785.18,Département,Engie Solutions,11.15,9.47,,Nicolas Leroy,Appel d'offres ouvert,Critique,Élevé
+737,84,Éclairage LED,2025-02-22,,2025-10-21,In Progress,230664.37,139601.3,-39.48,42521.89,Région,Engie Solutions,5.28,,,Alice Martin,Marché négocié,Moyenne,Moyen
+738,314,Isolation thermique,2021-08-12,2021-12-26,2021-11-16,Completed,1190754.34,1238087.36,3.98,156697.09,Autofinancement,SPIE Building Solutions,22.01,25.15,101451.16,Alice Martin,Appel d'offres ouvert,Haute,Élevé
+739,254,Rénovation de toiture,2025-03-13,,2025-05-20,Planned,355206.82,,,37963.29,Département,Léon Grosse,14.91,,,Jean Dupont,Marché négocié,Haute,Faible
+740,157,Remplacement des menuiseries,2025-04-06,,2025-07-12,In Progress,214588.62,119203.58,-44.45,3817.1,Autofinancement,Bouygues Bâtiment,7.22,,,Sophie Bernard,Accord-cadre,Basse,Faible
+741,364,Remplacement des menuiseries,2025-11-15,,2026-03-13,Planned,1799174.27,,,204118.49,Fonds vert,Eiffage Énergie,15.39,,,Karim Diallo,Appel d'offres ouvert,Moyenne,Faible
+742,448,Rénovation de toiture,2022-11-17,2023-09-05,2023-07-25,Completed,2575592.04,2710578.24,5.24,1236479.74,Région,SPIE Building Solutions,12.47,11.04,204338.52,Emma Robert,Appel d'offres ouvert,Basse,Élevé
+743,143,Éclairage LED,2020-05-22,2020-09-23,2020-08-25,Completed,843945.01,819718.69,-2.87,182275.04,Département,Entreprise Durand,8.53,5.33,53900.94,Alice Martin,MAPA,Haute,Élevé
+744,161,Remplacement des menuiseries,2022-02-13,2022-06-25,2022-07-03,Completed,938770.49,889459.13,-5.25,38309.09,Autofinancement,Groupe Martin,13.06,20.62,218747.39,Emma Robert,Appel d'offres ouvert,Moyenne,Moyen
+745,44,Éclairage LED,2025-04-05,2026-01-21,2025-12-27,Completed,174633.21,192127.56,10.02,84996.75,Union européenne,Bouygues Bâtiment,3.18,10.31,10724.15,Nicolas Leroy,Appel d'offres ouvert,Haute,Élevé
+746,438,Rénovation de toiture,2025-08-03,,2025-11-27,Planned,655665.52,,,105220.94,Département,Groupe Martin,6.45,,,Alice Martin,Appel d'offres ouvert,Haute,Moyen
+747,352,Isolation thermique,2023-11-09,2024-07-22,2024-07-14,Completed,737174.33,775901.2,5.25,114002.56,Fonds vert,Léon Grosse,16.83,19.07,96588.26,Alice Martin,Appel d'offres ouvert,Haute,Faible
+748,470,Remplacement du chauffage,2019-08-15,2019-11-13,2019-11-25,Completed,800138.02,862696.7,7.82,323840.64,Autofinancement,Bouygues Bâtiment,23.75,20.49,93925.77,Karim Diallo,MAPA,Moyenne,Moyen
+749,323,Remplacement du chauffage,2020-07-09,2020-10-25,2020-10-26,Completed,153191.75,147140.37,-3.95,554.16,Fonds vert,SPIE Building Solutions,25.46,29.78,20823.31,Jean Dupont,Marché négocié,Moyenne,Élevé
+750,2,Remplacement du chauffage,2016-04-06,2016-12-31,2016-12-28,Completed,1977041.93,2156564.2,9.08,1051227.6,Département,VINCI Facilities,23.81,13.4,,Alice Martin,Appel d'offres ouvert,Critique,Moyen
+751,400,Rénovation de toiture,2024-08-04,2025-03-21,2025-02-14,Completed,628545.07,689725.35,9.73,189156.89,Département,Groupe Martin,7.71,13.46,46605.99,Jean Dupont,Accord-cadre,Moyenne,Faible
+752,242,Remplacement des menuiseries,2017-04-12,2017-08-24,2017-08-18,Completed,879875.63,918138.84,4.35,330146.8,ADEME,Léon Grosse,9.97,17.48,201099.75,Emma Robert,Appel d'offres ouvert,Critique,Moyen
+753,296,Ventilation double flux,2025-07-11,,2026-02-12,In Progress,1070399.2,782919.48,-26.86,291153.05,Région,VINCI Facilities,8.38,,,Alice Martin,Appel d'offres ouvert,Moyenne,Faible
+754,187,Remplacement du chauffage,2022-08-02,2022-11-29,2022-12-01,Completed,510421.27,516939.06,1.28,88551.56,Région,Entreprise Durand,18.4,23.88,48411.88,Jean Dupont,Appel d'offres ouvert,Haute,Élevé
+755,406,Remplacement des menuiseries,2025-10-18,2025-12-21,2026-06-29,Cancelled,1528554.63,179245.31,-88.27,54568.68,Autofinancement,Eiffage Énergie,16.39,,,Alice Martin,Accord-cadre,Moyenne,Faible
+756,190,Installation photovoltaïque,2025-07-18,,2025-10-17,In Progress,1058390.27,402150.42,-62.0,113113.84,Union européenne,Entreprise Durand,13.42,,,Emma Robert,Appel d'offres ouvert,Haute,Élevé
+757,47,Remplacement des menuiseries,2025-02-13,,2025-09-04,In Progress,1322908.04,714250.52,-46.01,14440.52,Union européenne,Groupe Martin,19.01,,,Emma Robert,Marché négocié,Haute,Faible
+758,120,Remplacement du chauffage,2023-03-18,2023-07-09,2023-05-27,Completed,1035806.31,1075880.98,3.87,183536.71,Région,Groupe Martin,15.08,12.98,14520.27,Emma Robert,Appel d'offres ouvert,Haute,Moyen
+759,240,Remplacement des menuiseries,2023-03-24,2023-10-13,2023-10-03,Completed,554870.51,499706.41,-9.94,66195.16,Département,Bouygues Bâtiment,18.84,16.01,59709.66,Sophie Bernard,Accord-cadre,Moyenne,Moyen
+760,258,Rénovation de toiture,2025-05-11,2025-12-12,2025-12-07,Completed,658254.53,609284.48,-7.44,159680.67,Région,Léon Grosse,9.45,11.5,,Emma Robert,Marché négocié,Moyenne,Élevé
+761,152,Éclairage LED,2025-05-01,,2025-12-02,In Progress,125929.72,105703.34,-16.06,37644.01,Fonds vert,Groupe Martin,9.54,,,Jean Dupont,MAPA,Critique,Moyen
+762,311,Remplacement du chauffage,2025-04-18,,2025-10-21,In Progress,394398.09,184553.04,-53.21,7337.29,Union européenne,Bouygues Bâtiment,17.53,,,Jean Dupont,Accord-cadre,Moyenne,Élevé
+763,160,Installation photovoltaïque,2025-11-02,,2026-06-05,Planned,919345.46,,,463217.17,ADEME,SPIE Building Solutions,11.88,,,Nicolas Leroy,Marché négocié,Haute,Élevé
+764,202,Remplacement du chauffage,2025-12-06,,2026-09-03,In Progress,1610859.86,631371.15,-60.81,318243.26,Fonds vert,Engie Solutions,21.85,,,Jean Dupont,Accord-cadre,Moyenne,Moyen
+765,189,Ventilation double flux,2025-04-24,,2025-12-30,In Progress,87471.48,57241.39,-34.56,4404.3,Autofinancement,Entreprise Durand,11.8,,,Sophie Bernard,Appel d'offres ouvert,Haute,Élevé
+766,377,Remplacement du chauffage,2023-06-20,2023-09-18,2023-08-11,Completed,862423.6,854511.15,-0.92,110006.77,Département,Léon Grosse,22.66,18.23,,Karim Diallo,Accord-cadre,Critique,Faible
+767,428,Isolation thermique,2023-12-20,2024-09-11,2024-09-23,Completed,1552157.32,1636663.03,5.44,302071.71,Fonds vert,Groupe Martin,29.93,34.39,136652.81,Emma Robert,Appel d'offres ouvert,Basse,Faible
+768,283,Isolation thermique,2025-06-18,,2025-08-30,Planned,513578.81,,,34799.47,Union européenne,Entreprise Durand,26.12,,,Nicolas Leroy,Accord-cadre,Basse,Moyen
+769,371,Rénovation de toiture,2025-03-04,2025-09-21,2025-08-29,Completed,2459953.77,2712922.76,10.28,688272.37,ADEME,Groupe Martin,12.68,12.66,151854.56,Sophie Bernard,Appel d'offres ouvert,Basse,Faible
+770,487,Rénovation de toiture,2019-04-20,2019-07-30,2019-07-06,Completed,1234524.27,1337364.0,8.33,358464.02,Région,VINCI Facilities,10.53,20.89,246939.5,Jean Dupont,Accord-cadre,Moyenne,Moyen
+771,332,Isolation thermique,2024-09-05,2025-03-22,2025-02-22,Completed,348125.88,333565.99,-4.18,41606.66,Union européenne,Entreprise Durand,31.33,29.15,20039.96,Alice Martin,Accord-cadre,Moyenne,Faible
+772,153,Remplacement du chauffage,2017-05-08,2017-09-05,2017-09-17,Completed,1526973.57,1571078.55,2.89,537986.82,Fonds vert,Engie Solutions,20.84,29.3,629540.2,Karim Diallo,MAPA,Moyenne,Faible
+773,323,Remplacement des menuiseries,2025-03-13,2025-10-15,2025-08-26,Completed,131263.65,133937.69,2.04,38933.67,Autofinancement,Entreprise Durand,16.68,7.31,5111.43,Alice Martin,MAPA,Moyenne,Faible
+774,194,Isolation thermique,2025-12-10,,2026-02-03,In Progress,528572.88,215242.52,-59.28,42195.45,Autofinancement,Eiffage Énergie,17.09,,,Alice Martin,Appel d'offres ouvert,Haute,Moyen
+775,256,Isolation thermique,2021-05-23,2021-11-15,2021-10-27,Completed,472411.58,469173.33,-0.69,102025.72,Fonds vert,Entreprise Durand,18.8,27.52,,Nicolas Leroy,Accord-cadre,Basse,Élevé
+776,341,Rénovation de toiture,2025-05-05,,2026-01-31,In Progress,302328.98,227072.1,-24.89,33690.23,Département,Entreprise Durand,17.6,,,Jean Dupont,Marché négocié,Basse,Faible
+777,433,Remplacement du chauffage,2025-04-10,,2025-11-21,In Progress,245305.28,99162.58,-59.58,5937.13,Union européenne,SPIE Building Solutions,27.86,,,Alice Martin,Marché négocié,Critique,Élevé
+778,53,Remplacement des menuiseries,2025-07-16,,2026-03-14,In Progress,768722.98,286358.66,-62.75,8220.15,Fonds vert,Léon Grosse,12.43,,,Sophie Bernard,MAPA,Moyenne,Faible
+779,434,Isolation thermique,2025-04-19,,2025-08-05,Planned,1239446.46,,,333412.63,Union européenne,Groupe Martin,32.83,,,Nicolas Leroy,Accord-cadre,Moyenne,Faible
+780,151,Remplacement du chauffage,2025-07-02,,2025-10-29,In Progress,1239638.87,594426.97,-52.05,212511.58,ADEME,VINCI Facilities,17.65,,,Karim Diallo,Appel d'offres ouvert,Moyenne,Élevé
+781,252,Ventilation double flux,2022-07-18,2023-04-21,2023-03-30,Completed,548888.8,569167.83,3.69,155827.1,Union européenne,SPIE Building Solutions,14.96,15.42,101326.45,Alice Martin,Accord-cadre,Moyenne,Élevé
+782,473,Éclairage LED,2018-04-14,2018-12-26,2019-01-04,Completed,436202.28,409688.35,-6.08,49800.99,Région,Léon Grosse,7.23,9.74,161956.81,Nicolas Leroy,Appel d'offres ouvert,Critique,Faible
+783,394,Isolation thermique,2023-10-14,2024-01-30,2023-12-12,Completed,2933019.3,3170732.2,8.1,722780.88,Fonds vert,Eiffage Énergie,23.06,23.08,327467.83,Nicolas Leroy,Marché négocié,Moyenne,Moyen
+784,120,Rénovation de toiture,2025-08-20,,2025-12-14,Planned,634446.82,,,1082.69,Fonds vert,Entreprise Durand,6.8,,,Nicolas Leroy,Appel d'offres ouvert,Moyenne,Faible
+785,386,Éclairage LED,2024-07-10,2024-09-12,2024-09-08,Completed,333447.32,326129.2,-2.19,34313.41,Région,Léon Grosse,4.25,8.8,,Alice Martin,Appel d'offres ouvert,Haute,Élevé
+786,242,Ventilation double flux,2023-04-05,2023-07-18,2023-07-29,Completed,2656168.97,2861961.91,7.75,272032.56,ADEME,SPIE Building Solutions,14.43,15.92,183152.63,Sophie Bernard,MAPA,Critique,Moyen
+787,323,Remplacement du chauffage,2025-03-13,,2025-07-03,Planned,136450.03,,,60467.87,Région,VINCI Facilities,15.71,,,Sophie Bernard,Accord-cadre,Haute,Moyen
+788,57,Remplacement des menuiseries,2025-07-12,,2026-02-09,In Progress,2360803.25,1937549.26,-17.93,388041.17,Région,Eiffage Énergie,8.61,,,Jean Dupont,MAPA,Moyenne,Faible
+789,281,Remplacement des menuiseries,2025-10-21,,2026-07-24,In Progress,273550.53,217675.32,-20.43,118518.39,Département,VINCI Facilities,9.6,,,Jean Dupont,Accord-cadre,Haute,Moyen
+790,202,Remplacement des menuiseries,2025-07-01,,2026-03-27,Planned,615991.87,,,78377.62,Fonds vert,SPIE Building Solutions,16.27,,,Emma Robert,MAPA,Critique,Moyen
+791,311,Ventilation double flux,2025-09-05,2026-03-11,2026-03-14,Completed,279933.99,295670.5,5.62,41423.51,Union européenne,Eiffage Énergie,19.15,15.41,52369.91,Alice Martin,Appel d'offres ouvert,Moyenne,Élevé
+792,229,Rénovation de toiture,2025-05-20,,2025-07-18,Planned,95408.1,,,17277.24,Département,Engie Solutions,13.33,,,Karim Diallo,Appel d'offres ouvert,Moyenne,Moyen
+793,305,Ventilation double flux,2025-05-05,,2025-10-23,Planned,763688.57,,,148493.48,ADEME,Engie Solutions,14.35,,,Karim Diallo,Marché négocié,Critique,Élevé
+794,102,Remplacement des menuiseries,2017-05-05,2017-11-02,2017-11-10,Completed,958499.16,924726.99,-3.52,491253.37,Autofinancement,Eiffage Énergie,16.04,13.3,124479.99,Emma Robert,MAPA,Basse,Élevé
+795,103,Isolation thermique,2016-09-22,2017-06-03,2017-05-28,Completed,939445.56,1018213.23,8.38,20117.03,ADEME,Léon Grosse,18.83,23.7,78252.4,Nicolas Leroy,Accord-cadre,Haute,Moyen
+796,404,Remplacement du chauffage,2025-06-08,2025-10-08,2025-08-25,Completed,585513.43,622929.21,6.39,220691.63,Département,SPIE Building Solutions,16.91,28.49,,Alice Martin,Marché négocié,Moyenne,Moyen
+797,239,Remplacement du chauffage,2025-02-04,2025-09-15,2025-09-26,Completed,203073.18,222750.77,9.69,85663.76,Région,SPIE Building Solutions,31.33,25.85,5035.39,Jean Dupont,Marché négocié,Critique,Élevé
+798,274,Remplacement du chauffage,2025-05-03,,2026-01-12,Planned,72911.29,,,9874.05,Région,Bouygues Bâtiment,13.37,,,Alice Martin,Accord-cadre,Haute,Moyen
+799,259,Installation photovoltaïque,2022-04-17,2022-11-21,2022-12-05,Completed,671033.34,767765.23,14.42,194507.73,Fonds vert,SPIE Building Solutions,7.09,11.92,46898.93,Alice Martin,MAPA,Basse,Élevé
+800,49,Remplacement du chauffage,2025-06-02,,2026-02-28,In Progress,857660.43,450471.5,-47.48,158389.78,Fonds vert,Entreprise Durand,28.27,,,Jean Dupont,Appel d'offres ouvert,Haute,Élevé
+801,199,Éclairage LED,2025-11-16,,2026-07-31,Planned,141918.26,,,59523.6,Union européenne,Engie Solutions,8.0,,,Nicolas Leroy,Accord-cadre,Haute,Faible
+802,323,Isolation thermique,2025-04-14,,2025-12-21,Planned,193908.82,,,8467.64,Département,Léon Grosse,32.99,,,Karim Diallo,Accord-cadre,Basse,Faible
+803,142,Rénovation de toiture,2025-07-02,,2025-09-08,Planned,182274.81,,,26756.43,Fonds vert,Entreprise Durand,11.17,,,Sophie Bernard,Appel d'offres ouvert,Haute,Moyen
+804,103,Ventilation double flux,2025-06-02,2025-08-17,2025-10-12,Cancelled,369032.08,42566.89,-88.47,6908.02,Autofinancement,Eiffage Énergie,9.59,,,Emma Robert,MAPA,Haute,Faible
+805,264,Remplacement du chauffage,2025-08-18,,2026-01-18,In Progress,661419.92,558185.51,-15.61,9891.28,Région,VINCI Facilities,24.79,,,Nicolas Leroy,Accord-cadre,Moyenne,Faible
+806,343,Rénovation de toiture,2018-06-11,2019-03-05,2019-03-13,Completed,594592.54,591565.06,-0.51,21002.79,Autofinancement,Entreprise Durand,10.66,7.23,57106.95,Nicolas Leroy,Appel d'offres ouvert,Basse,Moyen
+807,409,Remplacement des menuiseries,2019-05-24,2020-04-04,2020-02-28,Completed,1943462.03,2086085.28,7.34,1004057.03,ADEME,Groupe Martin,12.96,6.55,17841.74,Emma Robert,Accord-cadre,Haute,Élevé
+808,206,Remplacement des menuiseries,2024-03-12,2024-05-28,2024-04-26,Completed,762214.85,701137.63,-8.01,296552.92,Fonds vert,Groupe Martin,9.99,7.18,38983.01,Emma Robert,Accord-cadre,Basse,Élevé
+809,339,Remplacement du chauffage,2024-07-25,2025-02-14,2025-03-04,Completed,2669018.91,2826391.62,5.9,395714.0,Département,Léon Grosse,20.18,16.48,86918.45,Emma Robert,Marché négocié,Moyenne,Faible
+810,215,Isolation thermique,2025-02-06,,2025-11-07,In Progress,755112.64,405501.69,-46.3,60163.33,Fonds vert,VINCI Facilities,25.85,,,Karim Diallo,Appel d'offres ouvert,Critique,Moyen
+811,58,Installation photovoltaïque,2025-08-19,2025-11-02,2026-04-24,Cancelled,2258119.41,156015.36,-93.09,9971.89,Département,Léon Grosse,8.11,,,Alice Martin,Appel d'offres ouvert,Haute,Moyen
+812,259,Remplacement du chauffage,2025-02-14,,2025-04-09,In Progress,398894.97,293935.14,-26.31,60856.58,Région,Bouygues Bâtiment,30.18,,,Sophie Bernard,Appel d'offres ouvert,Critique,Moyen
+813,124,Remplacement du chauffage,2024-08-22,2025-02-13,2025-01-17,Completed,883214.82,878976.67,-0.48,409205.53,Région,Groupe Martin,19.83,27.66,159396.19,Sophie Bernard,Accord-cadre,Basse,Faible
+814,230,Remplacement du chauffage,2021-04-22,2021-07-23,2021-06-07,Completed,573761.88,660138.58,15.05,322465.49,ADEME,Bouygues Bâtiment,13.12,31.76,,Emma Robert,MAPA,Critique,Moyen
+815,364,Installation photovoltaïque,2025-09-16,,2026-06-02,Planned,672921.93,,,245783.35,Région,Bouygues Bâtiment,8.04,,,Jean Dupont,Marché négocié,Moyenne,Faible
+816,271,Isolation thermique,2025-08-09,,2025-11-21,Planned,1586916.55,,,575570.66,ADEME,Bouygues Bâtiment,34.71,,,Emma Robert,MAPA,Critique,Moyen
+817,385,Ventilation double flux,2024-08-21,2025-04-02,2025-02-27,Completed,1184549.72,1332995.38,12.53,179782.37,ADEME,Bouygues Bâtiment,17.29,20.11,123641.11,Jean Dupont,Accord-cadre,Basse,Faible
+818,305,Remplacement du chauffage,2025-05-24,,2026-01-22,Planned,1021271.05,,,522224.48,Département,Bouygues Bâtiment,18.88,,,Karim Diallo,Accord-cadre,Moyenne,Faible
+819,34,Éclairage LED,2025-06-11,,2025-10-24,In Progress,265707.73,155581.11,-41.45,83960.6,Union européenne,Groupe Martin,4.54,,,Sophie Bernard,Accord-cadre,Critique,Élevé
+820,164,Isolation thermique,2025-01-13,2025-02-24,2025-04-27,Cancelled,794363.36,80982.66,-89.81,40027.99,Fonds vert,SPIE Building Solutions,32.38,,,Sophie Bernard,MAPA,Moyenne,Faible
+821,95,Remplacement des menuiseries,2021-06-07,2021-09-13,2021-09-12,Completed,662923.43,691406.96,4.3,143853.58,ADEME,Léon Grosse,16.39,15.19,211735.24,Karim Diallo,Appel d'offres ouvert,Haute,Faible
+822,88,Remplacement du chauffage,2022-08-11,2023-03-19,2023-02-14,Completed,1153243.82,1062860.73,-7.84,11280.34,Région,Léon Grosse,26.78,18.19,135488.42,Jean Dupont,Accord-cadre,Moyenne,Moyen
+823,472,Rénovation de toiture,2022-05-15,2023-02-26,2023-02-08,Completed,2638102.54,2724991.55,3.29,176158.83,Autofinancement,Groupe Martin,13.61,6.94,58068.32,Nicolas Leroy,Appel d'offres ouvert,Moyenne,Faible
+824,470,Éclairage LED,2024-03-22,,2024-09-03,In Progress,293577.92,104670.03,-64.35,53504.31,Département,Léon Grosse,7.13,,,Alice Martin,MAPA,Moyenne,Faible
+825,27,Remplacement des menuiseries,2022-11-03,2023-01-20,2023-01-11,Completed,213667.74,231974.35,8.57,68921.77,Région,Léon Grosse,7.22,15.63,42136.42,Karim Diallo,MAPA,Basse,Élevé
+826,51,Isolation thermique,2024-04-22,2024-09-30,2024-09-20,Completed,468591.95,540255.09,15.29,231759.76,Autofinancement,Bouygues Bâtiment,19.27,25.58,23617.92,Jean Dupont,Accord-cadre,Moyenne,Élevé
+827,483,Isolation thermique,2025-11-16,2026-07-09,2026-06-20,Completed,1654280.25,1873914.56,13.28,524304.9,Autofinancement,Eiffage Énergie,16.95,24.95,45652.03,Alice Martin,Accord-cadre,Haute,Faible
+828,333,Éclairage LED,2024-08-15,,2025-04-08,In Progress,393263.81,277569.54,-29.42,146151.06,Département,Engie Solutions,4.45,,,Sophie Bernard,Marché négocié,Basse,Moyen
+829,366,Remplacement du chauffage,2024-08-06,2024-09-07,2024-12-23,Cancelled,1097376.93,91475.59,-91.66,22711.14,ADEME,Engie Solutions,21.61,,,Alice Martin,Accord-cadre,Moyenne,Moyen
+830,22,Éclairage LED,2021-05-04,2021-07-12,2021-11-02,Cancelled,699192.21,52395.33,-92.51,25514.62,Fonds vert,Eiffage Énergie,3.91,,,Jean Dupont,Accord-cadre,Haute,Faible
+831,472,Remplacement des menuiseries,2024-12-13,2025-02-16,2025-01-31,Completed,1500831.12,1456283.07,-2.97,364170.76,Autofinancement,Léon Grosse,12.13,14.33,119901.88,Alice Martin,MAPA,Haute,Élevé
+832,41,Isolation thermique,2022-11-06,2023-06-21,2023-04-28,Completed,1595874.53,1802024.12,12.92,289505.91,Union européenne,Groupe Martin,27.39,27.64,386239.34,Emma Robert,MAPA,Haute,Faible
+833,80,Isolation thermique,2024-08-21,2024-11-02,2024-11-20,Completed,1511824.99,1576279.41,4.26,601357.09,Fonds vert,Entreprise Durand,32.21,17.16,,Emma Robert,Marché négocié,Haute,Moyen
+834,363,Remplacement du chauffage,2018-07-11,2019-02-24,2019-01-07,Completed,645521.0,612056.37,-5.18,57651.58,Département,Engie Solutions,25.82,26.71,165550.23,Karim Diallo,MAPA,Critique,Moyen
+835,50,Éclairage LED,2016-07-14,2017-01-12,2017-01-03,Completed,623837.88,681405.25,9.23,205237.91,ADEME,Groupe Martin,7.37,8.68,65565.95,Karim Diallo,Appel d'offres ouvert,Basse,Moyen
+836,121,Isolation thermique,2019-12-10,2020-10-10,2020-08-26,Completed,546276.56,599654.1,9.77,83769.16,ADEME,Groupe Martin,32.95,22.5,89961.52,Nicolas Leroy,MAPA,Moyenne,Élevé
+837,354,Isolation thermique,2025-03-09,,2025-09-12,In Progress,538903.38,269992.65,-49.9,140720.8,Département,Groupe Martin,17.12,,,Sophie Bernard,Appel d'offres ouvert,Critique,Faible
+838,121,Éclairage LED,2024-12-08,,2025-06-16,In Progress,291420.07,158737.65,-45.53,57126.87,ADEME,Léon Grosse,8.06,,,Alice Martin,Appel d'offres ouvert,Haute,Faible
+839,109,Isolation thermique,2025-03-21,,2025-09-13,In Progress,576004.47,324206.92,-43.71,1770.64,Fonds vert,Groupe Martin,24.19,,,Sophie Bernard,MAPA,Haute,Faible
+840,91,Ventilation double flux,2023-06-17,2023-11-04,2023-09-27,Completed,335968.68,319711.35,-4.84,61862.37,Union européenne,Entreprise Durand,8.16,15.43,38024.18,Nicolas Leroy,Appel d'offres ouvert,Haute,Moyen
+841,40,Remplacement des menuiseries,2025-02-16,,2025-09-17,In Progress,761141.76,486183.64,-36.12,141744.06,ADEME,Léon Grosse,19.72,,,Sophie Bernard,Marché négocié,Moyenne,Faible
+842,108,Remplacement des menuiseries,2025-09-11,,2026-03-10,In Progress,301800.66,213465.01,-29.27,86346.56,Département,VINCI Facilities,7.0,,,Jean Dupont,Appel d'offres ouvert,Moyenne,Moyen
+843,48,Rénovation de toiture,2020-12-05,2021-09-06,2021-08-25,Completed,1594303.95,1667380.34,4.58,133821.11,ADEME,Entreprise Durand,10.54,18.65,377360.64,Karim Diallo,MAPA,Haute,Faible
+844,29,Remplacement du chauffage,2025-01-09,,2025-07-23,Planned,1079448.15,,,250964.03,Autofinancement,SPIE Building Solutions,27.1,,,Sophie Bernard,MAPA,Basse,Faible
+845,86,Remplacement du chauffage,2025-06-23,2025-10-28,2025-09-18,Completed,512090.33,552954.01,7.98,154329.5,Département,VINCI Facilities,20.07,12.28,112302.77,Karim Diallo,MAPA,Haute,Élevé
+846,439,Isolation thermique,2025-03-22,,2025-12-08,In Progress,1298722.14,1046079.23,-19.45,438863.62,Fonds vert,Bouygues Bâtiment,25.2,,,Nicolas Leroy,MAPA,Moyenne,Moyen
+847,411,Ventilation double flux,2025-07-18,,2025-12-12,Planned,1181799.4,,,379933.48,ADEME,Engie Solutions,17.65,,,Karim Diallo,MAPA,Haute,Élevé
+848,393,Remplacement des menuiseries,2025-04-14,,2025-11-08,Planned,1981958.02,,,1050437.69,Département,Entreprise Durand,7.98,,,Sophie Bernard,Marché négocié,Haute,Faible
+849,471,Rénovation de toiture,2025-03-04,,2025-07-17,Planned,249939.8,,,82468.82,Autofinancement,VINCI Facilities,6.32,,,Sophie Bernard,MAPA,Moyenne,Élevé
+850,388,Remplacement des menuiseries,2025-03-15,,2025-08-29,Planned,394641.04,,,20484.39,ADEME,Bouygues Bâtiment,12.57,,,Jean Dupont,Appel d'offres ouvert,Moyenne,Moyen
+851,266,Remplacement du chauffage,2020-09-04,2021-01-16,2021-01-03,Completed,893147.33,1017705.62,13.95,315789.72,Union européenne,Léon Grosse,12.17,20.49,159515.57,Alice Martin,Appel d'offres ouvert,Haute,Élevé
+852,395,Remplacement du chauffage,2025-08-24,2025-11-23,2025-11-07,Completed,227724.82,247155.04,8.53,128597.94,ADEME,Léon Grosse,31.31,34.72,92130.96,Sophie Bernard,Accord-cadre,Haute,Élevé
+853,271,Remplacement du chauffage,2025-11-06,2026-07-01,2026-07-09,Completed,1839946.65,2057286.81,11.81,57017.26,Union européenne,Eiffage Énergie,19.83,20.14,477322.98,Nicolas Leroy,Appel d'offres ouvert,Moyenne,Moyen
+854,64,Installation photovoltaïque,2022-12-09,2023-08-30,2023-07-12,Completed,326333.67,371786.25,13.93,152057.08,Département,Bouygues Bâtiment,11.27,11.26,,Nicolas Leroy,Marché négocié,Moyenne,Moyen
+855,492,Remplacement du chauffage,2023-05-23,2023-09-16,2023-08-22,Completed,368739.59,407729.8,10.57,152862.01,Fonds vert,Entreprise Durand,18.35,27.03,85014.62,Emma Robert,Accord-cadre,Moyenne,Élevé
+856,381,Ventilation double flux,2025-01-19,,2025-05-07,In Progress,908805.99,345767.26,-61.95,18531.8,Région,Eiffage Énergie,8.78,,,Nicolas Leroy,MAPA,Haute,Moyen
+857,313,Éclairage LED,2016-07-07,2017-05-26,2017-04-02,Completed,435345.58,499527.42,14.74,236918.68,Région,SPIE Building Solutions,7.32,7.22,92190.37,Emma Robert,Marché négocié,Moyenne,Moyen
+858,429,Remplacement des menuiseries,2025-04-10,,2025-07-28,In Progress,103089.55,77566.63,-24.76,25918.83,Fonds vert,Eiffage Énergie,13.52,,,Nicolas Leroy,Accord-cadre,Moyenne,Élevé
+859,316,Remplacement du chauffage,2019-02-03,2019-09-13,2019-08-14,Completed,562834.36,593980.64,5.53,85735.4,Union européenne,Engie Solutions,12.56,13.76,76105.63,Jean Dupont,Appel d'offres ouvert,Critique,Faible
+860,482,Isolation thermique,2024-02-24,2024-07-18,2024-06-01,Completed,744375.3,748482.42,0.55,186339.1,Département,SPIE Building Solutions,25.14,34.55,101677.11,Karim Diallo,MAPA,Haute,Faible
+861,278,Éclairage LED,2025-11-02,,2026-02-09,In Progress,370471.81,184235.18,-50.27,70886.95,Département,Léon Grosse,6.67,,,Karim Diallo,Marché négocié,Moyenne,Faible
+862,79,Remplacement du chauffage,2025-04-17,,2025-12-18,Planned,186868.62,,,55856.92,Région,Entreprise Durand,27.94,,,Nicolas Leroy,Accord-cadre,Moyenne,Élevé
+863,430,Remplacement du chauffage,2025-04-08,,2025-10-11,Planned,381112.07,,,99718.1,Région,Bouygues Bâtiment,18.46,,,Nicolas Leroy,Marché négocié,Haute,Faible
+864,214,Isolation thermique,2023-06-19,2024-02-09,2023-12-19,Completed,1498488.16,1518912.88,1.36,801158.33,Département,Eiffage Énergie,27.45,16.66,173777.72,Karim Diallo,Marché négocié,Moyenne,Faible
+865,278,Installation photovoltaïque,2025-06-12,2025-09-29,2025-10-15,Completed,1815502.77,2023538.44,11.46,700862.99,ADEME,Bouygues Bâtiment,14.73,15.58,95713.64,Sophie Bernard,Appel d'offres ouvert,Haute,Moyen
+866,439,Remplacement des menuiseries,2025-05-08,,2025-07-09,Planned,539567.68,,,134029.01,Fonds vert,Groupe Martin,10.03,,,Alice Martin,MAPA,Haute,Faible
+867,60,Rénovation de toiture,2025-08-09,,2025-12-10,In Progress,820131.56,335103.11,-59.14,49141.35,Région,VINCI Facilities,8.95,,,Karim Diallo,MAPA,Critique,Faible
+868,452,Isolation thermique,2025-07-20,,2025-12-12,Planned,298121.75,,,106639.9,Département,Engie Solutions,21.18,,,Emma Robert,Marché négocié,Critique,Élevé
+869,493,Éclairage LED,2025-04-20,,2025-11-25,In Progress,381473.96,157168.05,-58.8,6444.02,Région,Entreprise Durand,9.52,,,Karim Diallo,Marché négocié,Moyenne,Moyen
+870,64,Remplacement du chauffage,2024-05-12,2024-09-29,2024-09-09,Completed,851862.4,865002.96,1.54,64158.87,Région,Groupe Martin,16.12,29.36,,Nicolas Leroy,Accord-cadre,Haute,Élevé
+871,133,Isolation thermique,2023-06-02,2024-01-07,2024-01-20,Completed,1274669.41,1470492.1,15.36,183882.12,Région,Eiffage Énergie,27.91,27.98,328485.44,Jean Dupont,Appel d'offres ouvert,Moyenne,Élevé
+872,332,Éclairage LED,2025-08-01,,2026-01-19,Planned,89764.43,,,43106.81,Autofinancement,Groupe Martin,9.87,,,Karim Diallo,Accord-cadre,Critique,Moyen
+873,101,Rénovation de toiture,2022-11-23,2023-06-29,2023-06-13,Completed,856935.83,858411.37,0.17,55755.23,Fonds vert,Entreprise Durand,11.15,7.56,17424.24,Karim Diallo,MAPA,Moyenne,Faible
+874,31,Remplacement du chauffage,2025-04-21,,2025-12-13,Planned,477007.39,,,19265.03,Union européenne,Léon Grosse,22.67,,,Jean Dupont,Appel d'offres ouvert,Basse,Moyen
+875,483,Rénovation de toiture,2025-07-09,2025-12-12,2025-10-23,Completed,509804.0,554210.86,8.71,227364.87,Département,Eiffage Énergie,8.55,12.47,22816.87,Jean Dupont,Appel d'offres ouvert,Moyenne,Élevé
+876,89,Installation photovoltaïque,2024-11-06,2025-05-01,2025-05-15,Completed,428161.76,401612.7,-6.2,190449.12,Autofinancement,Groupe Martin,11.3,14.66,43826.46,Alice Martin,Accord-cadre,Haute,Moyen
+877,396,Éclairage LED,2025-10-06,,2026-07-05,In Progress,95203.56,39355.01,-58.66,9119.07,Région,SPIE Building Solutions,7.69,,,Alice Martin,MAPA,Moyenne,Moyen
+878,255,Ventilation double flux,2025-03-09,,2025-07-13,Planned,683060.67,,,112440.61,Région,Bouygues Bâtiment,10.13,,,Emma Robert,Appel d'offres ouvert,Haute,Moyen
+879,416,Isolation thermique,2025-07-06,,2026-03-10,In Progress,1095838.62,748658.43,-31.68,316182.2,Fonds vert,Engie Solutions,20.47,,,Sophie Bernard,Marché négocié,Moyenne,Élevé
+880,431,Isolation thermique,2016-08-01,2017-01-24,2017-01-28,Completed,349614.91,352008.13,0.68,72321.11,Région,SPIE Building Solutions,24.15,18.33,,Jean Dupont,Appel d'offres ouvert,Moyenne,Élevé
+881,347,Remplacement du chauffage,2025-03-16,,2025-07-03,In Progress,1033702.98,581759.98,-43.72,48207.37,Autofinancement,Groupe Martin,16.16,,,Karim Diallo,MAPA,Basse,Faible
+882,15,Remplacement du chauffage,2025-03-04,,2025-05-30,Planned,582500.69,,,29587.54,ADEME,Entreprise Durand,15.73,,,Alice Martin,Appel d'offres ouvert,Haute,Faible
+883,463,Isolation thermique,2023-03-05,2023-09-30,2023-08-18,Completed,4149285.12,4546434.56,9.57,508369.07,Département,Groupe Martin,27.26,25.39,343709.98,Emma Robert,Accord-cadre,Basse,Élevé
+884,187,Isolation thermique,2025-03-04,2025-03-23,2025-10-25,Cancelled,669987.26,65141.44,-90.28,25938.61,Autofinancement,SPIE Building Solutions,32.68,,,Sophie Bernard,Appel d'offres ouvert,Basse,Faible
+885,332,Rénovation de toiture,2025-08-04,,2026-02-16,Planned,257821.8,,,35273.22,ADEME,Groupe Martin,15.57,,,Emma Robert,MAPA,Moyenne,Moyen
+886,139,Isolation thermique,2025-10-08,2026-06-01,2026-04-25,Completed,1298841.81,1227069.51,-5.53,16374.94,Autofinancement,VINCI Facilities,27.25,19.36,29405.11,Emma Robert,Accord-cadre,Moyenne,Faible
+887,170,Isolation thermique,2025-10-19,,2026-02-02,Planned,903628.48,,,447030.35,Fonds vert,Bouygues Bâtiment,15.78,,,Karim Diallo,Appel d'offres ouvert,Critique,Faible
+888,82,Rénovation de toiture,2023-07-03,2024-02-03,2024-01-23,Completed,864660.32,940421.52,8.76,242905.49,ADEME,Eiffage Énergie,15.64,8.46,20828.99,Alice Martin,MAPA,Haute,Faible
+889,365,Éclairage LED,2025-07-09,,2025-12-03,In Progress,150255.31,95118.33,-36.7,12716.37,Union européenne,Engie Solutions,7.05,,,Jean Dupont,Marché négocié,Moyenne,Moyen
+890,308,Isolation thermique,2023-05-10,2023-07-20,2023-07-05,Completed,1576313.36,1571685.1,-0.29,572119.1,Département,Groupe Martin,29.47,17.39,190658.71,Karim Diallo,Marché négocié,Basse,Faible
+891,471,Isolation thermique,2025-09-22,,2026-02-12,In Progress,484852.65,369879.5,-23.71,92049.42,Autofinancement,Groupe Martin,29.85,,,Nicolas Leroy,Accord-cadre,Moyenne,Faible
+892,354,Remplacement des menuiseries,2025-06-18,,2025-10-31,In Progress,439313.83,370748.02,-15.61,93768.36,Fonds vert,Engie Solutions,17.99,,,Nicolas Leroy,MAPA,Moyenne,Faible
+893,197,Remplacement des menuiseries,2024-04-23,,2024-08-12,In Progress,777655.25,602948.74,-22.47,240425.53,Fonds vert,VINCI Facilities,8.58,,,Karim Diallo,Marché négocié,Critique,Moyen
+894,83,Isolation thermique,2025-09-12,,2025-12-13,In Progress,536307.2,228903.16,-57.32,73887.64,Fonds vert,SPIE Building Solutions,34.65,,,Alice Martin,Marché négocié,Moyenne,Moyen
+895,198,Éclairage LED,2025-06-21,,2025-11-16,Planned,34145.11,,,1524.99,Département,Léon Grosse,9.63,,,Jean Dupont,Appel d'offres ouvert,Critique,Faible
+896,37,Isolation thermique,2025-10-18,,2025-12-19,Planned,1468164.91,,,585393.23,Union européenne,SPIE Building Solutions,23.51,,,Jean Dupont,Appel d'offres ouvert,Critique,Moyen
+897,393,Remplacement du chauffage,2025-04-25,,2025-09-09,Planned,1795284.0,,,260227.92,ADEME,Eiffage Énergie,24.36,,,Nicolas Leroy,Appel d'offres ouvert,Critique,Élevé
+898,158,Remplacement du chauffage,2018-06-16,2018-12-29,2019-01-05,Completed,367044.74,385209.38,4.95,126569.05,Autofinancement,VINCI Facilities,22.78,24.99,71521.46,Alice Martin,Marché négocié,Critique,Moyen
+899,444,Remplacement des menuiseries,2025-03-03,2025-10-14,2025-08-28,Completed,1200260.53,1193132.27,-0.59,319182.48,Autofinancement,Groupe Martin,8.7,6.93,29715.81,Emma Robert,Marché négocié,Moyenne,Élevé
+900,320,Éclairage LED,2025-07-07,2025-08-21,2025-12-20,Cancelled,657387.87,40262.79,-93.88,4131.5,Région,VINCI Facilities,10.52,,,Alice Martin,MAPA,Moyenne,Élevé
