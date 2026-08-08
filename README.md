@@ -451,6 +451,14 @@ public_buildings_rag/
 
 ## `docker-compose.yml`
 
+
+
+## 🐳 Why Docker?
+
+pgvector is a PostgreSQL extension...
+
+![Docker Environment](assets/docker.png)
+
 Creates the PostgreSQL environment containing pgvector.
 
 Docker makes the database environment reproducible without requiring a manual pgvector installation on the host machine.
@@ -523,6 +531,8 @@ and stores them in PostgreSQL through pgvector.
 ---
 
 ## `python/retriever.py`
+
+![RAG Retriever implementation](assets/retriever.png)
 
 This is one of the core components of the RAG architecture.
 
@@ -821,6 +831,9 @@ Which projects exceeded their estimated budget?
 ---
 
 # 💡 SQL vs Semantic Search
+
+
+![PostgreSQL and pgvector](assets/PostgreSQL_Pg.png)
 
 One important aspect of this project is understanding that **SQL and vector search solve complementary problems**.
 
