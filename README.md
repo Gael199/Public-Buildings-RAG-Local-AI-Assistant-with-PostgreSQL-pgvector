@@ -20,7 +20,7 @@ Exemples de questions :
 
 Voici une démonstration de l'assistant RAG interrogeant les données en langage naturel.
 
-![Démonstration Streamlit](assets/RAG.gif)
+![Démonstration Streamlit](assets/RAG.mp4)
 
 ## 🎯 Objectif
 
