@@ -1,323 +1,104 @@
-# 🏢 Public Buildings RAG — Local AI Assistant with PostgreSQL & pgvector
+# 🏢 Public Buildings RAG — Assistant IA local avec PostgreSQL & pgvector
 
-## 📌 Overview
+## 📌 Présentation
 
-**Public Buildings RAG** is an end-to-end **Retrieval-Augmented Generation (RAG)** application designed to explore and analyze public building and renovation data using natural language.
+**Public Buildings RAG** est une application RAG (*Retrieval-Augmented Generation*) permettant d'interroger en langage naturel des données relatives à des **bâtiments publics et à leurs projets de rénovation énergétique**.
 
-Instead of relying only on traditional SQL queries, the application allows users to ask questions such as:
+L'application combine **PostgreSQL, pgvector, Python, Ollama, Llama 3.1 et Streamlit** et fonctionne entièrement en local, sans API LLM payante.
 
-> *Which buildings in Lyon are the most energy-intensive?*
+Exemples de questions :
 
-> *Which insulation projects achieved good energy savings?*
+> Quels bâtiments de Lyon semblent les plus énergivores ?
 
-> *Which renovation projects are the most relevant to my question?*
+> Quels projets d'isolation ont généré de bonnes économies d'énergie ?
 
-The application converts the user's question into a vector embedding, searches for semantically similar information in **PostgreSQL using pgvector**, and provides the retrieved context to **Llama 3.1**, running locally through **Ollama**, to generate a contextual answer.
-
-The entire AI pipeline runs **locally**, without requiring a cloud-based LLM API.
+> Quels projets de rénovation sont les plus pertinents par rapport à ma question ?
 
 ---
 
-## 🎯 Project Objective
+## 🎯 Objectif
 
-Public building datasets contain useful information about:
+L'objectif est de permettre à un utilisateur d'explorer des données métier sans avoir besoin d'écrire lui-même des requêtes SQL.
 
-- energy consumption;
-- building characteristics;
-- insulation quality;
-- renovation projects;
-- project costs;
-- energy savings;
-- project status;
-- construction year;
-- heating systems.
+Le projet combine deux approches complémentaires :
 
-Traditional SQL is excellent when the user knows exactly what columns and filters to use.
+- **SQL** pour l'analyse structurée des données ;
+- **recherche vectorielle avec pgvector** pour retrouver des informations selon leur sens et leur similarité sémantique.
 
-For example:
-
-```sql
-SELECT *
-FROM buildings
-WHERE city = 'Lyon'
-ORDER BY energy_intensity_kwh_m2_year DESC
-LIMIT 10;
-```
-
-But business users do not necessarily think in SQL.
-
-They ask questions such as:
-
-> **"Which buildings in Lyon seem energy-intensive?"**
-
-This project explores how **semantic search and Generative AI** can provide a more intuitive way to interact with structured and textual data.
+Les informations récupérées sont ensuite fournies à **Llama 3.1** afin de générer une réponse en langage naturel.
 
 ---
 
-# 🧠 What is RAG?
-
-**RAG** stands for **Retrieval-Augmented Generation**.
-
-The principle is simple:
-
-1. The user asks a question.
-2. The question is converted into a numerical vector called an **embedding**.
-3. PostgreSQL searches for documents with similar vectors.
-4. The most relevant documents are retrieved.
-5. These documents are added to the LLM prompt as context.
-6. Llama 3.1 generates an answer based on this retrieved context.
-
-In simplified form:
+## 🏗️ Architecture
 
 ```text
-User Question
-      │
-      ▼
-Embedding Model
+Utilisateur
+    │
+    ▼
+Streamlit
+    │
+    ▼
+Question en langage naturel
+    │
+    ▼
 nomic-embed-text
-      │
-      ▼
-Question Vector
-      │
-      ▼
+    │
+    ▼
+Embedding (vecteur)
+    │
+    ▼
 PostgreSQL + pgvector
-      │
-      ▼
-Semantic Search
-      │
-      ▼
-Relevant Documents
-      │
-      ▼
-Prompt Construction
-      │
-      ▼
-Llama 3.1
-      │
-      ▼
-Generated Answer
-      │
-      ▼
-Streamlit Interface
+    │
+    ▼
+Documents les plus pertinents
+    │
+    ▼
+Construction du contexte RAG
+    │
+    ▼
+Llama 3.1 via Ollama
+    │
+    ▼
+Réponse
 ```
+
+Le pipeline fonctionne entièrement sur la machine locale.
 
 ---
 
-# 🏗️ Architecture
+## 🛠️ Technologies
 
-The project combines several components, each with a specific responsibility.
-
-```text
-                    ┌─────────────────────┐
-                    │       USER          │
-                    └──────────┬──────────┘
-                               │
-                         Natural language
-                               │
-                               ▼
-                    ┌─────────────────────┐
-                    │     STREAMLIT       │
-                    │    Web Interface    │
-                    └──────────┬──────────┘
-                               │
-                               ▼
-                    ┌─────────────────────┐
-                    │       PYTHON        │
-                    │    RAG Pipeline     │
-                    └──────────┬──────────┘
-                               │
-                 ┌─────────────┴─────────────┐
-                 │                           │
-                 ▼                           ▼
-       ┌──────────────────┐        ┌──────────────────┐
-       │      OLLAMA      │        │    POSTGRESQL    │
-       │                  │        │    + pgvector    │
-       │ nomic-embed-text │        │                  │
-       └────────┬─────────┘        └────────┬─────────┘
-                │                           │
-                │ Embedding                │ Vector search
-                └─────────────┬─────────────┘
-                              │
-                              ▼
-                    Relevant documents
-                              │
-                              ▼
-                    ┌─────────────────────┐
-                    │     LLAMA 3.1       │
-                    │ Answer Generation   │
-                    └──────────┬──────────┘
-                               │
-                               ▼
-                    ┌─────────────────────┐
-                    │     STREAMLIT       │
-                    │   Final Response    │
-                    └─────────────────────┘
-```
-
----
-
-# 🛠️ Tech Stack
-
-| Technology | Role |
+| Technologie | Rôle |
 |---|---|
-| **Python** | Data processing and RAG orchestration |
-| **PostgreSQL 17** | Relational database |
-| **pgvector** | Vector storage and similarity search |
-| **Docker** | Reproducible PostgreSQL + pgvector environment |
-| **Ollama** | Local model execution |
-| **Llama 3.1** | Generative language model |
-| **nomic-embed-text** | Text embedding generation |
-| **Streamlit** | Interactive web application |
-| **psycopg** | Python/PostgreSQL communication |
-| **VS Code** | Development environment |
+| **Python** | Traitement des données et orchestration du RAG |
+| **PostgreSQL 17** | Stockage des données |
+| **pgvector** | Stockage des embeddings et recherche vectorielle |
+| **Docker** | Exécution de PostgreSQL + pgvector |
+| **Ollama** | Exécution locale des modèles |
+| **nomic-embed-text** | Génération des embeddings |
+| **Llama 3.1** | Génération des réponses |
+| **Streamlit** | Interface utilisateur |
 
 ---
 
-# 🗄️ Data Model
+## 🧠 Fonctionnement du RAG
 
-The project is based mainly on two business entities.
+Lorsqu'un utilisateur pose une question :
 
-## `buildings`
+1. la question est transformée en **embedding** avec `nomic-embed-text` ;
+2. **pgvector** compare ce vecteur aux documents enregistrés dans PostgreSQL ;
+3. les documents les plus similaires sont récupérés ;
+4. Python construit un contexte contenant ces informations ;
+5. **Llama 3.1** génère une réponse à partir de ce contexte ;
+6. la réponse est affichée dans **Streamlit**.
 
-Contains information about public buildings, including:
-
-- building ID;
-- building name;
-- building type;
-- city;
-- construction year;
-- surface area;
-- annual energy consumption;
-- energy intensity;
-- DPE rating;
-- insulation quality;
-- heating type.
-
-Example business question:
-
-> **Which buildings in Lyon are the most energy-intensive?**
+Le projet contient **1 400 documents vectorisés**, avec des embeddings de **768 dimensions**.
 
 ---
 
-## `renovation_projects`
+## 🔎 Recherche vectorielle avec pgvector
 
-Contains renovation project information such as:
-
-- project ID;
-- associated building;
-- renovation type;
-- project status;
-- priority;
-- estimated cost;
-- actual cost;
-- planned dates;
-- energy savings.
-
-Example:
-
-> **Which insulation projects achieved the best energy savings?**
-
----
-
-## `building_documents`
-
-This table is particularly important for the RAG system.
-
-It contains textual representations of the business data and their associated embeddings.
-
-Conceptually:
-
-```text
-building_documents
-│
-├── document_id
-├── building_id
-├── project_id
-├── document_type
-├── title
-├── content
-├── metadata
-├── embedding
-└── created_at
-```
-
-The `embedding` column uses the **pgvector `vector` type**.
-
-This allows PostgreSQL to perform mathematical similarity searches between the user's question and stored documents.
-
----
-
-# 🔢 Embeddings
-
-An embedding is a numerical representation of text.
-
-For example:
-
-```text
-"Thermal insulation project in Lyon"
-```
-
-is transformed by the embedding model into something conceptually similar to:
-
-```text
-[0.021, -0.145, 0.087, ..., 0.034]
-```
-
-In this project, embeddings are generated using:
-
-```text
-nomic-embed-text
-```
-
-through Ollama.
-
-The generated vectors contain:
-
-```text
-768 dimensions
-```
-
-The project currently contains:
-
-```text
-1,400 vectorized documents
-```
-
-These vectors are stored directly inside PostgreSQL.
-
----
-
-# 🔎 Semantic Search with pgvector
-
-Traditional SQL searches for exact conditions.
-
-For example:
-
-```sql
-WHERE city = 'Lyon'
-```
-
-Semantic search solves a different problem.
-
-Suppose the user asks:
-
-```text
-Which insulation projects achieved good energy savings?
-```
-
-The application first generates an embedding for this question.
-
-pgvector can then compare that vector with the embeddings stored in `building_documents`.
-
-A cosine-distance search can use:
-
-```sql
-embedding <=> query_embedding
-```
-
-The closest documents are returned first.
-
-Conceptually:
+Exemple conceptuel :
 
 ```sql
 SELECT
@@ -330,85 +111,13 @@ ORDER BY embedding <=> query_vector
 LIMIT 8;
 ```
 
-This means the application does not search only for identical words.
+L'opérateur `<=>` permet ici de comparer les vecteurs selon leur distance cosinus.
 
-It searches for **semantic similarity**.
-
----
-
-# 🔄 RAG Pipeline
-
-The complete pipeline can be summarized in six steps.
-
-### 1 — User question
-
-The user enters a natural-language question in Streamlit.
-
-```text
-Which insulation projects achieved good energy savings?
-```
-
-### 2 — Question embedding
-
-Python sends the question to:
-
-```text
-nomic-embed-text
-```
-
-The model returns a 768-dimensional vector.
-
-### 3 — Vector search
-
-The vector is sent to PostgreSQL.
-
-pgvector compares it with the vectors stored in `building_documents`.
-
-### 4 — Retrieval
-
-The most relevant documents are retrieved.
-
-For example:
-
-```text
-Project 12 — Thermal insulation
-Project 347 — Thermal insulation
-Project 652 — Thermal insulation
-...
-```
-
-### 5 — Prompt construction
-
-The retrieved documents are combined with the user's question.
-
-Conceptually:
-
-```text
-QUESTION:
-Which insulation projects achieved good energy savings?
-
-CONTEXT:
-Document 1...
-Document 2...
-Document 3...
-
-INSTRUCTION:
-Answer using the provided context.
-```
-
-### 6 — Generation
-
-The final prompt is sent to:
-
-```text
-Llama 3.1
-```
-
-The generated response is displayed in Streamlit.
+![PostgreSQL et pgvector](PostgreSQL_Pg.png)
 
 ---
 
-# 📂 Project Structure
+## 📂 Structure du projet
 
 ```text
 public_buildings_rag/
@@ -420,576 +129,167 @@ public_buildings_rag/
 ├── postgres/
 │   └── 01_create_tables.sql
 │
-├── powerbi/
-│
 ├── python/
 │   ├── config.py
+│   ├── load_data.py
 │   ├── generate_documents.py
 │   ├── generate_embeddings.py
-│   ├── load_data.py
-│   ├── llm.py
-│   ├── prompt_builder.py
-│   ├── rag_cli.py
-│   ├── rag_engine.py
 │   ├── retriever.py
-│   └── test_vector_search.py
-│
-├── sql/
+│   ├── prompt_builder.py
+│   ├── llm.py
+│   └── rag_engine.py
 │
 ├── streamlit/
 │   └── app.py
 │
-├── .env.example
 ├── docker-compose.yml
 ├── requirements.txt
+├── .env.example
 └── README.md
 ```
 
----
+### Fichiers principaux
 
-# 📄 Main Files Explained
+**`retriever.py`**  
+Transforme la question en embedding et interroge pgvector pour récupérer les documents les plus pertinents.
 
-## `docker-compose.yml`
+**`rag_engine.py`**  
+Orchestre le pipeline RAG complet.
 
+**`prompt_builder.py`**  
+Construit le prompt à partir de la question et des documents récupérés.
 
+**`llm.py`**  
+Communique avec Llama 3.1 via Ollama.
 
-## 🐳 Why Docker?
+**`app.py`**  
+Contient l'interface Streamlit.
 
-pgvector is a PostgreSQL extension...
-
-![Docker Environment](assets/docker.png)
-
-Creates the PostgreSQL environment containing pgvector.
-
-Docker makes the database environment reproducible without requiring a manual pgvector installation on the host machine.
-
----
-
-## `postgres/01_create_tables.sql`
-
-Initializes the PostgreSQL database.
-
-It contains the SQL required to create the project's tables and pgvector-related structures.
+![Implémentation du Retriever](retriever.png)
 
 ---
 
-## `python/config.py`
+## 🐳 Pourquoi Docker ?
 
-Centralizes configuration used by the Python application.
+pgvector est une extension de PostgreSQL.
 
-Typical configuration includes:
+Docker permet d'exécuter facilement une instance **PostgreSQL 17 avec pgvector déjà installé**, tout en isolant l'environnement de la base de données.
 
-- PostgreSQL connection;
-- Ollama host;
-- embedding model;
-- LLM model;
-- RAG parameters.
+![Environnement Docker](Docker.png)
 
 ---
 
-## `python/load_data.py`
+## 🚀 Installation et lancement
 
-Loads the source datasets into PostgreSQL.
-
-```text
-CSV
- │
- ▼
-Python
- │
- ▼
-PostgreSQL
-```
-
----
-
-## `python/generate_documents.py`
-
-Transforms structured database information into textual documents suitable for semantic search.
-
-For example, structured information about a renovation project can become a document such as:
-
-```text
-Renovation project 12 concerns a public building in Lyon.
-The renovation type is thermal insulation...
-```
-
-This textual representation makes the information easier to retrieve using embeddings.
-
----
-
-## `python/generate_embeddings.py`
-
-Generates vector embeddings for the documents using:
-
-```text
-nomic-embed-text
-```
-
-and stores them in PostgreSQL through pgvector.
-
----
-
-## `python/retriever.py`
-
-![RAG Retriever implementation](assets/retriever.png)
-
-This is one of the core components of the RAG architecture.
-
-Its responsibility is to:
-
-1. receive the user's question;
-2. generate the question embedding;
-3. query PostgreSQL;
-4. calculate vector similarity;
-5. retrieve the most relevant documents.
-
-In other words:
-
-```text
-Question
-   ↓
-Embedding
-   ↓
-pgvector
-   ↓
-Top relevant documents
-```
-
----
-
-## `python/prompt_builder.py`
-
-Builds the final prompt sent to the language model.
-
-It combines:
-
-```text
-User question
-+
-Retrieved context
-+
-Instructions
-```
-
----
-
-## `python/llm.py`
-
-Handles communication with the local LLM through Ollama.
-
-The main generation model is:
-
-```text
-Llama 3.1
-```
-
----
-
-## `python/rag_engine.py`
-
-Orchestrates the complete RAG workflow.
-
-Conceptually:
-
-```python
-question
-   ↓
-retriever
-   ↓
-documents
-   ↓
-prompt_builder
-   ↓
-llm
-   ↓
-answer
-```
-
----
-
-## `python/test_vector_search.py`
-
-Allows vector search to be tested independently of the complete Streamlit application.
-
-Example:
-
-```powershell
-python python\test_vector_search.py "Which insulation projects achieved good energy savings?"
-```
-
-This is useful for validating the retrieval layer before involving the LLM.
-
----
-
-## `python/rag_cli.py`
-
-Provides a command-line interface for testing the complete RAG pipeline without Streamlit.
-
-This helps separate backend testing from frontend testing.
-
----
-
-## `streamlit/app.py`
-
-Provides the user-facing web interface.
-
-It allows users to enter questions and interact with the RAG system without writing SQL or Python code.
-
----
-
-# 🐳 Why Docker?
-
-pgvector is a PostgreSQL extension.
-
-Installing it directly on Windows can require additional configuration and compiled extension files.
-
-Docker provides a simpler and reproducible environment using a PostgreSQL image with pgvector already available.
-
-The database container exposes PostgreSQL to the host machine.
-
-In this project:
-
-```text
-Windows / Python / pgAdmin
-            │
-            │ localhost:5433
-            ▼
-      Docker Container
-            │
-            ▼
-     PostgreSQL :5432
-            +
-         pgvector
-```
-
----
-
-# 🚀 Installation
-
-## Prerequisites
-
-Make sure the following tools are installed:
-
-- Docker Desktop
-- Python
-- Ollama
-- Git
-
----
-
-## 1. Clone the repository
+### 1. Cloner le projet
 
 ```bash
-git clone <YOUR_REPOSITORY_URL>
+git clone <URL_DU_REPOSITORY>
 cd public_buildings_rag
 ```
 
----
+### 2. Créer l'environnement Python
 
-## 2. Create the Python environment
-
-On Windows:
+Sous Windows :
 
 ```powershell
 python -m venv .venv
 .venv\Scripts\Activate.ps1
-```
-
-Install dependencies:
-
-```powershell
 pip install -r requirements.txt
 ```
 
----
-
-## 3. Start PostgreSQL + pgvector
+### 3. Démarrer PostgreSQL + pgvector
 
 ```powershell
 docker compose up -d
 ```
 
-Verify:
-
-```powershell
-docker ps
-```
-
-The PostgreSQL container should be running.
-
----
-
-## 4. Install the Ollama models
+### 4. Installer les modèles Ollama
 
 ```powershell
 ollama pull llama3.1
-```
-
-```powershell
 ollama pull nomic-embed-text
 ```
 
-Verify:
+### 5. Configurer l'environnement
 
-```powershell
-ollama list
-```
-
----
-
-## 5. Configure environment variables
-
-Create a `.env` file from:
+Créer le fichier `.env` à partir de :
 
 ```text
 .env.example
 ```
 
-Configure your local PostgreSQL and Ollama settings.
+> ⚠️ Le fichier `.env` contenant les informations locales de connexion ne doit pas être publié sur GitHub.
 
-> ⚠️ Never commit your real `.env` file or database passwords to GitHub.
-
----
-
-## 6. Initialize the database
-
-Create the PostgreSQL tables using:
-
-```text
-postgres/01_create_tables.sql
-```
-
-The pgvector extension must be enabled:
-
-```sql
-CREATE EXTENSION IF NOT EXISTS vector;
-```
-
----
-
-## 7. Load the datasets
+### 6. Préparer les données
 
 ```powershell
 python python\load_data.py
-```
-
----
-
-## 8. Generate documents
-
-```powershell
 python python\generate_documents.py
-```
-
----
-
-## 9. Generate embeddings
-
-```powershell
 python python\generate_embeddings.py
 ```
 
-This step converts the documents into vectors and stores them in PostgreSQL.
-
----
-
-## 10. Test vector search
-
-```powershell
-python python\test_vector_search.py "Which buildings in Lyon are energy-intensive?"
-```
-
----
-
-## 11. Run the RAG application
+### 7. Lancer l'application
 
 ```powershell
 streamlit run streamlit\app.py
 ```
 
-Then open the local Streamlit URL displayed in the terminal.
-
 ---
 
-# 🧪 Example Questions
+## 💡 Exemple d'utilisation
 
-The assistant can be tested with questions such as:
+Question :
 
-```text
-Which buildings in Lyon are the most energy-intensive?
+> **Quels bâtiments de Lyon semblent énergivores ?**
 
-Which insulation projects achieved good energy savings?
-
-Which renovation projects should be prioritized?
-
-What buildings have poor energy performance?
-
-Which projects exceeded their estimated budget?
-```
-
----
-
-# 💡 SQL vs Semantic Search
-
-
-![PostgreSQL and pgvector](assets/PostgreSQL_Pg.png)
-
-One important aspect of this project is understanding that **SQL and vector search solve complementary problems**.
-
-### SQL
-
-Best for precise analytical questions:
+Une analyse SQL peut classer les bâtiments selon leur consommation énergétique :
 
 ```sql
-SELECT building_name,
-       energy_intensity_kwh_m2_year
+SELECT
+    building_name,
+    building_type,
+    energy_intensity_kwh_m2_year
 FROM buildings
 WHERE city = 'Lyon'
 ORDER BY energy_intensity_kwh_m2_year DESC
 LIMIT 10;
 ```
 
-### pgvector
-
-Best for semantic questions where the meaning of the text matters:
-
-```text
-Find renovation projects related to poor insulation
-and significant energy savings.
-```
-
-A production-grade AI system can combine both approaches:
-
-```text
-Structured filters
-      +
-Vector search
-      +
-LLM generation
-```
+Le RAG permet d'aller plus loin en utilisant la **similarité sémantique** pour rechercher les informations pertinentes avant de les transmettre au modèle de langage.
 
 ---
 
-# 🔐 Privacy & Local AI
+## 🎯 Compétences mises en œuvre
 
-One important characteristic of this project is that the AI models run locally.
+Ce projet met notamment en pratique :
 
-```text
-User
- ↓
-Streamlit
- ↓
-Python
- ↓
-PostgreSQL + pgvector
- ↓
-Ollama
- ↓
-Llama 3.1
-```
-
-No commercial LLM API is required for the core RAG pipeline.
-
-This architecture is particularly interesting for experimentation with:
-
-- private datasets;
-- internal company documents;
-- controlled environments;
-- local AI development.
+- architecture **RAG de bout en bout** ;
+- **Generative AI et LLM** ;
+- embeddings et recherche sémantique ;
+- **PostgreSQL + pgvector** ;
+- Python et traitement des données ;
+- conteneurisation avec Docker ;
+- intégration de modèles locaux avec Ollama ;
+- développement d'une application avec Streamlit.
 
 ---
 
-# 📊 What This Project Demonstrates
+## 🔮 Améliorations possibles
 
-This project demonstrates practical experience with:
-
-**Generative AI**
-- Retrieval-Augmented Generation
-- LLM integration
-- prompt construction
-- embeddings
-- semantic search
-
-**Data Science**
-- data preparation
-- feature interpretation
-- similarity analysis
-- business-oriented querying
-
-**Data Engineering**
-- PostgreSQL
-- data ingestion
-- relational modeling
-- vector storage
-- Dockerized infrastructure
-
-**Software Development**
-- modular Python architecture
-- environment configuration
-- backend/frontend separation
-- Streamlit application development
+- recherche hybride **SQL + vectorielle** ;
+- comparaison des index **HNSW et IVFFlat** ;
+- filtres sur les métadonnées ;
+- évaluation automatique de la qualité du RAG ;
+- ajout d'un système de reranking ;
+- API avec FastAPI ;
+- tests unitaires et d'intégration ;
+- conteneurisation complète de l'application.
 
 ---
 
-# 🔮 Possible Improvements
+## 👤 Auteur
 
-Future versions could include:
-
-- hybrid SQL + vector search;
-- metadata filtering before vector retrieval;
-- HNSW index benchmarking;
-- IVFFlat index benchmarking;
-- reranking of retrieved documents;
-- conversation history;
-- evaluation metrics for retrieval quality;
-- automated RAG evaluation;
-- additional local embedding models;
-- REST API with FastAPI;
-- unit and integration tests;
-- Dockerization of the complete application;
-- authentication and user management.
-
----
-
-# 🎯 Key Takeaway
-
-This project is not only about connecting an LLM to a database.
-
-It demonstrates an end-to-end architecture where:
-
-```text
-Business Data
-     ↓
-PostgreSQL
-     ↓
-Text Documents
-     ↓
-Embeddings
-     ↓
-pgvector
-     ↓
-Semantic Retrieval
-     ↓
-RAG
-     ↓
-Llama 3.1
-     ↓
-Natural-Language Answer
-```
-
-The objective is to bridge the gap between **traditional structured data analysis** and **natural-language interaction with Generative AI**.
-
----
-
-## 👤 Author
-
-**Eudes KODIA**
+**Votre nom**
 
 Data Scientist | Generative AI | Machine Learning | Data Engineering
-
----
-
-## ⭐ Support
-
-If you find this project useful or interesting, feel free to leave a ⭐ on the repository.
